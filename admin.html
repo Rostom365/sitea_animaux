@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Espace vendeur — Patte & Compagnie</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===================== ÉCRAN DE CONNEXION ===================== -->
+<div class="login-wrap" id="login-screen">
+  <div class="login-card">
+    <span id="lock-icon"></span>
+    <h2>Espace vendeur</h2>
+    <p class="panel-sub">Entrez le code d'accès pour gérer le catalogue.</p>
+    <div class="field">
+      <label for="login-input">Code d'accès</label>
+      <input type="text" id="login-input" placeholder="Code" autocomplete="off">
+    </div>
+    <button class="btn btn-primary" id="login-btn" style="width:100%;justify-content:center;">Entrer</button>
+    <p class="error-msg" id="login-error"></p>
+    <p class="panel-sub" style="margin-top:16px;">Code par défaut : <strong>patte2026</strong><br>(modifiable dans le fichier admin.js)</p>
+  </div>
+</div>
+
+<!-- ===================== ESPACE ADMIN ===================== -->
+<div class="admin-shell" id="admin-screen" style="display:none;">
+  <header class="admin-header">
+    <div class="container bar">
+      <a href="index.html" class="logo">
+        <span id="admin-logo-icon"></span>
+        Patte &amp; Compagnie <span class="tag">Espace vendeur</span>
+      </a>
+      <div style="display:flex;gap:10px;">
+        <a href="index.html" class="btn btn-outline btn-small" style="color:#fff;border-color:rgba(255,255,255,.5);">Voir la boutique</a>
+        <button class="btn btn-small" id="logout-btn" style="background:rgba(255,255,255,.15);color:#fff;">Se déconnecter</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="admin-main">
+    <div class="container">
+
+      <div class="stat-row">
+        <div class="stat-card">
+          <div class="num" id="stat-total">0</div>
+          <div class="label">Produits au catalogue</div>
+        </div>
+        <div class="stat-card">
+          <div class="num" id="stat-rupture">0</div>
+          <div class="label">Produits en rupture</div>
+        </div>
+        <div class="stat-card">
+          <div class="num" id="stat-valeur">0 TND</div>
+          <div class="label">Valeur totale du stock</div>
+        </div>
+      </div>
+
+      <div class="admin-grid">
+
+        <!-- ---- FORMULAIRE AJOUT / EDITION ---- -->
+        <section class="panel" id="form-panel">
+          <h2 id="form-title">Ajouter un produit</h2>
+          <p class="panel-sub">Remplissez les champs ci-dessous puis cliquez sur « Enregistrer ». Vous pourrez toujours modifier ces informations plus tard.</p>
+
+          <form id="product-form">
+            <input type="hidden" id="product-id">
+
+            <div class="field">
+              <label for="f-nom">Nom du produit</label>
+              <input type="text" id="f-nom" placeholder="Ex. Croquettes chien adulte 3kg" required>
+            </div>
+
+            <div class="field-row">
+              <div class="field">
+                <label for="f-prix">Prix (TND)</label>
+                <input type="number" id="f-prix" min="0" step="0.01" placeholder="0.00" required>
+              </div>
+              <div class="field">
+                <label for="f-stock">Quantité en stock</label>
+                <input type="number" id="f-stock" min="0" step="1" placeholder="0" required>
+              </div>
+            </div>
+
+            <div class="field-row">
+              <div class="field">
+                <label for="f-categorie">Animal</label>
+                <select id="f-categorie" required></select>
+              </div>
+              <div class="field">
+                <label for="f-souscategorie">Sous-catégorie</label>
+                <select id="f-souscategorie" required></select>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="f-description">Description (facultatif)</label>
+              <textarea id="f-description" placeholder="Quelques mots sur le produit…"></textarea>
+            </div>
+
+            <label class="toggle-row">
+              <input type="checkbox" id="f-promo">
+              <span class="toggle-switch"></span> Article en promotion
+            </label>
+
+            <div class="field">
+              <label>Photo du produit (facultatif)</label>
+              <label class="image-drop" id="image-drop">
+                <input type="file" id="f-image" accept="image/*">
+                <img id="image-preview" style="display:none;">
+                <p id="image-drop-text">Cliquez pour choisir une photo depuis votre ordinateur</p>
+              </label>
+              <p class="hint">Format JPG ou PNG, idéalement carré. La photo reste dans ce navigateur.</p>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary" id="submit-btn">Enregistrer le produit</button>
+              <button type="button" class="btn btn-ghost" id="cancel-edit-btn" style="display:none;">Annuler la modification</button>
+            </div>
+          </form>
+        </section>
+
+        <!-- ---- LISTE / TABLEAU ---- -->
+        <section class="panel">
+          <div class="table-tools">
+            <div>
+              <h2 style="margin-bottom:2px;">Catalogue</h2>
+              <p class="panel-sub" style="margin-bottom:0;">Modifiez un prix directement dans le tableau, ou utilisez les actions à droite.</p>
+            </div>
+            <input type="search" id="table-search" placeholder="Rechercher…">
+          </div>
+
+          <div class="admin-table-wrap">
+            <table class="admin-table">
+              <thead>
+                <tr>
+                  <th>Photo</th>
+                  <th>Nom</th>
+                  <th>Catégorie</th>
+                  <th>Sous-catégorie</th>
+                  <th>Prix</th>
+                  <th>Stock</th>
+                  <th>Promo</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody id="table-body"></tbody>
+            </table>
+          </div>
+
+          <div class="form-actions" style="margin-top:22px;border-top:1px solid var(--line);padding-top:18px;">
+            <button class="btn btn-outline btn-small" id="export-btn">Exporter le catalogue (sauvegarde)</button>
+            <label class="btn btn-outline btn-small" style="position:relative;overflow:hidden;">
+              Importer un catalogue
+              <input type="file" id="import-input" accept="application/json" style="position:absolute;inset:0;opacity:0;cursor:pointer;">
+            </label>
+          </div>
+        </section>
+
+      </div>
+
+      <section class="panel" id="orders-panel" style="margin-top:26px;">
+        <div class="table-tools">
+          <div>
+            <h2 style="margin-bottom:2px;" id="orders-title">Commandes</h2>
+            <p class="panel-sub" style="margin-bottom:0;">Historique des commandes validées par les clients depuis ce navigateur.</p>
+          </div>
+          <button class="btn btn-outline btn-small" id="clear-orders-btn">Vider l'historique</button>
+        </div>
+
+        <div class="admin-table-wrap">
+          <table class="admin-table">
+            <thead>
+              <tr>
+                <th>Référence</th>
+                <th>Client</th>
+                <th>Date</th>
+                <th>Articles</th>
+                <th>Total</th>
+              </tr>
+            </thead>
+            <tbody id="orders-table-body"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel" id="contact-settings-panel" style="margin-top:26px;">
+        <h2>Coordonnées de la boutique</h2>
+        <p class="panel-sub">Affichées sur la page Contact et en pied de page de tout le site.</p>
+
+        <form id="contact-settings-form">
+          <div class="field-row">
+            <div class="field">
+              <label for="cs-email">Email</label>
+              <input type="email" id="cs-email" required>
+            </div>
+            <div class="field">
+              <label for="cs-telephone">Téléphone</label>
+              <input type="text" id="cs-telephone" required>
+            </div>
+          </div>
+          <div class="field">
+            <label for="cs-adresse">Adresse</label>
+            <input type="text" id="cs-adresse" required>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Enregistrer les coordonnées</button>
+          </div>
+        </form>
+      </section>
+
+    </div>
+  </main>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="icons.js"></script>
+<script src="seed-data.js"></script>
+<script src="data.js"></script>
+<script src="admin.js"></script>
+</body>
+</html>

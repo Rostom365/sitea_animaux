@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mon compte — Patte & Compagnie</title>
+<meta name="description" content="Connectez-vous ou créez un compte client Patte & Compagnie.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container bar">
+    <a href="index.html" class="logo">
+      <span id="logo-icon"></span>
+      Patte &amp; Compagnie
+    </a>
+    <nav>
+      <ul class="main-nav" id="main-nav">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="catalogue.html">Catalogue</a></li>
+        <li><a href="categories.html">Catégories</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <a href="compte.html" class="btn btn-outline btn-small" id="account-link">Mon compte</a>
+      <a href="panier.html" class="cart-btn" id="cart-btn">
+        <span id="cart-icon"></span>
+        Panier <span class="cart-count" id="cart-count">0</span>
+      </a>
+      <button class="burger" id="burger-btn" aria-label="Ouvrir le menu"></button>
+    </div>
+  </div>
+</header>
+
+<section class="account-section">
+  <div class="container">
+    <div class="paw-trail"><span id="paw1"></span><span id="paw2"></span><span id="paw3"></span><span>Mon compte</span></div>
+
+    <div id="account-root">
+      <!-- généré par compte.js -->
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer" id="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>Patte &amp; Compagnie</h4>
+        <p>Votre animalerie de quartier, en ligne. Produits sélectionnés pour le bien-être de vos compagnons à quatre pattes, à plumes ou à écailles.</p>
+      </div>
+      <div>
+        <h4>Boutique</h4>
+        <ul>
+          <li><a href="catalogue.html">Catalogue</a></li>
+          <li><a href="categories.html">Catégories</a></li>
+          <li><a href="admin.html">Espace vendeur</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="contact.html" data-contact-email>contact@patte-compagnie.tn</a></li>
+          <li data-contact-telephone>+216 00 000 000</li>
+          <li data-contact-adresse>Tunis, Tunisie</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Patte &amp; Compagnie — Site de démonstration</span>
+      <a href="admin.html">Accès vendeur →</a>
+    </div>
+  </div>
+</footer>
+
+<script src="icons.js"></script>
+<script src="seed-data.js"></script>
+<script src="data.js"></script>
+<script src="compte.js"></script>
+</body>
+</html>

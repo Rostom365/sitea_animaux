@@ -1,0 +1,932 @@
+[
+  {
+    "id": 1,
+    "nom": "Shampoing Détox Poils",
+    "prix": 38.9,
+    "stock": 8,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Shampoing ou soin de toilettage pour un pelage propre et en santé. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/378-home_default/shampoing-detox-poils.jpg"
+  },
+  {
+    "id": 2,
+    "nom": "Mon Premier Coffret Chiots",
+    "prix": 79.9,
+    "stock": 27,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Coffret de bienvenue avec les essentiels de toilettage pour un nouvel arrivant. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/212-home_default/mon-premier-coffret-chiots.jpg"
+  },
+  {
+    "id": 3,
+    "nom": "Lotion Estivale",
+    "prix": 31.9,
+    "stock": 10,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin ciblé pour un besoin spécifique du quotidien. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/391-home_default/lotion-estivale.jpg"
+  },
+  {
+    "id": 4,
+    "nom": "Attitude Zen",
+    "prix": 47.9,
+    "stock": 22,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin naturel en gouttes, à base de plantes, pour le bien-être général. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/359-home_default/attitude-zen.jpg"
+  },
+  {
+    "id": 5,
+    "nom": "Dentifrice",
+    "prix": 34.9,
+    "stock": 24,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin pour l'hygiène bucco-dentaire ou le confort digestif. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/419-home_default/dentifrice.jpg"
+  },
+  {
+    "id": 6,
+    "nom": "Multivitamines",
+    "prix": 54.9,
+    "stock": 8,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Complexe de vitamines pour soutenir la vitalité et l'immunité au quotidien. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/361-home_default/multivitamines.jpg"
+  },
+  {
+    "id": 7,
+    "nom": "Soin Des Yeux",
+    "prix": 29.9,
+    "stock": 23,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Lotion nettoyante douce pour l'entretien quotidien du contour des yeux. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/289-home_default/soin-des-yeux.jpg"
+  },
+  {
+    "id": 8,
+    "nom": "Soin Des Oreilles",
+    "prix": 29.9,
+    "stock": 7,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Solution nettoyante pour l'entretien régulier des oreilles. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/280-home_default/soin-des-oreilles.jpg"
+  },
+  {
+    "id": 9,
+    "nom": "Articulations Moule Verte",
+    "prix": 64.9,
+    "stock": 23,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Supplément pour soutenir la mobilité et le confort articulaire. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/380-home_default/articulations-moule-verte.jpg"
+  },
+  {
+    "id": 10,
+    "nom": "Calme Émotion",
+    "prix": 47.9,
+    "stock": 26,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin naturel en gouttes, à base de plantes, pour le bien-être général. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/358-home_default/calme-emotion.jpg"
+  },
+  {
+    "id": 11,
+    "nom": "Gel Apaisant",
+    "prix": 31.9,
+    "stock": 5,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin ciblé pour un besoin spécifique du quotidien. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/336-home_default/gel-apaisant.jpg"
+  },
+  {
+    "id": 12,
+    "nom": "Shampoing Hydratant",
+    "prix": 38.9,
+    "stock": 23,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Shampoing ou soin de toilettage pour un pelage propre et en santé. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/330-home_default/shampoing-hydratant.jpg"
+  },
+  {
+    "id": 13,
+    "nom": "Coco & Chanvre",
+    "prix": 41.9,
+    "stock": 11,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Complément ou baume pour nourrir la peau et fortifier le pelage. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/302-home_default/coco-chanvre.jpg"
+  },
+  {
+    "id": 14,
+    "nom": "Contour Des Yeux",
+    "prix": 29.9,
+    "stock": 13,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Lotion nettoyante douce pour l'entretien quotidien du contour des yeux. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/287-home_default/contour-des-yeux.jpg"
+  },
+  {
+    "id": 15,
+    "nom": "Entretien Des Oreilles (Avec Huile)",
+    "prix": 29.9,
+    "stock": 19,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Solution nettoyante pour l'entretien régulier des oreilles. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/276-home_default/entretien-des-oreilles-avec-huile.jpg"
+  },
+  {
+    "id": 16,
+    "nom": "Articulations Intermédiaire",
+    "prix": 64.9,
+    "stock": 6,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Supplément pour soutenir la mobilité et le confort articulaire. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/379-home_default/articulations-intermediaire.jpg"
+  },
+  {
+    "id": 17,
+    "nom": "Après-Shampoing Revitalisant",
+    "prix": 33.9,
+    "stock": 5,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Après-shampoing démêlant et revitalisant pour un pelage doux et brillant. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/309-home_default/apres-shampoing-revitalisant.jpg"
+  },
+  {
+    "id": 18,
+    "nom": "Déplacements",
+    "prix": 47.9,
+    "stock": 17,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin naturel en gouttes, à base de plantes, pour le bien-être général. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/354-home_default/deplacements.jpg"
+  },
+  {
+    "id": 19,
+    "nom": "Vmi-Digest",
+    "prix": 32.9,
+    "stock": 27,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin pour l'hygiène bucco-dentaire ou le confort digestif. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/417-home_default/vmi-digest.jpg"
+  },
+  {
+    "id": 20,
+    "nom": "Oméga 3-6-9",
+    "prix": 41.9,
+    "stock": 8,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Complément ou baume pour nourrir la peau et fortifier le pelage. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/299-home_default/omega-3-6-9.jpg"
+  },
+  {
+    "id": 21,
+    "nom": "Entretien Des Oreilles (Sans Huile)",
+    "prix": 29.9,
+    "stock": 10,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Solution nettoyante pour l'entretien régulier des oreilles. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/278-home_default/entretien-des-oreilles-sans-huile.jpg"
+  },
+  {
+    "id": 22,
+    "nom": "Articulations Suprême",
+    "prix": 64.9,
+    "stock": 8,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Supplément pour soutenir la mobilité et le confort articulaire. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/381-home_default/articulations-supreme.jpg"
+  },
+  {
+    "id": 23,
+    "nom": "Probiotiques Performants Chien",
+    "prix": 42.9,
+    "stock": 18,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Probiotiques pour soutenir l'équilibre de la flore intestinale. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/385-home_default/probiotiques-performants-chien.jpg"
+  },
+  {
+    "id": 24,
+    "nom": "Oreilles Saines",
+    "prix": 47.9,
+    "stock": 19,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin naturel en gouttes, à base de plantes, pour le bien-être général. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/352-home_default/oreilles-saines.jpg"
+  },
+  {
+    "id": 25,
+    "nom": "Shampoing Apaisant",
+    "prix": 38.9,
+    "stock": 17,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Shampoing ou soin de toilettage pour un pelage propre et en santé. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/324-home_default/shampoing-apaisant.jpg"
+  },
+  {
+    "id": 26,
+    "nom": "Shampoing Volumateur",
+    "prix": 38.9,
+    "stock": 17,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Shampoing ou soin de toilettage pour un pelage propre et en santé. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/200-home_default/shampoing-volumateur.jpg"
+  },
+  {
+    "id": 27,
+    "nom": "Régularité",
+    "prix": 47.9,
+    "stock": 18,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin naturel en gouttes, à base de plantes, pour le bien-être général. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/350-home_default/regularite.jpg"
+  },
+  {
+    "id": 28,
+    "nom": "Shampoing Intense Chien",
+    "prix": 38.9,
+    "stock": 25,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Shampoing traitant pour un pelage propre et sain. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/374-home_default/shampoing-intense-chien.jpg"
+  },
+  {
+    "id": 29,
+    "nom": "Baume Coussinets Et Museau",
+    "prix": 41.9,
+    "stock": 22,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Complément ou baume pour nourrir la peau et fortifier le pelage. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/297-home_default/baume-coussinets-et-museau.jpg"
+  },
+  {
+    "id": 30,
+    "nom": "Santé Buccale Chien",
+    "prix": 34.9,
+    "stock": 11,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin pour l'hygiène bucco-dentaire ou le confort digestif. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/412-home_default/sante-buccale-chien.jpg"
+  },
+  {
+    "id": 31,
+    "nom": "Shampoing Douceur",
+    "prix": 38.9,
+    "stock": 9,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Shampoing ou soin de toilettage pour un pelage propre et en santé. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/315-home_default/shampoing-douceur.jpg"
+  },
+  {
+    "id": 32,
+    "nom": "Soin Buccal",
+    "prix": 34.9,
+    "stock": 14,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin naturel en gouttes, à base de plantes, pour le bien-être général. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/347-home_default/soin-buccal.jpg"
+  },
+  {
+    "id": 33,
+    "nom": "Baume Réconfort",
+    "prix": 41.9,
+    "stock": 23,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Complément ou baume pour nourrir la peau et fortifier le pelage. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/426-home_default/baume-reconfort.jpg"
+  },
+  {
+    "id": 34,
+    "nom": "Chanvre Et Cameline",
+    "prix": 41.9,
+    "stock": 12,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Complément ou baume pour nourrir la peau et fortifier le pelage. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/290-home_default/chanvre-et-cameline.jpg"
+  },
+  {
+    "id": 35,
+    "nom": "Shampoing Bleu",
+    "prix": 38.9,
+    "stock": 25,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Shampoing ou soin de toilettage pour un pelage propre et en santé. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/311-home_default/shampoing-bleu.jpg"
+  },
+  {
+    "id": 36,
+    "nom": "Soin Derma",
+    "prix": 47.9,
+    "stock": 24,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin naturel en gouttes, à base de plantes, pour le bien-être général. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/345-home_default/soin-derma.jpg"
+  },
+  {
+    "id": 37,
+    "nom": "Après-Shampoing Crème Bleu",
+    "prix": 33.9,
+    "stock": 13,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Après-shampoing démêlant et revitalisant pour un pelage doux et brillant. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/308-home_default/apres-shampoing-creme-bleu.jpg"
+  },
+  {
+    "id": 38,
+    "nom": "Soin Urinaire",
+    "prix": 47.9,
+    "stock": 6,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin naturel en gouttes, à base de plantes, pour le bien-être général. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/343-home_default/soin-urinaire.jpg"
+  },
+  {
+    "id": 39,
+    "nom": "Anti-Grignotage",
+    "prix": 31.9,
+    "stock": 15,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin ciblé pour un besoin spécifique du quotidien. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/340-home_default/anti-grignotage.jpg"
+  },
+  {
+    "id": 40,
+    "nom": "Shampoing Mousse",
+    "prix": 38.9,
+    "stock": 5,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Shampoing ou soin de toilettage pour un pelage propre et en santé. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/322-home_default/shampoing-mousse-coco.jpg"
+  },
+  {
+    "id": 41,
+    "nom": "Shampoing Mousse",
+    "prix": 38.9,
+    "stock": 27,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Shampoing ou soin de toilettage pour un pelage propre et en santé. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/321-home_default/shampoing-mousse-lavande.jpg"
+  },
+  {
+    "id": 42,
+    "nom": "Shampoing Sec Papaye-Mangue",
+    "prix": 26.9,
+    "stock": 12,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Shampoing sec ou vaporisateur sans rinçage pour un pelage frais entre deux bains. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/318-home_default/shampoing-sec-papaye-mangue.jpg"
+  },
+  {
+    "id": 43,
+    "nom": "Shampoing Sec Lavande",
+    "prix": 26.9,
+    "stock": 22,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Shampoing sec ou vaporisateur sans rinçage pour un pelage frais entre deux bains. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/320-home_default/shampoing-sec-lavande.jpg"
+  },
+  {
+    "id": 44,
+    "nom": "Vapo-Hydratant",
+    "prix": 26.9,
+    "stock": 30,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Shampoing sec ou vaporisateur sans rinçage pour un pelage frais entre deux bains. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/317-home_default/vapo-hydratant-.jpg"
+  },
+  {
+    "id": 45,
+    "nom": "Vapo-Détente",
+    "prix": 26.9,
+    "stock": 19,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Shampoing sec ou vaporisateur sans rinçage pour un pelage frais entre deux bains. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/319-home_default/vapo-detente-.jpg"
+  },
+  {
+    "id": 46,
+    "nom": "Démêlant Express",
+    "prix": 32.9,
+    "stock": 19,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Shampoing ou soin de toilettage pour un pelage propre et en santé. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/306-home_default/demelant-express.jpg"
+  },
+  {
+    "id": 47,
+    "nom": "Shampoing Sec À La Pomme Verte",
+    "prix": 26.9,
+    "stock": 25,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Shampoing sec ou vaporisateur sans rinçage pour un pelage frais entre deux bains. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/363-home_default/shampoing-sec-a-la-pomme-verte.jpg"
+  },
+  {
+    "id": 48,
+    "nom": "Shampoing Détox Poils",
+    "prix": 38.9,
+    "stock": 29,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Shampoing ou soin de toilettage pour un pelage propre et en santé. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/378-home_default/shampoing-detox-poils.jpg"
+  },
+  {
+    "id": 49,
+    "nom": "Lotion Estivale",
+    "prix": 31.9,
+    "stock": 25,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin ciblé pour un besoin spécifique du quotidien. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/391-home_default/lotion-estivale.jpg"
+  },
+  {
+    "id": 50,
+    "nom": "Attitude Zen",
+    "prix": 47.9,
+    "stock": 26,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin naturel en gouttes, à base de plantes, pour le bien-être général. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/359-home_default/attitude-zen.jpg"
+  },
+  {
+    "id": 51,
+    "nom": "Dentifrice",
+    "prix": 34.9,
+    "stock": 24,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin pour l'hygiène bucco-dentaire ou le confort digestif. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/419-home_default/dentifrice.jpg"
+  },
+  {
+    "id": 52,
+    "nom": "Multivitamines",
+    "prix": 54.9,
+    "stock": 19,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Complexe de vitamines pour soutenir la vitalité et l'immunité au quotidien. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/361-home_default/multivitamines.jpg"
+  },
+  {
+    "id": 53,
+    "nom": "Soin Des Yeux",
+    "prix": 29.9,
+    "stock": 20,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Lotion nettoyante douce pour l'entretien quotidien du contour des yeux. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/289-home_default/soin-des-yeux.jpg"
+  },
+  {
+    "id": 54,
+    "nom": "Articulations Moule Verte",
+    "prix": 64.9,
+    "stock": 23,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Supplément pour soutenir la mobilité et le confort articulaire. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/380-home_default/articulations-moule-verte.jpg"
+  },
+  {
+    "id": 55,
+    "nom": "Mon Premier Coffret Chatons",
+    "prix": 79.9,
+    "stock": 9,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Coffret de bienvenue avec les essentiels de toilettage pour un nouvel arrivant. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/214-home_default/mon-premier-coffret-chatons.jpg"
+  },
+  {
+    "id": 56,
+    "nom": "Calme Émotion",
+    "prix": 47.9,
+    "stock": 5,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin naturel en gouttes, à base de plantes, pour le bien-être général. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/358-home_default/calme-emotion.jpg"
+  },
+  {
+    "id": 57,
+    "nom": "Gel Apaisant",
+    "prix": 31.9,
+    "stock": 20,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin ciblé pour un besoin spécifique du quotidien. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/336-home_default/gel-apaisant.jpg"
+  },
+  {
+    "id": 58,
+    "nom": "Shampoing Hydratant",
+    "prix": 38.9,
+    "stock": 13,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Shampoing ou soin de toilettage pour un pelage propre et en santé. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/330-home_default/shampoing-hydratant.jpg"
+  },
+  {
+    "id": 59,
+    "nom": "Boule De Poils",
+    "prix": 29.9,
+    "stock": 8,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Aide naturelle pour limiter la formation de boules de poils. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/421-home_default/boule-de-poils.jpg"
+  },
+  {
+    "id": 60,
+    "nom": "Coco & Chanvre",
+    "prix": 41.9,
+    "stock": 13,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Complément ou baume pour nourrir la peau et fortifier le pelage. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/302-home_default/coco-chanvre.jpg"
+  },
+  {
+    "id": 61,
+    "nom": "Contour Des Yeux",
+    "prix": 29.9,
+    "stock": 8,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Lotion nettoyante douce pour l'entretien quotidien du contour des yeux. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/287-home_default/contour-des-yeux.jpg"
+  },
+  {
+    "id": 62,
+    "nom": "Entretien Des Oreilles (Avec Huile)",
+    "prix": 29.9,
+    "stock": 17,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Solution nettoyante pour l'entretien régulier des oreilles. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/276-home_default/entretien-des-oreilles-avec-huile.jpg"
+  },
+  {
+    "id": 63,
+    "nom": "Articulations Intermédiaire",
+    "prix": 64.9,
+    "stock": 22,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Supplément pour soutenir la mobilité et le confort articulaire. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/379-home_default/articulations-intermediaire.jpg"
+  },
+  {
+    "id": 64,
+    "nom": "Après-Shampoing Revitalisant",
+    "prix": 33.9,
+    "stock": 23,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Après-shampoing démêlant et revitalisant pour un pelage doux et brillant. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/309-home_default/apres-shampoing-revitalisant.jpg"
+  },
+  {
+    "id": 65,
+    "nom": "Déplacements",
+    "prix": 47.9,
+    "stock": 28,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin naturel en gouttes, à base de plantes, pour le bien-être général. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/354-home_default/deplacements.jpg"
+  },
+  {
+    "id": 66,
+    "nom": "Vmi-Digest",
+    "prix": 32.9,
+    "stock": 6,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin pour l'hygiène bucco-dentaire ou le confort digestif. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/417-home_default/vmi-digest.jpg"
+  },
+  {
+    "id": 67,
+    "nom": "Entretien Des Oreilles (Sans Huile)",
+    "prix": 29.9,
+    "stock": 22,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Solution nettoyante pour l'entretien régulier des oreilles. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/278-home_default/entretien-des-oreilles-sans-huile.jpg"
+  },
+  {
+    "id": 68,
+    "nom": "Articulations Suprême",
+    "prix": 64.9,
+    "stock": 11,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Supplément pour soutenir la mobilité et le confort articulaire. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/381-home_default/articulations-supreme.jpg"
+  },
+  {
+    "id": 69,
+    "nom": "Oreilles Saines",
+    "prix": 47.9,
+    "stock": 20,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin naturel en gouttes, à base de plantes, pour le bien-être général. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/352-home_default/oreilles-saines.jpg"
+  },
+  {
+    "id": 70,
+    "nom": "Shampoing Apaisant",
+    "prix": 38.9,
+    "stock": 14,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Shampoing ou soin de toilettage pour un pelage propre et en santé. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/324-home_default/shampoing-apaisant.jpg"
+  },
+  {
+    "id": 71,
+    "nom": "Probiotiques Performants Chat",
+    "prix": 42.9,
+    "stock": 12,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Probiotiques pour soutenir l'équilibre de la flore intestinale. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/389-home_default/probiotiques-performants-chat.jpg"
+  },
+  {
+    "id": 72,
+    "nom": "Shampoing Volumateur",
+    "prix": 38.9,
+    "stock": 6,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Shampoing ou soin de toilettage pour un pelage propre et en santé. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/200-home_default/shampoing-volumateur.jpg"
+  },
+  {
+    "id": 73,
+    "nom": "Régularité",
+    "prix": 47.9,
+    "stock": 14,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin naturel en gouttes, à base de plantes, pour le bien-être général. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/350-home_default/regularite.jpg"
+  },
+  {
+    "id": 74,
+    "nom": "Baume Coussinets Et Museau",
+    "prix": 41.9,
+    "stock": 7,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Complément ou baume pour nourrir la peau et fortifier le pelage. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/297-home_default/baume-coussinets-et-museau.jpg"
+  },
+  {
+    "id": 75,
+    "nom": "Shampoing Douceur",
+    "prix": 38.9,
+    "stock": 29,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Shampoing ou soin de toilettage pour un pelage propre et en santé. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/315-home_default/shampoing-douceur.jpg"
+  },
+  {
+    "id": 76,
+    "nom": "Soin Buccal",
+    "prix": 34.9,
+    "stock": 9,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin naturel en gouttes, à base de plantes, pour le bien-être général. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/347-home_default/soin-buccal.jpg"
+  },
+  {
+    "id": 77,
+    "nom": "Baume Réconfort",
+    "prix": 41.9,
+    "stock": 18,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Complément ou baume pour nourrir la peau et fortifier le pelage. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/426-home_default/baume-reconfort.jpg"
+  },
+  {
+    "id": 78,
+    "nom": "Santé Buccale Chat",
+    "prix": 34.9,
+    "stock": 20,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin pour l'hygiène bucco-dentaire ou le confort digestif. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/408-home_default/sante-buccale-chat.jpg"
+  },
+  {
+    "id": 79,
+    "nom": "Chanvre Et Cameline",
+    "prix": 41.9,
+    "stock": 22,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Complément ou baume pour nourrir la peau et fortifier le pelage. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/290-home_default/chanvre-et-cameline.jpg"
+  },
+  {
+    "id": 80,
+    "nom": "Shampoing Bleu",
+    "prix": 38.9,
+    "stock": 30,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Shampoing ou soin de toilettage pour un pelage propre et en santé. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/311-home_default/shampoing-bleu.jpg"
+  },
+  {
+    "id": 81,
+    "nom": "Soin Derma",
+    "prix": 47.9,
+    "stock": 27,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin naturel en gouttes, à base de plantes, pour le bien-être général. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/345-home_default/soin-derma.jpg"
+  },
+  {
+    "id": 82,
+    "nom": "Après-Shampoing Crème Bleu",
+    "prix": 33.9,
+    "stock": 19,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Après-shampoing démêlant et revitalisant pour un pelage doux et brillant. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/308-home_default/apres-shampoing-creme-bleu.jpg"
+  },
+  {
+    "id": 83,
+    "nom": "Soin Urinaire",
+    "prix": 47.9,
+    "stock": 26,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin naturel en gouttes, à base de plantes, pour le bien-être général. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/343-home_default/soin-urinaire.jpg"
+  },
+  {
+    "id": 84,
+    "nom": "Anti-Grignotage",
+    "prix": 31.9,
+    "stock": 15,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin ciblé pour un besoin spécifique du quotidien. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/340-home_default/anti-grignotage.jpg"
+  },
+  {
+    "id": 85,
+    "nom": "Shampoing Mousse",
+    "prix": 38.9,
+    "stock": 13,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Shampoing ou soin de toilettage pour un pelage propre et en santé. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/322-home_default/shampoing-mousse-coco.jpg"
+  },
+  {
+    "id": 86,
+    "nom": "Shampoing Mousse",
+    "prix": 38.9,
+    "stock": 20,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Shampoing ou soin de toilettage pour un pelage propre et en santé. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/321-home_default/shampoing-mousse-lavande.jpg"
+  },
+  {
+    "id": 87,
+    "nom": "Shampoing Sec Papaye-Mangue",
+    "prix": 26.9,
+    "stock": 10,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Shampoing sec ou vaporisateur sans rinçage pour un pelage frais entre deux bains. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/318-home_default/shampoing-sec-papaye-mangue.jpg"
+  },
+  {
+    "id": 88,
+    "nom": "Shampoing Sec Lavande",
+    "prix": 26.9,
+    "stock": 26,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Shampoing sec ou vaporisateur sans rinçage pour un pelage frais entre deux bains. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/320-home_default/shampoing-sec-lavande.jpg"
+  },
+  {
+    "id": 89,
+    "nom": "Vapo-Hydratant",
+    "prix": 26.9,
+    "stock": 24,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Shampoing sec ou vaporisateur sans rinçage pour un pelage frais entre deux bains. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/317-home_default/vapo-hydratant-.jpg"
+  },
+  {
+    "id": 90,
+    "nom": "Vapo-Détente",
+    "prix": 26.9,
+    "stock": 17,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Shampoing sec ou vaporisateur sans rinçage pour un pelage frais entre deux bains. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/319-home_default/vapo-detente-.jpg"
+  },
+  {
+    "id": 91,
+    "nom": "Démêlant Express",
+    "prix": 32.9,
+    "stock": 7,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Shampoing ou soin de toilettage pour un pelage propre et en santé. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/306-home_default/demelant-express.jpg"
+  },
+  {
+    "id": 92,
+    "nom": "Shampoing Sec À La Pomme Verte",
+    "prix": 26.9,
+    "stock": 7,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Shampoing sec ou vaporisateur sans rinçage pour un pelage frais entre deux bains. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/363-home_default/shampoing-sec-a-la-pomme-verte.jpg"
+  },
+  {
+    "id": 93,
+    "nom": "Chanvre Et Cameline",
+    "prix": 41.9,
+    "stock": 23,
+    "categorie": "oiseau",
+    "sousCategorie": "hygiene-sante-oiseau",
+    "description": "Complément ou baume pour nourrir la peau et fortifier le pelage. (Gamme Zanimo.)",
+    "image": "https://zanimo.com/290-home_default/chanvre-et-cameline.jpg"
+  }
+]

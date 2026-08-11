@@ -1,0 +1,2662 @@
+[
+  {
+    "id": 1,
+    "nom": "COUCHAGE MULTICOLORE CONFORTABLE POUR CHAT ET CHIEN",
+    "prix": 79,
+    "stock": 8,
+    "categorie": "chat",
+    "sousCategorie": "accessoires-chat",
+    "description": "Accessoire du quotidien pour chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/1_8f9ab1f8-3b3c-4312-9eb3-80389b55b099.png?v=1762438359"
+  },
+  {
+    "id": 2,
+    "nom": "MFS - SPRAY ANTI-STRESS CHAT 125ML",
+    "prix": 30,
+    "stock": 23,
+    "categorie": "chat",
+    "sousCategorie": "accessoires-chat",
+    "description": "Accessoire du quotidien pour chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/shampoing-pour-chien-a-poil-blanc-300ml.jpg?v=1745765256"
+  },
+  {
+    "id": 3,
+    "nom": "LAISSE AVEC HARNAIS ARC EN CIEL  POUR CHAT",
+    "prix": 20,
+    "stock": 20,
+    "categorie": "chat",
+    "sousCategorie": "accessoires-chat",
+    "description": "Accessoire du quotidien pour chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/laisse-accouple-harnais-en-nylon-solide-pour-chi_ac075ed4-9f99-41d0-b29b-9b536fd96f13.jpg?v=1706131982"
+  },
+  {
+    "id": 4,
+    "nom": "GILL'S CATNIP SPRAY 150 ML",
+    "prix": 24,
+    "stock": 21,
+    "categorie": "chat",
+    "sousCategorie": "accessoires-chat",
+    "description": "Accessoire du quotidien pour chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/fich_9211-4493.jpg?v=1646847808"
+  },
+  {
+    "id": 5,
+    "nom": "SCHESIR - POCHON CHATON GELEE 85GR",
+    "prix": 6.5,
+    "stock": 8,
+    "categorie": "chat",
+    "sousCategorie": "accessoires-chat",
+    "description": "Accessoire du quotidien pour chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/ALL_03070104_MAIN_98d962f4-434b-4335-b147-09d63930db01.webp?v=1758035021"
+  },
+  {
+    "id": 6,
+    "nom": "SAC A DOS KANGOUROU POUR CHIEN ET CHAT EN ROUGE",
+    "prix": 48,
+    "stock": 15,
+    "categorie": "chat",
+    "sousCategorie": "accessoires-chat",
+    "description": "Accessoire du quotidien pour chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/fe3303e8e580fc9e855eeaba58f15b88d858c172_original.jpg?v=1740150784"
+  },
+  {
+    "id": 7,
+    "nom": "SAC A DOS  POUR MINI CHIEN ET CHAT RESPIRABLE",
+    "prix": 120,
+    "stock": 30,
+    "categorie": "chat",
+    "sousCategorie": "accessoires-chat",
+    "description": "Accessoire du quotidien pour chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/7159TSijbCL.-AC_UF1000_1000_QL80_FMwebp.webp?v=1720353075"
+  },
+  {
+    "id": 8,
+    "nom": "GOURMET GOLD DOUBLE DELICE 12*85GR",
+    "prix": 58,
+    "stock": 17,
+    "categorie": "chat",
+    "sousCategorie": "accessoires-chat",
+    "description": "Accessoire du quotidien pour chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/03222270493901_C1C1_44087214_GOLDDoubleDelice12x85g_jpg.webp?v=1742918019"
+  },
+  {
+    "id": 9,
+    "nom": "Harnais Air Mesh  Pour Chat & Chien VERT",
+    "prix": 40,
+    "stock": 27,
+    "categorie": "chat",
+    "sousCategorie": "accessoires-chat",
+    "description": "Accessoire du quotidien pour chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/8682250517631.jpg?v=1720629735"
+  },
+  {
+    "id": 10,
+    "nom": "FELICAN - COLLIER AVEC MOTIF",
+    "prix": 10,
+    "stock": 8,
+    "categorie": "chat",
+    "sousCategorie": "accessoires-chat",
+    "description": "Accessoire du quotidien pour chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/471ab751d5024d12670d68525c888e37.jpg?v=1682724970"
+  },
+  {
+    "id": 11,
+    "nom": "CROCI - PORTE ADRESSE CHIEN ET CHAT",
+    "prix": 7,
+    "stock": 6,
+    "categorie": "chat",
+    "sousCategorie": "accessoires-chat",
+    "description": "Accessoire du quotidien pour chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/porte-adresse-chien-et-chat-24mm-croci-tunisie_1_1.jpg?v=1668507926"
+  },
+  {
+    "id": 12,
+    "nom": "GOURMET REVELATIONS MOUSSE  AVEC SAUCE IRRESISTIBLE 1 PCS",
+    "prix": 7,
+    "stock": 10,
+    "categorie": "chat",
+    "sousCategorie": "accessoires-chat",
+    "description": "Accessoire du quotidien pour chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/71Ne41sAi7S._AC_SX569.jpg?v=1742984815"
+  },
+  {
+    "id": 13,
+    "nom": "SAC À DOS POUR MINI CHIENS ET CHATS RESPIRABLE FASHION",
+    "prix": 120,
+    "stock": 14,
+    "categorie": "chat",
+    "sousCategorie": "accessoires-chat",
+    "description": "Accessoire du quotidien pour chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/71rG9s84ELL._AC_SX679.jpg?v=1720353039"
+  },
+  {
+    "id": 14,
+    "nom": "GOURMET GOLD TORTINI  12*85GR",
+    "prix": 47.4,
+    "stock": 21,
+    "categorie": "chat",
+    "sousCategorie": "accessoires-chat",
+    "description": "Accessoire du quotidien pour chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/purina-gourmet-gold-tortini-multipack-per-gatto-con-manzo-pollo-tonno-salmone-da-24x85-gr.jpg?v=1745029239"
+  },
+  {
+    "id": 15,
+    "nom": "FREESOO - SAC DE TRANSPORT POUR PETIT CHIENS & CHATS EN GRIS",
+    "prix": 140,
+    "stock": 17,
+    "categorie": "chat",
+    "sousCategorie": "accessoires-chat",
+    "description": "Accessoire du quotidien pour chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/Design_sans_titre_16_1e8b1c8d-b7ef-40fc-8a37-d8b24b0b738e.png?v=1718892476"
+  },
+  {
+    "id": 16,
+    "nom": "CUILLERE DE CONSERVE LOT DE 1",
+    "prix": 7.9,
+    "stock": 13,
+    "categorie": "chat",
+    "sousCategorie": "accessoires-chat",
+    "description": "Accessoire du quotidien pour chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/s-l400_ae2691fb-7b7d-42a9-b09b-3493cf8020fa.jpg?v=1759008830"
+  },
+  {
+    "id": 17,
+    "nom": "SAC À DOS POUR MINI CHIENS ET CHATS RESPIRABLE",
+    "prix": 120,
+    "stock": 15,
+    "categorie": "chat",
+    "sousCategorie": "accessoires-chat",
+    "description": "Accessoire du quotidien pour chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/product-image-1738964546_grande_c6dd8ec8-f4ed-4787-8b46-91ec1c51727d.webp?v=1720277429"
+  },
+  {
+    "id": 18,
+    "nom": "KIT DE VOYAGE EASY GO IMAC",
+    "prix": 31.5,
+    "stock": 14,
+    "categorie": "chat",
+    "sousCategorie": "accessoires-chat",
+    "description": "Accessoire du quotidien pour chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/9018734.jpg?v=1669648463"
+  },
+  {
+    "id": 19,
+    "nom": "BALANÇOIRE POUR CHAT ET PETIT CHIEN",
+    "prix": 189,
+    "stock": 25,
+    "categorie": "chat",
+    "sousCategorie": "accessoires-chat",
+    "description": "Accessoire du quotidien pour chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/rose-2.png?v=1719329125"
+  },
+  {
+    "id": 20,
+    "nom": "SAC À DOS POUR MINI CHIEN ET CHAT RESPIRABLE IMPERMÉABLE",
+    "prix": 120,
+    "stock": 8,
+    "categorie": "chat",
+    "sousCategorie": "accessoires-chat",
+    "description": "Accessoire du quotidien pour chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/SACADOSPOURMINICHIENETCHATRESPIRABLEIMPERMEABLE.png?v=1714136088"
+  },
+  {
+    "id": 21,
+    "nom": "OWNAT ULTRA - YOUNG STERILISE AU POISSON 1.5KG",
+    "prix": 49,
+    "stock": 22,
+    "categorie": "chat",
+    "sousCategorie": "alimentation-chat",
+    "description": "Nourriture ou croquettes pour chat, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/8429037002603.jpg?v=1758822395"
+  },
+  {
+    "id": 22,
+    "nom": "BRIT CARE CROQUETTE STERILISE WEIGHT CONTROL",
+    "prix": 55,
+    "stock": 29,
+    "categorie": "chat",
+    "sousCategorie": "alimentation-chat",
+    "description": "Nourriture ou croquettes pour chat, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/149599_pla_nidfrance_britcare_grainfree_sterilized_weightcontrol_7kg_hs_01_7.jpg?v=1663086359"
+  },
+  {
+    "id": 23,
+    "nom": "ROYAL CANIN - CROQUETTE CHAT INDOOR 2 KG",
+    "prix": 100,
+    "stock": 11,
+    "categorie": "chat",
+    "sousCategorie": "alimentation-chat",
+    "description": "Nourriture ou croquettes pour chat, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/image_png1094560736.png?v=1646848224"
+  },
+  {
+    "id": 24,
+    "nom": "SPOOKY & DIVA - POUR CHAT ADULT AU  POULET ET DINDE 380GR",
+    "prix": 5.8,
+    "stock": 7,
+    "categorie": "chat",
+    "sousCategorie": "alimentation-chat",
+    "description": "Nourriture ou croquettes pour chat, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/Designsanstitre_30.png?v=1716291781"
+  },
+  {
+    "id": 25,
+    "nom": "CUILLERE DE CROQUETTE AVEC PINCE INTEGREE",
+    "prix": 15,
+    "stock": 10,
+    "categorie": "chat",
+    "sousCategorie": "alimentation-chat",
+    "description": "Nourriture ou croquettes pour chat, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/snail-combi-distributeur-eau-et-croquettes-2800ml240g.png?v=1752773106"
+  },
+  {
+    "id": 26,
+    "nom": "LARA - CROQUETTES CHAT ADULTE AU SAUMON 2KG",
+    "prix": 39.5,
+    "stock": 16,
+    "categorie": "chat",
+    "sousCategorie": "alimentation-chat",
+    "description": "Nourriture ou croquettes pour chat, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/lara-cat-adult-fish-croquettes-pour-chat-adulte-au-saumon.png?v=1682450678"
+  },
+  {
+    "id": 27,
+    "nom": "BUNDY - PATE CHAT ADULTE AU SAUMON 400 Gr",
+    "prix": 7.5,
+    "stock": 24,
+    "categorie": "chat",
+    "sousCategorie": "alimentation-chat",
+    "description": "Nourriture ou croquettes pour chat, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/8015912505415.png?v=1754061776"
+  },
+  {
+    "id": 28,
+    "nom": "FESTIN SPRAY ANTIPARASITAIRE CHAT 200ML",
+    "prix": 15,
+    "stock": 16,
+    "categorie": "chat",
+    "sousCategorie": "alimentation-chat",
+    "description": "Nourriture ou croquettes pour chat, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/SPRAY-FELIN-ANTIPARASITAIRE.png?v=1745519788"
+  },
+  {
+    "id": 29,
+    "nom": "BUNDY - PATE CHAT ADULTE AU POULET 400 Gr",
+    "prix": 7.5,
+    "stock": 15,
+    "categorie": "chat",
+    "sousCategorie": "alimentation-chat",
+    "description": "Nourriture ou croquettes pour chat, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/boite-bundy-chat-poulet-400-gr.jpg?v=1720202140"
+  },
+  {
+    "id": 30,
+    "nom": "EQUILIBRE - POCHON EFFILÉS POUR CHAT AU BOEUF 85 GR",
+    "prix": 5.5,
+    "stock": 8,
+    "categorie": "chat",
+    "sousCategorie": "alimentation-chat",
+    "description": "Nourriture ou croquettes pour chat, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/effiles-boeuf-chat-pochon-12x85g-ei.png?v=1749837479"
+  },
+  {
+    "id": 31,
+    "nom": "4+1 OFFERT 🎁 FELIX - POCHON AU CABILLAUD 85G",
+    "prix": 16,
+    "stock": 27,
+    "categorie": "chat",
+    "sousCategorie": "alimentation-chat",
+    "description": "Nourriture ou croquettes pour chat, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/IMG-4503.webp?v=1754337017"
+  },
+  {
+    "id": 32,
+    "nom": "ECO DIANA - BARQUETTE AU POULET 100G",
+    "prix": 2.7,
+    "stock": 22,
+    "categorie": "chat",
+    "sousCategorie": "alimentation-chat",
+    "description": "Nourriture ou croquettes pour chat, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/eco-diana-pate-en-barquette-au-poulet-pour-chat-100g_d40fa23f-771e-4aa2-bbc9-70cd1eee69b2.jpg?v=1707786177"
+  },
+  {
+    "id": 33,
+    "nom": "PURINA PRO PLAN -  CROQUETTE CHATON AU POULET",
+    "prix": 24,
+    "stock": 29,
+    "categorie": "chat",
+    "sousCategorie": "alimentation-chat",
+    "description": "Nourriture ou croquettes pour chat, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/07613036505277_c1l1_44179147_34_jpg.webp?v=1771008733"
+  },
+  {
+    "id": 34,
+    "nom": "ROYAL CANIN - CROQUETTE POUR CHAT STERILISED 7+ - 1,5KG",
+    "prix": 95,
+    "stock": 11,
+    "categorie": "chat",
+    "sousCategorie": "alimentation-chat",
+    "description": "Nourriture ou croquettes pour chat, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/61250_pla_royalcanin_sterilised7__0.jpg?v=1646848186"
+  },
+  {
+    "id": 35,
+    "nom": "JOSERA - YOUNG STAR CROQUETTE JUNIOR 3 KG",
+    "prix": 85,
+    "stock": 14,
+    "categorie": "chat",
+    "sousCategorie": "alimentation-chat",
+    "description": "Nourriture ou croquettes pour chat, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/allsizes_junior_youngstar.jpg?v=1783355071"
+  },
+  {
+    "id": 36,
+    "nom": "COTAGRO -CROQUETTES STERILISED AU POULET",
+    "prix": 63,
+    "stock": 27,
+    "categorie": "chat",
+    "sousCategorie": "alimentation-chat",
+    "description": "Nourriture ou croquettes pour chat, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/cotagro-sterilized-4-kg.png?v=1753120048"
+  },
+  {
+    "id": 37,
+    "nom": "KIPPY - BOITE PATÉ  CHATON AU POULET 200 GR",
+    "prix": 5.4,
+    "stock": 6,
+    "categorie": "chat",
+    "sousCategorie": "alimentation-chat",
+    "description": "Nourriture ou croquettes pour chat, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/8015912511881.jpg?v=1768257866"
+  },
+  {
+    "id": 38,
+    "nom": "MIGLIOR GATTO - CROQUETTE CHAT ADULT AU POULET",
+    "prix": 30,
+    "stock": 26,
+    "categorie": "chat",
+    "sousCategorie": "alimentation-chat",
+    "description": "Nourriture ou croquettes pour chat, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/MIGLIORGATTOADULTPOULET2KG.png?v=1713544037"
+  },
+  {
+    "id": 39,
+    "nom": "KIPPY POUR CHAT PATÉ POULET 400 G",
+    "prix": 7.8,
+    "stock": 8,
+    "categorie": "chat",
+    "sousCategorie": "alimentation-chat",
+    "description": "Nourriture ou croquettes pour chat, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/IMG-20220628-WA0053.jpg?v=1659367346"
+  },
+  {
+    "id": 40,
+    "nom": "GOURMET LES TERRINES AVEC DES LEGUMES 12*85GR",
+    "prix": 58,
+    "stock": 13,
+    "categorie": "chat",
+    "sousCategorie": "alimentation-chat",
+    "description": "Nourriture ou croquettes pour chat, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/1280x1280.webp?v=1761316466"
+  },
+  {
+    "id": 41,
+    "nom": "JOUET DENTAIRE CARNIVORE 12.5CM",
+    "prix": 27,
+    "stock": 17,
+    "categorie": "chien",
+    "sousCategorie": "jouets-chien",
+    "description": "Jouet pour divertir votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/coto-balle-en-corde-avec-manche-11cm_2_df111970-4592-46b2-ba96-f2c248674a54.jpg?v=1784570446"
+  },
+  {
+    "id": 42,
+    "nom": "SUPPORT POUR STICK DENTAL PILLON",
+    "prix": 24,
+    "stock": 25,
+    "categorie": "chien",
+    "sousCategorie": "jouets-chien",
+    "description": "Jouet pour divertir votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/distibuteur-de-friandises-super-strong-avec-corde-s.png?v=1784572600"
+  },
+  {
+    "id": 43,
+    "nom": "FELICAN JOUET OURS LATEX 6.5 CM LOT DE 1",
+    "prix": 11,
+    "stock": 29,
+    "categorie": "chien",
+    "sousCategorie": "jouets-chien",
+    "description": "Jouet pour divertir votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/felican-jouet-ours-latex-65-cm-1-piece.png?v=1680354555"
+  },
+  {
+    "id": 44,
+    "nom": "JOUET OS  PLASTIQUE POUR CHIEN",
+    "prix": 9.8,
+    "stock": 22,
+    "categorie": "chien",
+    "sousCategorie": "jouets-chien",
+    "description": "Jouet pour divertir votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/IMG-4035.png?v=1751307458"
+  },
+  {
+    "id": 45,
+    "nom": "JOUET A MASTIQUER AVEC SON",
+    "prix": 17,
+    "stock": 19,
+    "categorie": "chien",
+    "sousCategorie": "jouets-chien",
+    "description": "Jouet pour divertir votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/84AD31A3-6B61-4187-BCE5-0164D2E5C59A.png?v=1784658339"
+  },
+  {
+    "id": 46,
+    "nom": "CROCI OS COTON BLEU 20 CM",
+    "prix": 28,
+    "stock": 16,
+    "categorie": "chien",
+    "sousCategorie": "jouets-chien",
+    "description": "Jouet pour divertir votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/Cotonosso-con-nodo-palla-1.png?v=1737814809"
+  },
+  {
+    "id": 47,
+    "nom": "OS FUNBONE",
+    "prix": 22,
+    "stock": 18,
+    "categorie": "chien",
+    "sousCategorie": "jouets-chien",
+    "description": "Jouet pour divertir votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/coto-balle-en-corde-avec-manche-11cm_1_769af226-23a8-4c02-8d82-f3d83e4de4be.jpg?v=1758315564"
+  },
+  {
+    "id": 48,
+    "nom": "GAMELLE PUZZLE",
+    "prix": 29,
+    "stock": 29,
+    "categorie": "chien",
+    "sousCategorie": "jouets-chien",
+    "description": "Jouet pour divertir votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/71yDSNY4GWL._AC_SL1500.jpg?v=1728487580"
+  },
+  {
+    "id": 49,
+    "nom": "JOUET DENTAIRE CARNIVORE SAVORY 14.5CM",
+    "prix": 32,
+    "stock": 24,
+    "categorie": "chien",
+    "sousCategorie": "jouets-chien",
+    "description": "Jouet pour divertir votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/coto-balle-en-corde-avec-manche-11cm_3291ba33-44dd-41bd-a877-0ba18634a812.jpg?v=1784569083"
+  },
+  {
+    "id": 50,
+    "nom": "JOUET DENTAIRE CARNIVORE MEATY 13.5CM",
+    "prix": 31,
+    "stock": 25,
+    "categorie": "chien",
+    "sousCategorie": "jouets-chien",
+    "description": "Jouet pour divertir votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/AOISJK.jpg?v=1784655190"
+  },
+  {
+    "id": 51,
+    "nom": "NUNBEL JOUET EN CORDE EN CAOUTCHOUC POUR CHIEN SMALL",
+    "prix": 20,
+    "stock": 7,
+    "categorie": "chien",
+    "sousCategorie": "jouets-chien",
+    "description": "Jouet pour divertir votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/30304D8B-A86F-45C6-94E6-844E0D982E2B.jpg?v=1754678361"
+  },
+  {
+    "id": 52,
+    "nom": "BOUDIN DE DRESSAGE POUR CHIOT  3 MOIS",
+    "prix": 30,
+    "stock": 19,
+    "categorie": "chien",
+    "sousCategorie": "jouets-chien",
+    "description": "Jouet pour divertir votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/WhatsAppImage2026-06-09at21.32.04.jpg?v=1781364530"
+  },
+  {
+    "id": 53,
+    "nom": "NUNBEL JOUET EN CORDE EN CAOUTCHOUC POUR CHIEN",
+    "prix": 20,
+    "stock": 10,
+    "categorie": "chien",
+    "sousCategorie": "jouets-chien",
+    "description": "Jouet pour divertir votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/30304D8B-A86F-45C6-94E6-844E0D982E2B.jpg?v=1754678361"
+  },
+  {
+    "id": 54,
+    "nom": "Jouet Balle en caoutchouc pour Chien S",
+    "prix": 14.5,
+    "stock": 30,
+    "categorie": "chien",
+    "sousCategorie": "jouets-chien",
+    "description": "Jouet pour divertir votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/h5d436a9213e64e87aa1b058bfcc0050fr_jpeg_a7e6d2eb-cb8a-4876-95c4-51bd2e30914a.webp?v=1706130330"
+  },
+  {
+    "id": 55,
+    "nom": "BALLE NETTOYAGE DES DENTS POUR CHIEN",
+    "prix": 13,
+    "stock": 29,
+    "categorie": "chien",
+    "sousCategorie": "jouets-chien",
+    "description": "Jouet pour divertir votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/51G23LFB3SL._AC_SY350.jpg?v=1750167058"
+  },
+  {
+    "id": 56,
+    "nom": "CORDE COTON 2 NOEUDS 20CM",
+    "prix": 19,
+    "stock": 18,
+    "categorie": "chien",
+    "sousCategorie": "jouets-chien",
+    "description": "Jouet pour divertir votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/IMG-2968_1.jpg?v=1748781805"
+  },
+  {
+    "id": 57,
+    "nom": "JOUET DENTAIRE CARNIVORE MEATY 11.7 CM",
+    "prix": 29,
+    "stock": 16,
+    "categorie": "chien",
+    "sousCategorie": "jouets-chien",
+    "description": "Jouet pour divertir votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/AOISJK.jpg?v=1784655190"
+  },
+  {
+    "id": 58,
+    "nom": "Jouet Balle en caoutchouc pour Chien L",
+    "prix": 19,
+    "stock": 11,
+    "categorie": "chien",
+    "sousCategorie": "jouets-chien",
+    "description": "Jouet pour divertir votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/h5d436a9213e64e87aa1b058bfcc0050fr_jpeg.webp?v=1706130191"
+  },
+  {
+    "id": 59,
+    "nom": "CROCI JOUET PULL & PLAY POUR CHIEN ROUGE",
+    "prix": 47,
+    "stock": 7,
+    "categorie": "chien",
+    "sousCategorie": "jouets-chien",
+    "description": "Jouet pour divertir votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/gioco-con-ventosa-per-cani-pull-play-36-x-13-cm.jpg?v=1646847611"
+  },
+  {
+    "id": 60,
+    "nom": "BALLE DE DRESSAGE AVEC CORDE",
+    "prix": 17.8,
+    "stock": 16,
+    "categorie": "chien",
+    "sousCategorie": "jouets-chien",
+    "description": "Jouet pour divertir votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/felican-4p-04.png?v=1762980466"
+  },
+  {
+    "id": 61,
+    "nom": "CROCI OS A MACHER CHIEN AU BACON 25CM",
+    "prix": 34.5,
+    "stock": 19,
+    "categorie": "chien",
+    "sousCategorie": "friandises-chien",
+    "description": "Friandise pour récompenser votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/Snack_per_cani_naturale_Osso_Bacon_King_Bone.webp?v=1768588493"
+  },
+  {
+    "id": 62,
+    "nom": "DENTALIFE - 7 STICK POUR CHIEN SMALL 7-12 KG",
+    "prix": 13.9,
+    "stock": 17,
+    "categorie": "chien",
+    "sousCategorie": "friandises-chien",
+    "description": "Friandise pour récompenser votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/7613287017321_12602399-8-1_1.webp?v=1770718006"
+  },
+  {
+    "id": 63,
+    "nom": "1+1 : HAPPYDOG SOFT SNACK",
+    "prix": 10,
+    "stock": 28,
+    "categorie": "chien",
+    "sousCategorie": "friandises-chien",
+    "description": "Friandise pour récompenser votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/WhatsApp_Image_2026-06-06_at_01.12.40.jpg?v=1780835075"
+  },
+  {
+    "id": 64,
+    "nom": "DESSERT GLACE POUR CHIEN 25GR",
+    "prix": 9.6,
+    "stock": 30,
+    "categorie": "chien",
+    "sousCategorie": "friandises-chien",
+    "description": "Friandise pour récompenser votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/8057013161206.jpg?v=1753885505"
+  },
+  {
+    "id": 65,
+    "nom": "ATELIER D'ALIS LE SNACK - SLICES DE POULET POUR CHIEN",
+    "prix": 15.5,
+    "stock": 6,
+    "categorie": "chien",
+    "sousCategorie": "friandises-chien",
+    "description": "Friandise pour récompenser votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/images_1b2f7471-c6d7-42f3-86b8-49bb9690f340.jpg?v=1780870217"
+  },
+  {
+    "id": 66,
+    "nom": "JOUET  DISTRIBUTEUR DE FRIANDISE AVEC SAVEUR POULET 22.58CM",
+    "prix": 25,
+    "stock": 28,
+    "categorie": "chien",
+    "sousCategorie": "friandises-chien",
+    "description": "Friandise pour récompenser votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/coto-balle-en-corde-avec-manche-11cm_4_3dfea2c8-aed8-4a81-ad27-189db8bce646.jpg?v=1784571939"
+  },
+  {
+    "id": 67,
+    "nom": "ORLANDO - FRIANDISE POUR CHIENS BÂTONNETS AU POULET 100 GR",
+    "prix": 15,
+    "stock": 5,
+    "categorie": "chien",
+    "sousCategorie": "friandises-chien",
+    "description": "Friandise pour récompenser votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/ORLANDO_-_FRIANDISE_POUR_CHIENS_BATONNETS_AU_POULET_100_GR.png?v=1713199113"
+  },
+  {
+    "id": 68,
+    "nom": "CIUFFI - BISCUITS POUR CHIEN ROLLER 500 GR",
+    "prix": 16,
+    "stock": 11,
+    "categorie": "chien",
+    "sousCategorie": "friandises-chien",
+    "description": "Friandise pour récompenser votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/Designsanstitre_63.png?v=1716298221"
+  },
+  {
+    "id": 69,
+    "nom": "CROCI OS A MACHER CHIEN AU BACON 18CM",
+    "prix": 23,
+    "stock": 29,
+    "categorie": "chien",
+    "sousCategorie": "friandises-chien",
+    "description": "Friandise pour récompenser votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/Snack_per_cani_naturale_Osso_Bacon_King_Bone.webp?v=1768588493"
+  },
+  {
+    "id": 70,
+    "nom": "FELICAN - OS A MACHER 17 CM",
+    "prix": 15,
+    "stock": 11,
+    "categorie": "chien",
+    "sousCategorie": "friandises-chien",
+    "description": "Friandise pour récompenser votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/FELICAN-OSAMACHER17CM.png?v=1714053634"
+  },
+  {
+    "id": 71,
+    "nom": "DISTRIBUTEUR DE FRIANDISES SUPER STRONG AVEC CORDE",
+    "prix": 19,
+    "stock": 27,
+    "categorie": "chien",
+    "sousCategorie": "friandises-chien",
+    "description": "Friandise pour récompenser votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/distibuteur-de-friandises-super-strong-avec-corde-s_e3dab1b3-cda5-4015-b633-2610fb088ffd.jpg?v=1781365264"
+  },
+  {
+    "id": 72,
+    "nom": "CROCI - KING BONE POULET 3 PCS - 13M",
+    "prix": 22.5,
+    "stock": 20,
+    "categorie": "chien",
+    "sousCategorie": "friandises-chien",
+    "description": "Friandise pour récompenser votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/8023222102231.jpg?v=1768588610"
+  },
+  {
+    "id": 73,
+    "nom": "CARNILOVE DOG S-H CAILLE 200 GR",
+    "prix": 14,
+    "stock": 19,
+    "categorie": "chien",
+    "sousCategorie": "friandises-chien",
+    "description": "Friandise pour récompenser votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/Sanstitre_82.png?v=1646847489"
+  },
+  {
+    "id": 74,
+    "nom": "CARNILOVE DOG SNACK SAUMON 200 GR",
+    "prix": 14,
+    "stock": 22,
+    "categorie": "chien",
+    "sousCategorie": "friandises-chien",
+    "description": "Friandise pour récompenser votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/carnilove-dog-snack-saumon-200-gr.jpg?v=1646847500"
+  },
+  {
+    "id": 75,
+    "nom": "MIBA PRO - DENTAL STICK SMALL CHIEN -15KG  110GR",
+    "prix": 9.8,
+    "stock": 6,
+    "categorie": "chien",
+    "sousCategorie": "friandises-chien",
+    "description": "Friandise pour récompenser votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/84846061-80fa-48c5-a803-04c64de74e23.jpg?v=1775423526"
+  },
+  {
+    "id": 76,
+    "nom": "CIUFFI BISCUITS POUR CHIEN BISKO 500 G",
+    "prix": 16,
+    "stock": 27,
+    "categorie": "chien",
+    "sousCategorie": "friandises-chien",
+    "description": "Friandise pour récompenser votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/Designsanstitre_62.png?v=1716298114"
+  },
+  {
+    "id": 77,
+    "nom": "ATELIER D'ALIS LE SNACK - PATTES DE POULET 500GR",
+    "prix": 28,
+    "stock": 5,
+    "categorie": "chien",
+    "sousCategorie": "friandises-chien",
+    "description": "Friandise pour récompenser votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/cb250235-53a3-482c-bd18-ad0104529312.jpg?v=1775423401"
+  },
+  {
+    "id": 78,
+    "nom": "ATELIER D'ALIS LE SNACK - KAKI POUR CHIENS 170 GR",
+    "prix": 16,
+    "stock": 23,
+    "categorie": "chien",
+    "sousCategorie": "friandises-chien",
+    "description": "Friandise pour récompenser votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/Kaki-Poulet_Carotte.png?v=1726661770"
+  },
+  {
+    "id": 79,
+    "nom": "CARNILOVE DOG S-H TRUITE 200 GR",
+    "prix": 14,
+    "stock": 29,
+    "categorie": "chien",
+    "sousCategorie": "friandises-chien",
+    "description": "Friandise pour récompenser votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/carnilove-dog-snack-truite-200-gr.jpg?v=1646847491"
+  },
+  {
+    "id": 80,
+    "nom": "JERKY TIME - MINI OS AU POULET 90GR",
+    "prix": 14,
+    "stock": 9,
+    "categorie": "chien",
+    "sousCategorie": "friandises-chien",
+    "description": "Friandise pour récompenser votre chien au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/6310.jpg?v=1758237929"
+  },
+  {
+    "id": 81,
+    "nom": "MFR - SOLUTION ANTI-TARTRE 500ML",
+    "prix": 33,
+    "stock": 22,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/solution-anti-tartre-pour-chien-et-chat-310ml.jpg?v=1746546028"
+  },
+  {
+    "id": 82,
+    "nom": "MENFORSAN - SHAMPOING POUR PEAU SENSIBLE 300 ML",
+    "prix": 21,
+    "stock": 21,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/shampoing-a-l-avoine-pour-chien-a-la-peau-sensible-300ml_924b899b-2b9a-4f83-9ac2-924004573414.jpg?v=1780667023"
+  },
+  {
+    "id": 83,
+    "nom": "LINGETTES NETTOYANTES ALOE VERA 40 PCS",
+    "prix": 15.5,
+    "stock": 11,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/lingettes-nettoyantes-40-pieces-aloe-vera-et-chlorhexidine.jpg?v=1668605267"
+  },
+  {
+    "id": 84,
+    "nom": "CROCI OILCARE LENITIVE SHAMPOOING POUR CHIEN 300 ML",
+    "prix": 32,
+    "stock": 20,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/croci-oilcare-lenitive-shapoing-pour-chien-300-ml.jpg?v=1646847611"
+  },
+  {
+    "id": 85,
+    "nom": "FELICAN Shampoing Chien 250ML",
+    "prix": 18,
+    "stock": 20,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/fi_el_sama2.png?v=1745836935"
+  },
+  {
+    "id": 86,
+    "nom": "MENFORSAN - SHAMPOING REDENSIFIANT A LA BIOTINE 300 ML",
+    "prix": 24,
+    "stock": 24,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/shampoing-pour-chien-redensifiant-et-traitant-a-la-biotine-300ml.jpg?v=1780501840"
+  },
+  {
+    "id": 87,
+    "nom": "MENFORSAN SHAMPOOING PROTECTEUR  à L'HUILE  DE  MACADAMIA POUR CHIEN  300 ML",
+    "prix": 22,
+    "stock": 30,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/shampoing-pour-chien-a-l-huile-de-macadamia-300ml.png?v=1697032790"
+  },
+  {
+    "id": 88,
+    "nom": "CROCI OILCARE  REVITALIZE SHAMPOOING , 300 ML",
+    "prix": 32,
+    "stock": 16,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/51A3yhCsbWL._AC_UL600_SR600_600.jpg?v=1646847611"
+  },
+  {
+    "id": 89,
+    "nom": "ZANIMAX - PARFUM NETTOYANT A SEC 200 ML",
+    "prix": 19,
+    "stock": 13,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/rose_site_769a1bf4-2774-4e40-a547-ad1cf3946f7b.png?v=1745539457"
+  },
+  {
+    "id": 90,
+    "nom": "M-PETS - COUCHES AU CHARBON POUR CHIEN FEMELLE TAILLE L 15PCS",
+    "prix": 28,
+    "stock": 5,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/tapis-absorbants-au-charbon-actif-6060-30-pieces_5ac0a7e1-9fed-4808-ba4a-a939192ca474.jpg?v=1784303417"
+  },
+  {
+    "id": 91,
+    "nom": "LINGETTES NETTOYANTES CITRON 40 PIECES",
+    "prix": 15.5,
+    "stock": 12,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/MiniScooterElectrique-2022-11-17T140439.013.png?v=1668690266"
+  },
+  {
+    "id": 92,
+    "nom": "GILL'S KIT SOIN DENTAIRE AU MENTHE",
+    "prix": 27.5,
+    "stock": 16,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/1_3_90b0df6b-44b0-4553-ac01-9033de8d3d6e.jpg?v=1646847812"
+  },
+  {
+    "id": 93,
+    "nom": "M-PETS LINGETTES COCONUT - 40 pcs",
+    "prix": 13.5,
+    "stock": 25,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/lingettes-parfumees-2015-cm-80pcs_2.jpg?v=1688595456"
+  },
+  {
+    "id": 94,
+    "nom": "ZANILOVE - SHAMPOING ANTI-DÉMANGEAISON NOIX DE COCO 250 ML",
+    "prix": 11.2,
+    "stock": 18,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/Designsanstitre_15.png?v=1716289033"
+  },
+  {
+    "id": 95,
+    "nom": "CROCI OILCARE PURIFIER SHAMPOOING POUR CHIEN 300 ML",
+    "prix": 32,
+    "stock": 28,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/8023222162570.jpg?v=1713547932"
+  },
+  {
+    "id": 96,
+    "nom": "MENFORSAN - SHAMPOING DOUX POUR CHIOT AU GERME 300ML",
+    "prix": 22,
+    "stock": 25,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/Sanstitre-2022-05-06T214300.532.png?v=1659365368"
+  },
+  {
+    "id": 97,
+    "nom": "COUCHE JEANS CHIOT M 12 PCS 32-44cm",
+    "prix": 36,
+    "stock": 18,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/IMG-20231128_154641.jpg?v=1701182826"
+  },
+  {
+    "id": 98,
+    "nom": "MENFORSAN-Crème Démélante et Adoucissante pour Chien 300ml",
+    "prix": 22,
+    "stock": 9,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/creme-demelante-et-adoucissante-menforsan-300ml-pour-chien-et-chat.webp?v=1726662236"
+  },
+  {
+    "id": 99,
+    "nom": "LINGETTES NETTOYANTES MUSC BLANC 40 PIECES",
+    "prix": 15.5,
+    "stock": 17,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/Sanstitre-2021-12-17T102002.024.png?v=1646847943"
+  },
+  {
+    "id": 100,
+    "nom": "FELICAN Shampoing Chien Universel 2in1- 250 ML",
+    "prix": 18,
+    "stock": 13,
+    "categorie": "chien",
+    "sousCategorie": "hygiene-sante-chien",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/BBBBBBBBB_2e449e56-69e5-4f7c-a8d3-6ac3b1ff0aea.jpg?v=1725206212"
+  },
+  {
+    "id": 101,
+    "nom": "CONTENEUR DE NOURRITURE",
+    "prix": 39.5,
+    "stock": 26,
+    "categorie": "chien",
+    "sousCategorie": "alimentation-chien",
+    "description": "Nourriture ou croquettes pour chien, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/IMG-9097.jpg?v=1739718106"
+  },
+  {
+    "id": 102,
+    "nom": "HAPPYDOG - CROQUETTE POUR JUNIOR 7MOIS - 4KG",
+    "prix": 75,
+    "stock": 23,
+    "categorie": "chien",
+    "sousCategorie": "alimentation-chien",
+    "description": "Nourriture ou croquettes pour chien, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/happydog-tunisie-chien-21-11.png?v=1782225401"
+  },
+  {
+    "id": 103,
+    "nom": "OWNAT - CROQUETTE CHIEN COMPLET AU POULET 4KG",
+    "prix": 54,
+    "stock": 27,
+    "categorie": "chien",
+    "sousCategorie": "alimentation-chien",
+    "description": "Nourriture ou croquettes pour chien, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/8429037016044.jpg?v=1754315762"
+  },
+  {
+    "id": 104,
+    "nom": "JOSERA - CROQUETTES POUR CHIEN ADULTE GRANDE RACE 12.5 KG",
+    "prix": 225,
+    "stock": 28,
+    "categorie": "chien",
+    "sousCategorie": "alimentation-chien",
+    "description": "Nourriture ou croquettes pour chien, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/KKKKKKKKKKKK_8d6aa411-2424-4258-a6ef-19d94e21c1b0.png?v=1747679792"
+  },
+  {
+    "id": 105,
+    "nom": "PROCHOICE - PÂTE CHIOT  AGNEAU 400 Gr",
+    "prix": 7.5,
+    "stock": 23,
+    "categorie": "chien",
+    "sousCategorie": "alimentation-chien",
+    "description": "Nourriture ou croquettes pour chien, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/puppylamb_1024x1024_613050d3-a9c2-48e4-a609-8cdedcd0387f.png?v=1683490127"
+  },
+  {
+    "id": 106,
+    "nom": "OWNAT - CROQUETTE CHIEN AU POISSON",
+    "prix": 63,
+    "stock": 25,
+    "categorie": "chien",
+    "sousCategorie": "alimentation-chien",
+    "description": "Nourriture ou croquettes pour chien, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/ownat-chien-fish-20-kg.png?v=1646848056"
+  },
+  {
+    "id": 107,
+    "nom": "KIPPY CHIEN -  PÂTÉ POULET 400 GR",
+    "prix": 7.8,
+    "stock": 18,
+    "categorie": "chien",
+    "sousCategorie": "alimentation-chien",
+    "description": "Nourriture ou croquettes pour chien, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/kippy-chien-poulet-400-gr.jpg?v=1684690698"
+  },
+  {
+    "id": 108,
+    "nom": "BRIT PATÈ - POUR CHIEN AU GIBIER 800G",
+    "prix": 18,
+    "stock": 10,
+    "categorie": "chien",
+    "sousCategorie": "alimentation-chien",
+    "description": "Nourriture ou croquettes pour chien, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/brit-pate-au-gibier-pour-chien-800g.png?v=1659367740"
+  },
+  {
+    "id": 109,
+    "nom": "CARNILOVE - POCHON POUR CHIEN 300GR",
+    "prix": 13.5,
+    "stock": 20,
+    "categorie": "chien",
+    "sousCategorie": "alimentation-chien",
+    "description": "Nourriture ou croquettes pour chien, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/Pochon-Carnilove-Venison-300-Gr-1.jpg?v=1758303633"
+  },
+  {
+    "id": 110,
+    "nom": "BRIT PREMIUM JUNIOR SMALL",
+    "prix": 54,
+    "stock": 15,
+    "categorie": "chien",
+    "sousCategorie": "alimentation-chien",
+    "description": "Nourriture ou croquettes pour chien, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/brit-premium-by-nature-junior-s-3-kg.jpg?v=1646847406"
+  },
+  {
+    "id": 111,
+    "nom": "AMITY - SUPER PREMIUM ADULTE AU POULET 14KG",
+    "prix": 152,
+    "stock": 7,
+    "categorie": "chien",
+    "sousCategorie": "alimentation-chien",
+    "description": "Nourriture ou croquettes pour chien, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/WhatsAppImage2026-07-06at20.18.18_f647b54d-4978-4386-8d3b-bad624a3a25e.jpg?v=1783785158"
+  },
+  {
+    "id": 112,
+    "nom": "ROYAL CANIN - CHIEN GIANT PUPPY 15 KG",
+    "prix": 400,
+    "stock": 7,
+    "categorie": "chien",
+    "sousCategorie": "alimentation-chien",
+    "description": "Nourriture ou croquettes pour chien, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/croquettes-royal-canin-giant-puppy-5e78e1f4e602c.jpg?v=1646848202"
+  },
+  {
+    "id": 113,
+    "nom": "MIGLIOR CANE BOEUF / RIZ / LÉGUMES BOITE 1.250 KG",
+    "prix": 18,
+    "stock": 21,
+    "categorie": "chien",
+    "sousCategorie": "alimentation-chien",
+    "description": "Nourriture ou croquettes pour chien, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/miglior-cane-boeuf-riz-legumes-boite-1250-kg.jpg?v=1646847990"
+  },
+  {
+    "id": 114,
+    "nom": "LE DOG EXCELLENCE - POCHON MINI ADULT AU AGNEAU 100 GR",
+    "prix": 4,
+    "stock": 22,
+    "categorie": "chien",
+    "sousCategorie": "alimentation-chien",
+    "description": "Nourriture ou croquettes pour chien, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/8009470060554.jpg?v=1740580350"
+  },
+  {
+    "id": 115,
+    "nom": "FESTIN - BOUCHEES DE VOLAILLE EN SAUCE 380GR",
+    "prix": 5,
+    "stock": 7,
+    "categorie": "chien",
+    "sousCategorie": "alimentation-chien",
+    "description": "Nourriture ou croquettes pour chien, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/images_64d1c68b-c892-4a4f-98dd-293216dda90f.jpg?v=1765036710"
+  },
+  {
+    "id": 116,
+    "nom": "PRO PLAN® CROQUETTE POUR CHIOT LARGE ROBUST AU POULET",
+    "prix": 102,
+    "stock": 19,
+    "categorie": "chien",
+    "sousCategorie": "alimentation-chien",
+    "description": "Nourriture ou croquettes pour chien, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/7613035114647-7613035114647-7613035114647-dog-large-robust-puppy-chicken-optistart.webp?v=1784312362"
+  },
+  {
+    "id": 117,
+    "nom": "BRAVERY - ADULT MEDIUM & LARGE A L'AGNEAU 12 KG",
+    "prix": 225,
+    "stock": 8,
+    "categorie": "chien",
+    "sousCategorie": "alimentation-chien",
+    "description": "Nourriture ou croquettes pour chien, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/bravery-adult-medium-large-sans-cereales-agneau-12-kg.jpg?v=1776696345"
+  },
+  {
+    "id": 118,
+    "nom": "PURINA PRO PLAN - CROQUETTE CHIOT LARGE ATHLETIC AU POULET",
+    "prix": 102,
+    "stock": 19,
+    "categorie": "chien",
+    "sousCategorie": "alimentation-chien",
+    "description": "Nourriture ou croquettes pour chien, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/7613035114746.jpg?v=1776719334"
+  },
+  {
+    "id": 119,
+    "nom": "SERINGUE A PILULES",
+    "prix": 9.5,
+    "stock": 10,
+    "categorie": "chien",
+    "sousCategorie": "alimentation-chien",
+    "description": "Nourriture ou croquettes pour chien, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/seringue-a-medicaments-chien-chat-lance-pilules-animal-de-compagnie_jpeg.webp?v=1759873099"
+  },
+  {
+    "id": 120,
+    "nom": "NUNBELL - BIBERON POUR CHIEN",
+    "prix": 19.5,
+    "stock": 30,
+    "categorie": "chien",
+    "sousCategorie": "alimentation-chien",
+    "description": "Nourriture ou croquettes pour chien, à choisir selon l'âge et la race. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/9EC66E1B-3F6D-4EF6-B0AA-A37CFAF6B0D4.webp?v=1775506676"
+  },
+  {
+    "id": 121,
+    "nom": "TETRAMIN FLAKES 12 GR",
+    "prix": 5,
+    "stock": 15,
+    "categorie": "poisson",
+    "sousCategorie": "aquariophilie-poisson",
+    "description": "Matériel ou accessoire pour l'aquarium. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/IdTiK99Jr6UfntFBcUUC7xSHQsvAAZfWqmQ09NDs.jpg?v=1726661657"
+  },
+  {
+    "id": 122,
+    "nom": "TETRAPRO -ALGAE POUR AQUARIOPHILIE  12 GR",
+    "prix": 5,
+    "stock": 7,
+    "categorie": "poisson",
+    "sousCategorie": "aquariophilie-poisson",
+    "description": "Matériel ou accessoire pour l'aquarium. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/images_3_41a26d8d-f876-4100-b607-1bd276db8e7e.jpg?v=1784050916"
+  },
+  {
+    "id": 123,
+    "nom": "TETRA GOLDFISH 12 GR",
+    "prix": 5,
+    "stock": 30,
+    "categorie": "poisson",
+    "sousCategorie": "aquariophilie-poisson",
+    "description": "Matériel ou accessoire pour l'aquarium. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/X498P0kcSmzEhkHcpNMF1K814MGZ9tpoMA9Hi3MT.jpg?v=1726661697"
+  },
+  {
+    "id": 124,
+    "nom": "VERSELE LAGA - PATEE FORTIFFIANTE",
+    "prix": 108,
+    "stock": 21,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/frutti-patee-fortifiante-complement-nutritif-5kg-nutribird-2995-eur-422363-versele-laga-frutti-patee-fortifiante-complement-nutr_1.jpg?v=1771974849"
+  },
+  {
+    "id": 125,
+    "nom": "MANITOBA - VRAC MELANGE DE GRAINES PERROQUET 1 KG",
+    "prix": 25,
+    "stock": 20,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/manitoba-perroquet-tropical-15-kg-manitoba.jpg?v=1740580908"
+  },
+  {
+    "id": 126,
+    "nom": "MANITOBA - CARDELLINI CHARDONNERET 1 Kg",
+    "prix": 26,
+    "stock": 25,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/manitoba-cardellino-1-kg.jpg?v=1693767772"
+  },
+  {
+    "id": 127,
+    "nom": "MANITOBA - CANARINI 1 KG",
+    "prix": 14.5,
+    "stock": 15,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/11-7_cb14c9ac-1e00-4c63-a1ca-d218d20cc17c.jpg?v=1646847978"
+  },
+  {
+    "id": 128,
+    "nom": "KRACKER - TRIO-MIX PERRUCHE 90GR",
+    "prix": 13,
+    "stock": 30,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/Capture_3c72c858-7358-427d-ac9a-4fee9645e8c2.png?v=1776442853"
+  },
+  {
+    "id": 129,
+    "nom": "VERSELE LAGA - OMNI-VIT 25 GR",
+    "prix": 25,
+    "stock": 28,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/CaptureDJIAZJD.png?v=1771972085"
+  },
+  {
+    "id": 130,
+    "nom": "VERSELE LAGA - LORO MELANGE POUR PERROQUET AFRICAIN",
+    "prix": 25,
+    "stock": 18,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/AZJSSDNZ.png?v=1771973562"
+  },
+  {
+    "id": 131,
+    "nom": "MANITOBA - MELANGE PERROQUET PLANET 15 KG",
+    "prix": 265,
+    "stock": 29,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/IMG-4551.jpg?v=1752412621"
+  },
+  {
+    "id": 132,
+    "nom": "MONGEOIRE OISEAUX",
+    "prix": 3,
+    "stock": 28,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/IMG-20231104_143352.jpg?v=1699104896"
+  },
+  {
+    "id": 133,
+    "nom": "VERSELE LAGA - MELANGE PERRUCHES 20 KG",
+    "prix": 165,
+    "stock": 5,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/Capture_0b341be4-394b-41f0-b3e9-dfb9b97a950e.png?v=1782666525"
+  },
+  {
+    "id": 134,
+    "nom": "MANITOBA - INSEPARABLES  & CALOPSITTES - 1 KG",
+    "prix": 14.5,
+    "stock": 22,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/manitoba-inseparables-calopsittes-1kg.png?v=1683237312"
+  },
+  {
+    "id": 135,
+    "nom": "A19 - VERSELE-LAGA NUTRI BIRD 800 GR",
+    "prix": 61,
+    "stock": 23,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/5410340221716pack.png?v=1739104604"
+  },
+  {
+    "id": 136,
+    "nom": "KING - MELANGE POUR CALOPSITES & INSEPARABLES 20 KG",
+    "prix": 165,
+    "stock": 28,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/images_1_1bab2edc-a63c-4241-a861-cdc28d14083a.jpg?v=1782665937"
+  },
+  {
+    "id": 137,
+    "nom": "VERSELE LAGA - GOLD PATEE CHARDONNERET",
+    "prix": 30,
+    "stock": 30,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/nutribird-gold-patee-humide-oiseaux-indigenes-5kg.jpg?v=1771975159"
+  },
+  {
+    "id": 138,
+    "nom": "TONIPLUS - ANTIPARASITE OISEAUX 100 ML",
+    "prix": 11,
+    "stock": 28,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/2_1_313392d1-4430-4cb8-be1e-bf13f596375a.jpg?v=1684096830"
+  },
+  {
+    "id": 139,
+    "nom": "MANITOBA CARDUELIDI 2.5KG",
+    "prix": 60,
+    "stock": 29,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/26010_2_511f8eec-4170-46a7-90df-ff14b2bd83fc.jpg?v=1646847978"
+  },
+  {
+    "id": 140,
+    "nom": "MANITOBA - COCORITE PERRUCHES 1 KG",
+    "prix": 14.5,
+    "stock": 10,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/manitoba-cocorite-perruches-1kg.jpg?v=1646847985"
+  },
+  {
+    "id": 141,
+    "nom": "PRESTIGE - MELANGE DE CANARIES 1 KG",
+    "prix": 14,
+    "stock": 14,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/HUJI.png?v=1751299818"
+  },
+  {
+    "id": 142,
+    "nom": "ABREUVOIR FONTAINE OISEAUX À BEC",
+    "prix": 3,
+    "stock": 18,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/fontaine-110cc.jpg?v=1642155360"
+  },
+  {
+    "id": 143,
+    "nom": "VERSELE LAGA - LORO MELANGE POUR PERROQUET AFRICAIN 15 KG",
+    "prix": 240,
+    "stock": 24,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/AZJSSDNZ.png?v=1771973562"
+  },
+  {
+    "id": 144,
+    "nom": "FELICAN MAISON DE TOILETTE ROMEO EN BLEU",
+    "prix": 69,
+    "stock": 17,
+    "categorie": "chat",
+    "sousCategorie": "litieres-chat",
+    "description": "Accessoire ou produit pour la litière du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/6378.jpg?v=1769813208"
+  },
+  {
+    "id": 145,
+    "nom": "NESTOR - MAISON DE TOILETTE AVEC FILTRE EN VERT 56x39*38,5CM",
+    "prix": 95,
+    "stock": 14,
+    "categorie": "chat",
+    "sousCategorie": "litieres-chat",
+    "description": "Accessoire ou produit pour la litière du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/41RcPnG44RL._AC_UF1000_1000_QL80.jpg?v=1770482572"
+  },
+  {
+    "id": 146,
+    "nom": "STEFANPLAST - MAISON DE TOILETTE FURBA CHIC MOYEN",
+    "prix": 91,
+    "stock": 9,
+    "categorie": "chat",
+    "sousCategorie": "litieres-chat",
+    "description": "Accessoire ou produit pour la litière du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/FURBA-CHIC-VERDE.jpg?v=1702056471"
+  },
+  {
+    "id": 147,
+    "nom": "Filtre Pour Maison De Toilette",
+    "prix": 8.5,
+    "stock": 29,
+    "categorie": "chat",
+    "sousCategorie": "litieres-chat",
+    "description": "Accessoire ou produit pour la litière du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/DV_8_7494357_01_4c_DE_20120914145040.jpg?v=1699901588"
+  },
+  {
+    "id": 148,
+    "nom": "FELICAN MAISON DE TOILETTE ROMEO EN VERT",
+    "prix": 69,
+    "stock": 11,
+    "categorie": "chat",
+    "sousCategorie": "litieres-chat",
+    "description": "Accessoire ou produit pour la litière du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/maison-de-toilette-avec-filtre-romeo-bleu-felican-tunisie-3.webp?v=1769813621"
+  },
+  {
+    "id": 149,
+    "nom": "IMAC - BAC A LITIERE 57*43*28.5cm",
+    "prix": 56.5,
+    "stock": 8,
+    "categorie": "chat",
+    "sousCategorie": "litieres-chat",
+    "description": "Accessoire ou produit pour la litière du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/8021799417987_8b21467b-457d-41b1-a66c-083ac8ecaefc.jpg?v=1767558592"
+  },
+  {
+    "id": 150,
+    "nom": "NESTOR - MAISON DE TOILETTE AVEC FILTRE EN NOIR 56x39*38,5 cm",
+    "prix": 95,
+    "stock": 24,
+    "categorie": "chat",
+    "sousCategorie": "litieres-chat",
+    "description": "Accessoire ou produit pour la litière du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/KKKKK_f66636ac-8353-41fa-b4db-4d1a6d12c31b.webp?v=1770482352"
+  },
+  {
+    "id": 151,
+    "nom": "FELICAN MAISON DE TOILETTE ROMEO VERT",
+    "prix": 69,
+    "stock": 7,
+    "categorie": "chat",
+    "sousCategorie": "litieres-chat",
+    "description": "Accessoire ou produit pour la litière du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/Designsanstitre_67.png?v=1716298692"
+  },
+  {
+    "id": 152,
+    "nom": "FELICAN MAISON DE TOILETTE ROMEO EN JAUNE",
+    "prix": 69,
+    "stock": 16,
+    "categorie": "chat",
+    "sousCategorie": "litieres-chat",
+    "description": "Accessoire ou produit pour la litière du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/6926.jpg?v=1769812629"
+  },
+  {
+    "id": 153,
+    "nom": "BAC À LITIÈRE IRIZ 50 CM",
+    "prix": 22,
+    "stock": 11,
+    "categorie": "chat",
+    "sousCategorie": "litieres-chat",
+    "description": "Accessoire ou produit pour la litière du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/bac-a-litiere-iriz-pour-chats-gris-froid.jpg?v=1776969729"
+  },
+  {
+    "id": 154,
+    "nom": "MODERNA - BAC A LITIÈRE POUR CHATON XSMALL TRANSPARENT",
+    "prix": 9.8,
+    "stock": 18,
+    "categorie": "chat",
+    "sousCategorie": "litieres-chat",
+    "description": "Accessoire ou produit pour la litière du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/WhatsAppImage2026-07-10at19.29.53_1.jpg?v=1784224066"
+  },
+  {
+    "id": 155,
+    "nom": "MODERNA - BAC A LITIÈRE POUR CHATON",
+    "prix": 16,
+    "stock": 23,
+    "categorie": "chat",
+    "sousCategorie": "litieres-chat",
+    "description": "Accessoire ou produit pour la litière du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/88c9e04f-a63f-47ec-b7c9-52734e5e7eb7.098f854a0ac13770fdd9d8bff9f84a9d_cb628179-ef1c-4435-9eef-ec3c533c61f6.jpg?v=1702061322"
+  },
+  {
+    "id": 156,
+    "nom": "MODERNA - BAC A LITIÈRE POUR CHATON  XSMALL EN GRIS",
+    "prix": 9.8,
+    "stock": 30,
+    "categorie": "chat",
+    "sousCategorie": "litieres-chat",
+    "description": "Accessoire ou produit pour la litière du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/WhatsAppImage2026-07-10at19.29.53.jpg?v=1784223899"
+  },
+  {
+    "id": 157,
+    "nom": "MAISON DE TOILETTE POUR CHAT JUST EAZY",
+    "prix": 75,
+    "stock": 26,
+    "categorie": "chat",
+    "sousCategorie": "litieres-chat",
+    "description": "Accessoire ou produit pour la litière du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/JUSTEAZY_b855259b-8e52-487b-8ea8-d2b8b31fadd1.webp?v=1778665069"
+  },
+  {
+    "id": 158,
+    "nom": "MAISON DE TOILETTE POUR CHAT",
+    "prix": 45.5,
+    "stock": 5,
+    "categorie": "chat",
+    "sousCategorie": "litieres-chat",
+    "description": "Accessoire ou produit pour la litière du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/550x550_1_5fe38f24-728b-4ff8-927e-ef7472f2aa1d.jpg?v=1740048800"
+  },
+  {
+    "id": 159,
+    "nom": "Maison de Toilette ZUMA avec Filtre et Tiroir pour Chat",
+    "prix": 125,
+    "stock": 11,
+    "categorie": "chat",
+    "sousCategorie": "litieres-chat",
+    "description": "Accessoire ou produit pour la litière du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/maison-de-toilette-zuma-avec-tiroir-noir-pour-c.jpg?v=1646847972"
+  },
+  {
+    "id": 160,
+    "nom": "MONGE LE CHAT - LITIERE ABSORBANTE NATURELLE 10 L",
+    "prix": 22.5,
+    "stock": 9,
+    "categorie": "chat",
+    "sousCategorie": "litieres-chat",
+    "description": "Accessoire ou produit pour la litière du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/51I9qh9Mg4L._UF1000_1000_QL80.jpg?v=1758574618"
+  },
+  {
+    "id": 161,
+    "nom": "BAC A LITIÈRE POUR CHATON",
+    "prix": 15,
+    "stock": 14,
+    "categorie": "chat",
+    "sousCategorie": "litieres-chat",
+    "description": "Accessoire ou produit pour la litière du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/F9384C87-C6D5-49F7-B9EA-869E0B31272C.jpg?v=1760550581"
+  },
+  {
+    "id": 162,
+    "nom": "FELICAN MAISON DE TOILETTE ROMEO EN VIOLET",
+    "prix": 69,
+    "stock": 28,
+    "categorie": "chat",
+    "sousCategorie": "litieres-chat",
+    "description": "Accessoire ou produit pour la litière du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/maison-de-toilette-romeo-avec-filtre-57x39x41-cm-croci.webp?v=1769813368"
+  },
+  {
+    "id": 163,
+    "nom": "TAPIS CAPTURE LITIERE HORIZONTAL",
+    "prix": 59,
+    "stock": 18,
+    "categorie": "chat",
+    "sousCategorie": "litieres-chat",
+    "description": "Accessoire ou produit pour la litière du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/1_85930000-d3e8-4ee8-b8b1-54ff63ad6e99.png?v=1738970137"
+  },
+  {
+    "id": 164,
+    "nom": "COLLIER CHIEN PAPILLON",
+    "prix": 17,
+    "stock": 8,
+    "categorie": "chien",
+    "sousCategorie": "accessoires-chien",
+    "description": "Accessoire de promenade ou du quotidien pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/IMG-7063.png?v=1733589734"
+  },
+  {
+    "id": 165,
+    "nom": "BEEZTEES - MUSELIERE EN PLASTIQUE TAILLE 2",
+    "prix": 55,
+    "stock": 26,
+    "categorie": "chien",
+    "sousCategorie": "accessoires-chien",
+    "description": "Accessoire de promenade ou du quotidien pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/azimut_neu-5.jpg?v=1756059344"
+  },
+  {
+    "id": 166,
+    "nom": "FLEXI NEW COMFORT S Cord 5 M Bleu",
+    "prix": 57,
+    "stock": 23,
+    "categorie": "chien",
+    "sousCategorie": "accessoires-chien",
+    "description": "Accessoire de promenade ou du quotidien pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/flexi-laisse-new-comfort-corde-t3-m-5m-bleu-clair.jpg?v=1705516894"
+  },
+  {
+    "id": 167,
+    "nom": "LAISSE SIMPLE",
+    "prix": 18.5,
+    "stock": 26,
+    "categorie": "chien",
+    "sousCategorie": "accessoires-chien",
+    "description": "Accessoire de promenade ou du quotidien pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/Designsanstitre_17_a1211cf7-f1be-4429-ada6-0cb1ba3e392a.png?v=1730482607"
+  },
+  {
+    "id": 168,
+    "nom": "COUCHES POUR CHIOTS XS",
+    "prix": 32,
+    "stock": 23,
+    "categorie": "chien",
+    "sousCategorie": "accessoires-chien",
+    "description": "Accessoire de promenade ou du quotidien pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/COUCHESPOURCHIOTSXS.png?v=1714673409"
+  },
+  {
+    "id": 169,
+    "nom": "CANICOM – COLLIER ANTI-ABOIEMENT 250S",
+    "prix": 460,
+    "stock": 17,
+    "categorie": "chien",
+    "sousCategorie": "accessoires-chien",
+    "description": "Accessoire de promenade ou du quotidien pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/Collier_CANICOM_sangle_bleue_NUMAXES_Education.jpg?v=1768920571"
+  },
+  {
+    "id": 170,
+    "nom": "HARNAIS POUR CHIEN EN ORANGE",
+    "prix": 35,
+    "stock": 27,
+    "categorie": "chien",
+    "sousCategorie": "accessoires-chien",
+    "description": "Accessoire de promenade ou du quotidien pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/71-xoNS4E3L._AC_SL1500.jpg?v=1763505146"
+  },
+  {
+    "id": 171,
+    "nom": "HARNAIS POUR CHIEN EN NOIR",
+    "prix": 35,
+    "stock": 12,
+    "categorie": "chien",
+    "sousCategorie": "accessoires-chien",
+    "description": "Accessoire de promenade ou du quotidien pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/71b7VC_5UXL._AC_SL1000.jpg?v=1762875630"
+  },
+  {
+    "id": 172,
+    "nom": "MFS - COLLIER CALMANT POUR CHIENS",
+    "prix": 27,
+    "stock": 16,
+    "categorie": "chien",
+    "sousCategorie": "accessoires-chien",
+    "description": "Accessoire de promenade ou du quotidien pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/shampoing-a-l-avoine-pour-chien-a-la-peau-sensible-300ml_748e2fbd-04e0-4b16-9606-332343de04f0.jpg?v=1755013366"
+  },
+  {
+    "id": 173,
+    "nom": "HARNAIS POUR CHIEN EN ORANGE TAILLE M",
+    "prix": 135,
+    "stock": 22,
+    "categorie": "chien",
+    "sousCategorie": "accessoires-chien",
+    "description": "Accessoire de promenade ou du quotidien pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/Design_sans_titre_19.png?v=1718892687"
+  },
+  {
+    "id": 174,
+    "nom": "FLEXI NEW COMFORT XS Cord 3 M En Violet",
+    "prix": 44,
+    "stock": 21,
+    "categorie": "chien",
+    "sousCategorie": "accessoires-chien",
+    "description": "Accessoire de promenade ou du quotidien pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/Designsanstitre_55.png?v=1716294766"
+  },
+  {
+    "id": 175,
+    "nom": "MUSELIERE GRILLAGE POUR GRAND CHIEN",
+    "prix": 30,
+    "stock": 14,
+    "categorie": "chien",
+    "sousCategorie": "accessoires-chien",
+    "description": "Accessoire de promenade ou du quotidien pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/1_2000x_5dc3491c-6d43-4dcc-abcd-cdb91468c049.webp?v=1762981249"
+  },
+  {
+    "id": 176,
+    "nom": "LAISSE AVEC COLLIER POUR GRAND CHIENS ROUGE ET NOIR",
+    "prix": 32.5,
+    "stock": 12,
+    "categorie": "chien",
+    "sousCategorie": "accessoires-chien",
+    "description": "Accessoire de promenade ou du quotidien pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/Designsanstitre_41.png?v=1716293160"
+  },
+  {
+    "id": 177,
+    "nom": "FLAMINGO - SET PAPILLON & CRAVATTE",
+    "prix": 32,
+    "stock": 8,
+    "categorie": "chien",
+    "sousCategorie": "accessoires-chien",
+    "description": "Accessoire de promenade ou du quotidien pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/set-noeud-papillon-et-cravate.jpg?v=1765711793"
+  },
+  {
+    "id": 178,
+    "nom": "COLLIER POUR CHIEN-ORANGE",
+    "prix": 27.5,
+    "stock": 8,
+    "categorie": "chien",
+    "sousCategorie": "accessoires-chien",
+    "description": "Accessoire de promenade ou du quotidien pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/1_3.jpg?v=1666354296"
+  },
+  {
+    "id": 179,
+    "nom": "LAISSE POUR GRAND CHIENS EN ROUGE",
+    "prix": 25,
+    "stock": 7,
+    "categorie": "chien",
+    "sousCategorie": "accessoires-chien",
+    "description": "Accessoire de promenade ou du quotidien pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/Designsanstitre_36.png?v=1716292738"
+  },
+  {
+    "id": 180,
+    "nom": "OFFRE DUO : COLLIER ACHETE = COLLIER OFFERT",
+    "prix": 13.5,
+    "stock": 26,
+    "categorie": "chien",
+    "sousCategorie": "accessoires-chien",
+    "description": "Accessoire de promenade ou du quotidien pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/Collier_chat_1_1_gratuit.png?v=1765021202"
+  },
+  {
+    "id": 181,
+    "nom": "GOLDOGGY COLLIER STRASS POUR CHIEN",
+    "prix": 48,
+    "stock": 30,
+    "categorie": "chien",
+    "sousCategorie": "accessoires-chien",
+    "description": "Accessoire de promenade ou du quotidien pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/IMG-5896.jpg?v=1730039768"
+  },
+  {
+    "id": 182,
+    "nom": "COLLIER POUR CHIEN-BLEU",
+    "prix": 27.5,
+    "stock": 26,
+    "categorie": "chien",
+    "sousCategorie": "accessoires-chien",
+    "description": "Accessoire de promenade ou du quotidien pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/1_4.jpg?v=1666354288"
+  },
+  {
+    "id": 183,
+    "nom": "LAISSE AVEC COLLIER POUR GRAND CHIENS NOIR ET BLEU",
+    "prix": 32.5,
+    "stock": 20,
+    "categorie": "chien",
+    "sousCategorie": "accessoires-chien",
+    "description": "Accessoire de promenade ou du quotidien pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/Designsanstitre_39.png?v=1716293006"
+  },
+  {
+    "id": 184,
+    "nom": "FESTIN  - SHAMPOING POUR CHAT 250 ML",
+    "prix": 12,
+    "stock": 23,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/FullSizeRender_331731f2-a8e0-4ffb-bfb9-e8dd7c621872.jpg?v=1745679603"
+  },
+  {
+    "id": 185,
+    "nom": "FELICAN Shampoing Chat et Chaton 250 ML",
+    "prix": 23,
+    "stock": 22,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/3CPQ4iA5RywxNgw8vx1LOG7NYd5q0WQOQLE9JwK9.jpg?v=1725212459"
+  },
+  {
+    "id": 186,
+    "nom": "BROSSE CHAT ET CHIEN AUTO-NETTOYANTE",
+    "prix": 32.5,
+    "stock": 24,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/images_4.jpg?v=1687736477"
+  },
+  {
+    "id": 187,
+    "nom": "FELICAN - BROSSE AUTO NETTOYANTE AVEC BOUTON L",
+    "prix": 45,
+    "stock": 6,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/felican-brosse-auto-nettoyante-medium.png?v=1682809660"
+  },
+  {
+    "id": 188,
+    "nom": "BROSSE CHAT ET CHIEN AUTONETTOYANTE",
+    "prix": 28.5,
+    "stock": 12,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/IMG-5368_1a7e20af-a9bc-45c6-af7e-0e1e15c4f4d1.webp?v=1728563849"
+  },
+  {
+    "id": 189,
+    "nom": "FURMINATOR - BROSSE DOUBLE",
+    "prix": 75,
+    "stock": 10,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/fur2-08.png?v=1690298460"
+  },
+  {
+    "id": 190,
+    "nom": "ZANIMAX SHAMPOING CHAT ET CHIEN",
+    "prix": 15,
+    "stock": 12,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/1_850f67ff-77bf-4809-ba68-14829b1d502c.png?v=1750295018"
+  },
+  {
+    "id": 191,
+    "nom": "MEN FOR SAN - SHAMPOING MOUSSE A L'ALOE VERRA POUR CHAT",
+    "prix": 29.5,
+    "stock": 17,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/sham.png?v=1732401621"
+  },
+  {
+    "id": 192,
+    "nom": "MUSELIERE CHAT POUR TOILETTAGE",
+    "prix": 27,
+    "stock": 26,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/IMG-3322.webp?v=1749834202"
+  },
+  {
+    "id": 193,
+    "nom": "BROSSE CARDE MEDIUM",
+    "prix": 15,
+    "stock": 15,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/carde_recta_1.jpg?v=1762376819"
+  },
+  {
+    "id": 194,
+    "nom": "FURMINATOR OUTIL DE COLLECTE DE CHEVEUX POUR CHAT ET CHIEN",
+    "prix": 160,
+    "stock": 8,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/810kg8ChPML.jpg?v=1669895052"
+  },
+  {
+    "id": 195,
+    "nom": "FELICAN - BROSSE AUTO NETTOYANTE AVEC BOUTON M",
+    "prix": 35,
+    "stock": 30,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/felican-brosse-auto-nettoyante-medium.png?v=1682809660"
+  },
+  {
+    "id": 196,
+    "nom": "KIT TONDEUSE ELECTRIQUE POUR CHAT ET CHIEN",
+    "prix": 120,
+    "stock": 19,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/KITTONDEUSE.jpg?v=1688124490"
+  },
+  {
+    "id": 197,
+    "nom": "FURMINATOR - BROSSE POUR CHIENS ET CHATS POILS LONGS",
+    "prix": 95,
+    "stock": 25,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/furminator-brosse-pour-chiens-1.jpg?v=1714902711"
+  },
+  {
+    "id": 198,
+    "nom": "BOUTEILLE D'EAU AVEC BOL POUR CHIEN ET CHAT",
+    "prix": 17.9,
+    "stock": 6,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/61BRzDiMIUL._AC_SL1000.jpg?v=1739231061"
+  },
+  {
+    "id": 199,
+    "nom": "ZANILOVE - SHAMPOING CHAT ANTI-DÉMANGEAISON VANILLE 250 ML",
+    "prix": 11.2,
+    "stock": 16,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/6191469601700.png?v=1746298121"
+  },
+  {
+    "id": 200,
+    "nom": "BROSSE RAMASSE POILS",
+    "prix": 24,
+    "stock": 21,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/1889-large_default_68fc3e9a-42ae-4415-afb9-d800b8142d2f.jpg?v=1729784954"
+  },
+  {
+    "id": 201,
+    "nom": "BROSSE A VAPEUR AUTOMATIQUE 3 EN1",
+    "prix": 35,
+    "stock": 7,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/IMG-7125.png?v=1733765739"
+  },
+  {
+    "id": 202,
+    "nom": "MENFORSAN - Nettoyant yeux pour chien et chat 125ML",
+    "prix": 25,
+    "stock": 27,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/nettoyant-yeux-pour-chien-et-chat-125ml.png?v=1689781515"
+  },
+  {
+    "id": 203,
+    "nom": "MENFORSAN - SPRAY ANTI-STRESS POUR CHATS 125 ML",
+    "prix": 29.5,
+    "stock": 20,
+    "categorie": "chat",
+    "sousCategorie": "hygiene-sante-chat",
+    "description": "Soin ou produit d'hygiène pour le bien-être du chat. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/spray-anti-stress-pour-chat-men-for-san-125ml.webp?v=1728570998"
+  },
+  {
+    "id": 204,
+    "nom": "CHAGATÉ - BELLA - Arbre a Chat - BEIGE AVEC 2 NICHES 115CM",
+    "prix": 370,
+    "stock": 9,
+    "categorie": "chat",
+    "sousCategorie": "jouets-chat",
+    "description": "Jouet pour divertir votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/image_bcc858b4-6b48-4ca4-8814-a8d7ad106527.jpg?v=1659367520"
+  },
+  {
+    "id": 205,
+    "nom": "CHAGATÉ -  ARBRE A CHAT - SIMBA",
+    "prix": 205,
+    "stock": 30,
+    "categorie": "chat",
+    "sousCategorie": "jouets-chat",
+    "description": "Jouet pour divertir votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/WhatsAppImage2026-06-05at19.33.34.jpg?v=1780682252"
+  },
+  {
+    "id": 206,
+    "nom": "ARBRE A CHAT - FELIX EN JAUNE",
+    "prix": 380,
+    "stock": 6,
+    "categorie": "chat",
+    "sousCategorie": "jouets-chat",
+    "description": "Jouet pour divertir votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/telechargement_a2614ac0-7808-4427-a21d-5fe5ddc58c58.jpg?v=1763039090"
+  },
+  {
+    "id": 207,
+    "nom": "LASER POINTER POUR CHAT",
+    "prix": 18,
+    "stock": 24,
+    "categorie": "chat",
+    "sousCategorie": "jouets-chat",
+    "description": "Jouet pour divertir votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/C8C694EE-ADDA-416D-969B-86A3A074BE05.jpg?v=1759961543"
+  },
+  {
+    "id": 208,
+    "nom": "JOUET INTERACTIF ELECTIQUE AVEC CORDE A ROTATION AUTOMATIQUE",
+    "prix": 39,
+    "stock": 25,
+    "categorie": "chat",
+    "sousCategorie": "jouets-chat",
+    "description": "Jouet pour divertir votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/E4B753B9-667B-41E3-92E9-84ED3FFBBF39.jpg?v=1762280806"
+  },
+  {
+    "id": 209,
+    "nom": "CHAGATÉ - ARBRE A CHAT -  HAUTEUR 70CM",
+    "prix": 290,
+    "stock": 6,
+    "categorie": "chat",
+    "sousCategorie": "jouets-chat",
+    "description": "Jouet pour divertir votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/6_bc655144-d1f9-4285-9647-2afea165a243.png?v=1701823450"
+  },
+  {
+    "id": 210,
+    "nom": "GRIFFOIR UNO HAUTEUR 80 CM",
+    "prix": 98,
+    "stock": 19,
+    "categorie": "chat",
+    "sousCategorie": "jouets-chat",
+    "description": "Jouet pour divertir votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/81396f4f-928f-4fad-b5b8-20014138236d_6d8a2f27-d8b1-49b5-b8dd-99033eb53726.jpg?v=1771857377"
+  },
+  {
+    "id": 211,
+    "nom": "GRIFFOIR AVEC CHAISE SISAL 60CM",
+    "prix": 79,
+    "stock": 15,
+    "categorie": "chat",
+    "sousCategorie": "jouets-chat",
+    "description": "Jouet pour divertir votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/53fab408-9339-43b1-8380-2f3e7df460ed.jpg?v=1771859190"
+  },
+  {
+    "id": 212,
+    "nom": "ARBRE A CHAT - MULTI-LEVEL 180CM",
+    "prix": 780,
+    "stock": 11,
+    "categorie": "chat",
+    "sousCategorie": "jouets-chat",
+    "description": "Jouet pour divertir votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/CHAGATE-ARBREACHAT-MULTI-LEVEL180CM.png?v=1714134351"
+  },
+  {
+    "id": 213,
+    "nom": "NUNBELL - JOUET POUR CHAT",
+    "prix": 19.4,
+    "stock": 14,
+    "categorie": "chat",
+    "sousCategorie": "jouets-chat",
+    "description": "Jouet pour divertir votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/B69E2CFB-035C-48EA-B3D0-A6504E7D9463.jpg?v=1753458393"
+  },
+  {
+    "id": 214,
+    "nom": "Canne A Péche Avec Souris",
+    "prix": 13.7,
+    "stock": 24,
+    "categorie": "chat",
+    "sousCategorie": "jouets-chat",
+    "description": "Jouet pour divertir votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/Designsanstitre_24.png?v=1716290459"
+  },
+  {
+    "id": 215,
+    "nom": "CHAGATÉ - Griffoir Rouge Bordeau pour Chat avec Chaise - Sisal+ - 60 cm",
+    "prix": 79,
+    "stock": 28,
+    "categorie": "chat",
+    "sousCategorie": "jouets-chat",
+    "description": "Jouet pour divertir votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/CHAGATE-GriffoirRougeBordeaupourChatavecChaise-Sisal_-60cm.png?v=1713894685"
+  },
+  {
+    "id": 216,
+    "nom": "FELICAN - ARBRE A CHAT CACTUS",
+    "prix": 150,
+    "stock": 18,
+    "categorie": "chat",
+    "sousCategorie": "jouets-chat",
+    "description": "Jouet pour divertir votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/griffoires-chat-felicqn-tunisie-15.png?v=1725725999"
+  },
+  {
+    "id": 217,
+    "nom": "SOURIS EN PELUCHE AVEC CATNIP  ( Lot de 1 )",
+    "prix": 5,
+    "stock": 24,
+    "categorie": "chat",
+    "sousCategorie": "jouets-chat",
+    "description": "Jouet pour divertir votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/received_757983169302226.jpg?v=1683058955"
+  },
+  {
+    "id": 218,
+    "nom": "JOUET POUR CHAT FISHY CATNIP",
+    "prix": 25,
+    "stock": 12,
+    "categorie": "chat",
+    "sousCategorie": "jouets-chat",
+    "description": "Jouet pour divertir votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/bz-jouet-chat-05.png?v=1693763921"
+  },
+  {
+    "id": 219,
+    "nom": "BROSSE AVEC LASER",
+    "prix": 33,
+    "stock": 18,
+    "categorie": "chat",
+    "sousCategorie": "jouets-chat",
+    "description": "Jouet pour divertir votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/4_9fa9e252-f624-4e1a-8927-dab9fb3a0992.webp?v=1750168521"
+  },
+  {
+    "id": 220,
+    "nom": "CHAGATÉ - ARBRE A CHAT - BASE CARRE - VERT",
+    "prix": 42,
+    "stock": 27,
+    "categorie": "chat",
+    "sousCategorie": "jouets-chat",
+    "description": "Jouet pour divertir votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/2_2.png?v=1720262603"
+  },
+  {
+    "id": 221,
+    "nom": "CROCI - BALL TENNIS  3.8CM",
+    "prix": 6.5,
+    "stock": 25,
+    "categorie": "chat",
+    "sousCategorie": "jouets-chat",
+    "description": "Jouet pour divertir votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/8023222225251.jpg?v=1771275589"
+  },
+  {
+    "id": 222,
+    "nom": "CHAGATÉ  - MULTI-LEVEL - 210 CM",
+    "prix": 780,
+    "stock": 8,
+    "categorie": "chat",
+    "sousCategorie": "jouets-chat",
+    "description": "Jouet pour divertir votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/CHAGATE-MULTI-LEVEL-210CM.png?v=1714134818"
+  },
+  {
+    "id": 223,
+    "nom": "CHAGATÉ - Griffoir Orange avec Chaise - Sisal+ - 60 cm",
+    "prix": 79,
+    "stock": 12,
+    "categorie": "chat",
+    "sousCategorie": "jouets-chat",
+    "description": "Jouet pour divertir votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/A.png?v=1701795545"
+  },
+  {
+    "id": 224,
+    "nom": "JOUET INTERACTIF & DISTRIBUTEUR FRIANDISE",
+    "prix": 39,
+    "stock": 18,
+    "categorie": "chat",
+    "sousCategorie": "friandises-chat",
+    "description": "Friandise pour récompenser votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/New-Cat-Carousel-Leakage-Food-Ball-Pet-Teasing-Toys-to-Relieve-Boredom-Interactive-Toy-for-Cat-with-Teaser.avif?v=1765131802"
+  },
+  {
+    "id": 225,
+    "nom": "JERKY TIME - FRIANDISE SUSHI POULET&CABILLAUD 80 G",
+    "prix": 12,
+    "stock": 29,
+    "categorie": "chat",
+    "sousCategorie": "friandises-chat",
+    "description": "Friandise pour récompenser votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/wanpy-creme-poulet-514g.jpg?v=1743167772"
+  },
+  {
+    "id": 226,
+    "nom": "PURINA FELIX PARTY MIX OCEAN 200 GR",
+    "prix": 19.8,
+    "stock": 30,
+    "categorie": "chat",
+    "sousCategorie": "friandises-chat",
+    "description": "Friandise pour récompenser votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/Nouveau-projet-51.jpg?v=1766659767"
+  },
+  {
+    "id": 227,
+    "nom": "ATELIER D'ALIS LE SNACK - CHIPS DE POULET POUR MINI CHIENS & CHATS 60 GR",
+    "prix": 15.5,
+    "stock": 27,
+    "categorie": "chat",
+    "sousCategorie": "friandises-chat",
+    "description": "Friandise pour récompenser votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/friandise-alis-poulet-seche-en-chips-60g.jpg?v=1780869412"
+  },
+  {
+    "id": 228,
+    "nom": "VITAKRAFT - SNACK LIQUIDE AU POULET 6*15GR",
+    "prix": 19.8,
+    "stock": 6,
+    "categorie": "chat",
+    "sousCategorie": "friandises-chat",
+    "description": "Friandise pour récompenser votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/Capture_fabe69e1-4646-482d-9128-60fbd2e30d50.png?v=1778958086"
+  },
+  {
+    "id": 229,
+    "nom": "DREAMIES - FRIANDISES POUR CHAT 60 GR",
+    "prix": 9.5,
+    "stock": 10,
+    "categorie": "chat",
+    "sousCategorie": "friandises-chat",
+    "description": "Friandise pour récompenser votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/image.webp?v=1754487509"
+  },
+  {
+    "id": 230,
+    "nom": "CARNILOVE CHAT SNACK SAUMON 50 GR",
+    "prix": 9.1,
+    "stock": 23,
+    "categorie": "chat",
+    "sousCategorie": "friandises-chat",
+    "description": "Friandise pour récompenser votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/Sanstitre-2022-01-03T123052.400.png?v=1646847476"
+  },
+  {
+    "id": 231,
+    "nom": "SERRANO SNACK AU POULET ANTI HAIRBALL 50G",
+    "prix": 8,
+    "stock": 17,
+    "categorie": "chat",
+    "sousCategorie": "friandises-chat",
+    "description": "Friandise pour récompenser votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/8430235680104_bd89a360-6e4e-452d-a8c9-f020869b0a95.jpg?v=1766841382"
+  },
+  {
+    "id": 232,
+    "nom": "SERRANO SNACK AU SAUMON OMEGA 3 50g",
+    "prix": 8,
+    "stock": 22,
+    "categorie": "chat",
+    "sousCategorie": "friandises-chat",
+    "description": "Friandise pour récompenser votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/8430235680180_4366a699-909e-497d-98d6-db1d4e0a6eb0.jpg?v=1765207949"
+  },
+  {
+    "id": 233,
+    "nom": "COSHIDA -  STICKS Pour Chats 10 PCS",
+    "prix": 15,
+    "stock": 22,
+    "categorie": "chat",
+    "sousCategorie": "friandises-chat",
+    "description": "Friandise pour récompenser votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/Design_sans_titre_8.png?v=1742714514"
+  },
+  {
+    "id": 234,
+    "nom": "PURINA FELIX FRIANDISES 180 GR",
+    "prix": 19.8,
+    "stock": 19,
+    "categorie": "chat",
+    "sousCategorie": "friandises-chat",
+    "description": "Friandise pour récompenser votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/07613287171573_C1C1_s01.jpg?v=1772889822"
+  },
+  {
+    "id": 235,
+    "nom": "WANPY - FRIANDISE CREMEUSE 90GR",
+    "prix": 9,
+    "stock": 22,
+    "categorie": "chat",
+    "sousCategorie": "friandises-chat",
+    "description": "Friandise pour récompenser votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/IMG-0637.jpg?v=1743177771"
+  },
+  {
+    "id": 236,
+    "nom": "DREAMIES - FRIANDISES AU FROMAGE 350 GR",
+    "prix": 38.4,
+    "stock": 26,
+    "categorie": "chat",
+    "sousCategorie": "friandises-chat",
+    "description": "Friandise pour récompenser votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/6ba495bd688d387cdae4881e26395aca6ddf2bf0_1652808__3.jpg?v=1779388423"
+  },
+  {
+    "id": 237,
+    "nom": "COSHIDA -  Snack Liquide Pour Chats 7 Tubes",
+    "prix": 24.5,
+    "stock": 10,
+    "categorie": "chat",
+    "sousCategorie": "friandises-chat",
+    "description": "Friandise pour récompenser votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/74306_Schlecksnack_Katzen_PSXX_1.jpg?v=1780684390"
+  },
+  {
+    "id": 238,
+    "nom": "COSHIDA -  Snack Liquide Pour Chat : 1 Tube",
+    "prix": 3.5,
+    "stock": 11,
+    "categorie": "chat",
+    "sousCategorie": "friandises-chat",
+    "description": "Friandise pour récompenser votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/COSHIDA-SnackLiquidePourChat1Tube.png?v=1713545638"
+  },
+  {
+    "id": 239,
+    "nom": "FELIX - PARTY MIX ORIGINAL 200 GR",
+    "prix": 19.8,
+    "stock": 10,
+    "categorie": "chat",
+    "sousCategorie": "friandises-chat",
+    "description": "Friandise pour récompenser votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/felix_party_mix_original_maxi_pack_1_unidad.jpg?v=1766659332"
+  },
+  {
+    "id": 240,
+    "nom": "HAPPYDOG - SNACK SOFT POUR CHIEN 100GR",
+    "prix": 10,
+    "stock": 20,
+    "categorie": "chat",
+    "sousCategorie": "friandises-chat",
+    "description": "Friandise pour récompenser votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/JJJJJJ.jpg?v=1770400566"
+  },
+  {
+    "id": 241,
+    "nom": "OKEYPETS NOUVEAU PLATEAU TOURNANT DISTRIBUTEUR DE FRIANDISE",
+    "prix": 39,
+    "stock": 21,
+    "categorie": "chat",
+    "sousCategorie": "friandises-chat",
+    "description": "Friandise pour récompenser votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/17343366971493.webp?v=1759271687"
+  },
+  {
+    "id": 242,
+    "nom": "COSHIDA -  STICKS Pour Chats 1 PCS",
+    "prix": 2.5,
+    "stock": 29,
+    "categorie": "chat",
+    "sousCategorie": "friandises-chat",
+    "description": "Friandise pour récompenser votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/Design_sans_titre_8.png?v=1742714514"
+  },
+  {
+    "id": 243,
+    "nom": "HAPPYDOG - SNACK SOFT POUR MINI CHIEN 100GR",
+    "prix": 10,
+    "stock": 6,
+    "categorie": "chat",
+    "sousCategorie": "friandises-chat",
+    "description": "Friandise pour récompenser votre chat au quotidien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/Capture_ff438344-1256-480f-b862-a54bff064fa7.png?v=1770401650"
+  },
+  {
+    "id": 244,
+    "nom": "NICHE PRINCESS MINI",
+    "prix": 140,
+    "stock": 30,
+    "categorie": "chien",
+    "sousCategorie": "couchage-transport-chien",
+    "description": "Couchage ou solution de transport pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/IMG-9395.jpg?v=1740312940"
+  },
+  {
+    "id": 245,
+    "nom": "NICHE EN BOIS ROUGE POUR CHIEN XLARGE XLARGE : 102*92*115H",
+    "prix": 660,
+    "stock": 15,
+    "categorie": "chien",
+    "sousCategorie": "couchage-transport-chien",
+    "description": "Couchage ou solution de transport pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/IMG_0777.jpg?v=1757868724"
+  },
+  {
+    "id": 246,
+    "nom": "SKUDO CAGE DE TRANSPORT SKUDO IATA 7",
+    "prix": 527,
+    "stock": 30,
+    "categorie": "chien",
+    "sousCategorie": "couchage-transport-chien",
+    "description": "Couchage ou solution de transport pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/Design_sans_titre_2_0f52c38a-8a67-410d-8ffa-6f96c015b5e0.png?v=1743053481"
+  },
+  {
+    "id": 247,
+    "nom": "STEFANPLAST CAGE DE TRANSPORT IATA TAILLE  4  71X51X50H",
+    "prix": 269,
+    "stock": 14,
+    "categorie": "chien",
+    "sousCategorie": "couchage-transport-chien",
+    "description": "Couchage ou solution de transport pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/GULLIVER-IATA-4-senza-ruote-CON-SIMBOLO.jpg?v=1719320663"
+  },
+  {
+    "id": 248,
+    "nom": "SKUDO CAGE DE TRANSPORT SKUDO IATA 5",
+    "prix": 338,
+    "stock": 27,
+    "categorie": "chien",
+    "sousCategorie": "couchage-transport-chien",
+    "description": "Couchage ou solution de transport pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/71nmu6gEH7L._AC_SL1500.jpg?v=1738947463"
+  },
+  {
+    "id": 249,
+    "nom": "NICHE ZEUS 50 GRIS",
+    "prix": 140,
+    "stock": 29,
+    "categorie": "chien",
+    "sousCategorie": "couchage-transport-chien",
+    "description": "Couchage ou solution de transport pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/niche-multifonctions-en-plastique-taupe-zeus-50.jpg?v=1646848026"
+  },
+  {
+    "id": 250,
+    "nom": "BRACCO CAGE DE TRANSPORT IATA  TAILLE  5  81X61X60H",
+    "prix": 338,
+    "stock": 29,
+    "categorie": "chien",
+    "sousCategorie": "couchage-transport-chien",
+    "description": "Couchage ou solution de transport pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/cage-felican2-12_626ed587-9ae5-4eb7-9095-dc411702d894.png?v=1714309217"
+  },
+  {
+    "id": 251,
+    "nom": "STEFANPLAST CAGE DE TRANSPORT IATA TAILLE 6 92X64X66H",
+    "prix": 432,
+    "stock": 9,
+    "categorie": "chien",
+    "sousCategorie": "couchage-transport-chien",
+    "description": "Couchage ou solution de transport pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/GULLIVER-IATA-4-senza-ruote-CON-SIMBOLO_e5143487-3024-46d2-ab81-927bc7c51729.jpg?v=1646847422"
+  },
+  {
+    "id": 252,
+    "nom": "NICHE EN BOIS ROUGE POUR CHIEN MOYENNE: 82*72*90H",
+    "prix": 450,
+    "stock": 17,
+    "categorie": "chien",
+    "sousCategorie": "couchage-transport-chien",
+    "description": "Couchage ou solution de transport pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/1_BG_WHITE_2.png?v=1742135294"
+  },
+  {
+    "id": 253,
+    "nom": "NICHE ZEUS 70 GRIS",
+    "prix": 281.5,
+    "stock": 12,
+    "categorie": "chien",
+    "sousCategorie": "couchage-transport-chien",
+    "description": "Couchage ou solution de transport pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/NICHEZEUS70TAUPE.png?v=1714137544"
+  },
+  {
+    "id": 254,
+    "nom": "SKUDO 4 ROUE POUR CAGES  IATA 4/5/6/7",
+    "prix": 90,
+    "stock": 11,
+    "categorie": "chien",
+    "sousCategorie": "couchage-transport-chien",
+    "description": "Couchage ou solution de transport pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/Design_sans_titre_5.png?v=1743054175"
+  },
+  {
+    "id": 255,
+    "nom": "GAIA - HOUSSE DE VOITURE POUR CHIEN",
+    "prix": 75,
+    "stock": 23,
+    "categorie": "chien",
+    "sousCategorie": "couchage-transport-chien",
+    "description": "Couchage ou solution de transport pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/hero-image-64f21a34dfdf01fa1d7e537e.png?v=1693588476"
+  },
+  {
+    "id": 256,
+    "nom": "BEEZTEES - Couverture de LUXE de Voiture Pour Chien 140*120CM",
+    "prix": 78,
+    "stock": 29,
+    "categorie": "chien",
+    "sousCategorie": "couchage-transport-chien",
+    "description": "Couchage ou solution de transport pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/BZ705208.jpg?v=1723367486"
+  },
+  {
+    "id": 257,
+    "nom": "STEFANPLAST CAGE DE TRANSPORT IATA TAILLE 7 102X72X76H",
+    "prix": 529.5,
+    "stock": 5,
+    "categorie": "chien",
+    "sousCategorie": "couchage-transport-chien",
+    "description": "Couchage ou solution de transport pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/GULLIVER-IATA-4-senza-ruote-CON-SIMBOLO_b7a6c43c-44fa-408c-8b89-2ce0e8000bf1.jpg?v=1646847430"
+  },
+  {
+    "id": 258,
+    "nom": "BRACCO CAGE DE TRANSPORT IATA  TAILLE 6 92*64*66h",
+    "prix": 400,
+    "stock": 5,
+    "categorie": "chien",
+    "sousCategorie": "couchage-transport-chien",
+    "description": "Couchage ou solution de transport pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/bergamo-transportadora-bracco-travel-sprint_3.jpg?v=1714310046"
+  },
+  {
+    "id": 259,
+    "nom": "NICHE EN BOIS ROUGE POUR CHIEN",
+    "prix": 220,
+    "stock": 22,
+    "categorie": "chien",
+    "sousCategorie": "couchage-transport-chien",
+    "description": "Couchage ou solution de transport pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/1_BG_WHITE_2.png?v=1742135294"
+  },
+  {
+    "id": 260,
+    "nom": "SIEGE D'APPOINT DE VOITURE",
+    "prix": 80,
+    "stock": 28,
+    "categorie": "chien",
+    "sousCategorie": "couchage-transport-chien",
+    "description": "Couchage ou solution de transport pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/71CfDZU9cyL._AC_SL1001.jpg?v=1760269309"
+  },
+  {
+    "id": 261,
+    "nom": "CAGE DE TRANSPORT IATA TAILLE  5  81X61X60H",
+    "prix": 338,
+    "stock": 23,
+    "categorie": "chien",
+    "sousCategorie": "couchage-transport-chien",
+    "description": "Couchage ou solution de transport pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/GULLIVER-IATA-4-senza-ruote-CON-SIMBOLO_a1fcc7f5-202e-42ac-b220-ca328333291d.jpg?v=1647337300"
+  },
+  {
+    "id": 262,
+    "nom": "FELICAN - NICHE ECO 3 PRINT BEIGE AVEC TOIT MARRON",
+    "prix": 420,
+    "stock": 19,
+    "categorie": "chien",
+    "sousCategorie": "couchage-transport-chien",
+    "description": "Couchage ou solution de transport pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/FELICAN-NICHEECO3PRINTBEIGEAVECTOITMARRON.png?v=1714138004"
+  },
+  {
+    "id": 263,
+    "nom": "TAPIS VOITURE 1 PLACE",
+    "prix": 46,
+    "stock": 10,
+    "categorie": "chien",
+    "sousCategorie": "couchage-transport-chien",
+    "description": "Couchage ou solution de transport pour chien. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/6191469609744.jpg?v=1734968499"
+  },
+  {
+    "id": 264,
+    "nom": "SAVIC - CAGE HAMSTER",
+    "prix": 177.5,
+    "stock": 17,
+    "categorie": "rongeur",
+    "sousCategorie": "litieres-accessoires-rongeur",
+    "description": "Litière ou accessoire pour la cage du rongeur ou du lapin. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/01435238.5411388506308.51759.40069568.jpg?v=1710677502"
+  },
+  {
+    "id": 265,
+    "nom": "FELICAN - BROSSE CARDE  \"M\" MANCHE BOIS",
+    "prix": 20,
+    "stock": 27,
+    "categorie": "oiseau",
+    "sousCategorie": "hygiene-sante-oiseau",
+    "description": "Complément ou soin pour la vitalité des oiseaux. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/files/variantimage1Chiens-pilateur-brosse-pour-animaux-de-compagnie-chat-toilettage-brosse-bois-chiot-grand-chien-peignes-pour_1_1200x1200_52929eae-9e7a-4dea-bf16-6297f78c7bda.jpg?v=1682810034"
+  },
+  {
+    "id": 266,
+    "nom": "IMAC CAGE RONGEURS FANTASY BLANC/FUSHIA",
+    "prix": 149.5,
+    "stock": 7,
+    "categorie": "oiseau",
+    "sousCategorie": "cages-accessoires-oiseau",
+    "description": "Accessoire pour la cage : jouet, perchoir ou mangeoire pour le confort des oiseaux. (Gamme Zanimax.)",
+    "image": "https://cdn.shopify.com/s/files/1/0609/8288/6630/products/cage-rongeurs-fantasy-blanc-fushia.jpg?v=1670422721"
+  }
+]

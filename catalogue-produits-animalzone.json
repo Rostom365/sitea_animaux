@@ -1,0 +1,842 @@
+[
+  {
+    "id": 1,
+    "nom": "Canaris 1kg",
+    "prix": 14,
+    "stock": 13,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/4545-home_default/canaris-1kg.webp"
+  },
+  {
+    "id": 2,
+    "nom": "Perruches 1kg",
+    "prix": 12,
+    "stock": 29,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/4547-home_default/perruches-1kg.webp"
+  },
+  {
+    "id": 3,
+    "nom": "Jouet Perroquet Corde de jeu inséparable en bois naturel 42 cm",
+    "prix": 50,
+    "stock": 7,
+    "categorie": "oiseau",
+    "sousCategorie": "cages-accessoires-oiseau",
+    "description": "Accessoire pour la cage : jouet, perchoir ou mangeoire pour le confort des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/5045-home_default/corde-en-cotton-avec-lettre-pour-oiseaux-35x8-cm-3.webp"
+  },
+  {
+    "id": 4,
+    "nom": "Deli Nature Birdelicious Perroquets Serengeti 750 g",
+    "prix": 17,
+    "stock": 6,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/5774-home_default/deli-nature-birdelicious-perroquets-serengeti-750-g.webp"
+  },
+  {
+    "id": 5,
+    "nom": "Deli Nature Birdelicious Perroquets Serengeti 2 Kg",
+    "prix": 40,
+    "stock": 23,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/5778-home_default/deli-nature-birdelicious-perroquets-serengeti-2-kg.webp"
+  },
+  {
+    "id": 6,
+    "nom": "Deli Nature Premium Perroquets 3 kg",
+    "prix": 50,
+    "stock": 30,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/5781-home_default/deli-nature-premium-perroquets-3-kg.webp"
+  },
+  {
+    "id": 7,
+    "nom": "Deli Nature Birdelicious Chardonneret Light 750 g",
+    "prix": 24,
+    "stock": 10,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/5785-home_default/deli-nature-birdelicious-chardonneret-light-750-g.webp"
+  },
+  {
+    "id": 8,
+    "nom": "Mangeoire-Abreuvoir en Plastique Bleu pour Petits Oiseaux – Avec Couvercle",
+    "prix": 3,
+    "stock": 16,
+    "categorie": "oiseau",
+    "sousCategorie": "cages-accessoires-oiseau",
+    "description": "Accessoire pour la cage : jouet, perchoir ou mangeoire pour le confort des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6283-home_default/mangeoire-abreuvoir-en-plastique-bleu-pour-petits-oiseaux-avec-couvercle.webp"
+  },
+  {
+    "id": 9,
+    "nom": "Perchoir en Plastique pour Oiseaux – 29 cm",
+    "prix": 1.7,
+    "stock": 15,
+    "categorie": "oiseau",
+    "sousCategorie": "cages-accessoires-oiseau",
+    "description": "Accessoire pour la cage : jouet, perchoir ou mangeoire pour le confort des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6285-home_default/perchoir-en-plastique-pour-oiseaux-29-cm.webp"
+  },
+  {
+    "id": 10,
+    "nom": "Perchoir en Plastique pour Oiseaux – 20 cm",
+    "prix": 1.5,
+    "stock": 8,
+    "categorie": "oiseau",
+    "sousCategorie": "cages-accessoires-oiseau",
+    "description": "Accessoire pour la cage : jouet, perchoir ou mangeoire pour le confort des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6288-home_default/perchoir-en-plastique-pour-oiseaux-20-cm.webp"
+  },
+  {
+    "id": 11,
+    "nom": "Abreuvoir fontaine oiseaux à bec",
+    "prix": 3,
+    "stock": 28,
+    "categorie": "oiseau",
+    "sousCategorie": "cages-accessoires-oiseau",
+    "description": "Accessoire pour la cage : jouet, perchoir ou mangeoire pour le confort des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6292-home_default/abreuvoir-fontaine-oiseaux-a-bec-.webp"
+  },
+  {
+    "id": 12,
+    "nom": "Calcimax Oiseaux 500 gr",
+    "prix": 48.5,
+    "stock": 30,
+    "categorie": "oiseau",
+    "sousCategorie": "hygiene-sante-oiseau",
+    "description": "Complément ou soin pour la vitalité des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6343-home_default/calcimax-oiseaux-500-gr.webp"
+  },
+  {
+    "id": 13,
+    "nom": "Deli Nature Grit 1.2 kg",
+    "prix": 21,
+    "stock": 13,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6969-home_default/deli-nature-grit-12-kg.webp"
+  },
+  {
+    "id": 14,
+    "nom": "Deli Nature Pâtée aux Fruits 1 kg",
+    "prix": 21,
+    "stock": 11,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6977-home_default/deli-nature-patee-aux-fruits-1-kg.webp"
+  },
+  {
+    "id": 15,
+    "nom": "Deli Nature Vitamino+ 250gr",
+    "prix": 50,
+    "stock": 13,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/7120-home_default/deli-nature-vitamino.webp"
+  },
+  {
+    "id": 16,
+    "nom": "Deli Nature Calcio+ 500gr",
+    "prix": 80,
+    "stock": 19,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/7124-home_default/deli-nature-calcio-500gr.webp"
+  },
+  {
+    "id": 17,
+    "nom": "Toniplus Beta-Carotene 50g",
+    "prix": 28,
+    "stock": 7,
+    "categorie": "oiseau",
+    "sousCategorie": "hygiene-sante-oiseau",
+    "description": "Complément ou soin pour la vitalité des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/7278-home_default/toniplus-beta-carotene-50g.webp"
+  },
+  {
+    "id": 18,
+    "nom": "Antiparasite Oiseaux 100ml",
+    "prix": 11,
+    "stock": 14,
+    "categorie": "oiseau",
+    "sousCategorie": "hygiene-sante-oiseau",
+    "description": "Solution antiparasitaire pour la protection des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/2910-home_default/antiparasite-oiseaux-100ml.webp"
+  },
+  {
+    "id": 19,
+    "nom": "Oiseaux Exotiques Elevage 1 Kg",
+    "prix": 12,
+    "stock": 29,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/4539-home_default/oiseaux-exotiques-elevage-1-kg.webp"
+  },
+  {
+    "id": 20,
+    "nom": "Perroquets 1kg",
+    "prix": 18,
+    "stock": 18,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/4541-home_default/perroquets-1kg.webp"
+  },
+  {
+    "id": 21,
+    "nom": "Oiseaux Exotiques Elevage 4 Kg",
+    "prix": 45,
+    "stock": 11,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/4542-home_default/oiseaux-exotiques-elevage-4-kg.webp"
+  },
+  {
+    "id": 22,
+    "nom": "Perroquets 3kg",
+    "prix": 45,
+    "stock": 21,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/4543-home_default/perroquets-3kg.webp"
+  },
+  {
+    "id": 23,
+    "nom": "Grandes Perruches 1kg",
+    "prix": 12,
+    "stock": 24,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/4752-home_default/grandes-perruches-1kg.webp"
+  },
+  {
+    "id": 24,
+    "nom": "Jouet perruche et perroquet corde d'escalade 4 noeuds",
+    "prix": 30,
+    "stock": 26,
+    "categorie": "oiseau",
+    "sousCategorie": "cages-accessoires-oiseau",
+    "description": "Accessoire pour la cage : jouet, perchoir ou mangeoire pour le confort des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/5039-home_default/jouet-perroquet-corde-d-escalade-4-noeuds.webp"
+  },
+  {
+    "id": 25,
+    "nom": "Corde en cotton avec lettre pour oiseaux 35x8 cm",
+    "prix": 40,
+    "stock": 10,
+    "categorie": "oiseau",
+    "sousCategorie": "cages-accessoires-oiseau",
+    "description": "Accessoire pour la cage : jouet, perchoir ou mangeoire pour le confort des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/5041-home_default/corde-en-cotton-avec-lettre-pour-oiseaux-35x8-cm.webp"
+  },
+  {
+    "id": 26,
+    "nom": "Jouet Arbre à trapèze Forest perruches ou perroquets 48 cm",
+    "prix": 25,
+    "stock": 6,
+    "categorie": "oiseau",
+    "sousCategorie": "cages-accessoires-oiseau",
+    "description": "Accessoire pour la cage : jouet, perchoir ou mangeoire pour le confort des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/5043-home_default/corde-en-cotton-avec-lettre-pour-oiseaux-35x8-cm-2.webp"
+  },
+  {
+    "id": 27,
+    "nom": "Jouet de tour pour perroquet 20 cm",
+    "prix": 35,
+    "stock": 11,
+    "categorie": "oiseau",
+    "sousCategorie": "cages-accessoires-oiseau",
+    "description": "Accessoire pour la cage : jouet, perchoir ou mangeoire pour le confort des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/5047-home_default/jouet-de-tour-pour-perroquet-20-cm.webp"
+  },
+  {
+    "id": 28,
+    "nom": "Beeztees Jouet pour perroquet Balto 47 cm",
+    "prix": 70,
+    "stock": 18,
+    "categorie": "oiseau",
+    "sousCategorie": "cages-accessoires-oiseau",
+    "description": "Accessoire pour la cage : jouet, perchoir ou mangeoire pour le confort des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/5049-home_default/beeztees-jouet-pour-perroquet-balto-47-cm.webp"
+  },
+  {
+    "id": 29,
+    "nom": "Jouet Perroquet Échelle Balançoire Hinto 36 cm",
+    "prix": 30,
+    "stock": 15,
+    "categorie": "oiseau",
+    "sousCategorie": "cages-accessoires-oiseau",
+    "description": "Accessoire pour la cage : jouet, perchoir ou mangeoire pour le confort des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/5051-home_default/jouet-perroquet-echelle-balancoire-hinto-36-cm.webp"
+  },
+  {
+    "id": 30,
+    "nom": "Toniplus Multivitamines Oiseaux 50g",
+    "prix": 29.7,
+    "stock": 13,
+    "categorie": "oiseau",
+    "sousCategorie": "hygiene-sante-oiseau",
+    "description": "Complément ou soin pour la vitalité des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/5158-home_default/oiseaux-exotiques-elevage-1-kg-2.webp"
+  },
+  {
+    "id": 31,
+    "nom": "Calcimax Oiseaux 100 gr",
+    "prix": 10,
+    "stock": 24,
+    "categorie": "oiseau",
+    "sousCategorie": "hygiene-sante-oiseau",
+    "description": "Complément ou soin pour la vitalité des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/5160-home_default/oiseaux-exotiques-elevage-1-kg-3.webp"
+  },
+  {
+    "id": 32,
+    "nom": "Deli Nature Premium Canaris 1 kg",
+    "prix": 17,
+    "stock": 18,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/5754-home_default/deli-nature-premium-canaris-1-kg.webp"
+  },
+  {
+    "id": 33,
+    "nom": "Deli Nature Premium Grandes Perruches 1 kg",
+    "prix": 17,
+    "stock": 9,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/5758-home_default/deli-nature-premium-grandes-perruches-1-kg.webp"
+  },
+  {
+    "id": 34,
+    "nom": "Deli Nature Premium Perruches 1 kg",
+    "prix": 17,
+    "stock": 15,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/5762-home_default/deli-nature-premium-perruches-1-kg.webp"
+  },
+  {
+    "id": 35,
+    "nom": "Deli Nature Premium Agapornis 1 kg",
+    "prix": 17,
+    "stock": 15,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/5766-home_default/deli-nature-premium-agapornis-1-kg.webp"
+  },
+  {
+    "id": 36,
+    "nom": "Deli Nature Premium Perroquets 800 g",
+    "prix": 17,
+    "stock": 11,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/5770-home_default/deli-nature-premium-perroquets-800-g.webp"
+  },
+  {
+    "id": 37,
+    "nom": "Deli Nature Aves Cultura Chardonneret Light 2 kg",
+    "prix": 50,
+    "stock": 19,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/5788-home_default/deli-nature-aves-cultura-chardonneret-light-2-kg.webp"
+  },
+  {
+    "id": 38,
+    "nom": "Toniplus Spiruline pour Oiseaux - 50 g",
+    "prix": 25.3,
+    "stock": 28,
+    "categorie": "oiseau",
+    "sousCategorie": "hygiene-sante-oiseau",
+    "description": "Complément ou soin pour la vitalité des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6192-home_default/toniplus-spiruline-pour-oiseaux-50-g.webp"
+  },
+  {
+    "id": 39,
+    "nom": "Abreuvoir fontaine oiseaux à bec (2)",
+    "prix": 3.5,
+    "stock": 12,
+    "categorie": "oiseau",
+    "sousCategorie": "cages-accessoires-oiseau",
+    "description": "Accessoire pour la cage : jouet, perchoir ou mangeoire pour le confort des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6296-home_default/abreuvoir-fontaine-oiseaux-a-bec.webp"
+  },
+  {
+    "id": 40,
+    "nom": "Mangeoire Suspendue pour Perroquets – Contenant à Fruits et Œufs",
+    "prix": 3,
+    "stock": 30,
+    "categorie": "oiseau",
+    "sousCategorie": "cages-accessoires-oiseau",
+    "description": "Accessoire pour la cage : jouet, perchoir ou mangeoire pour le confort des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6300-home_default/mangeoire-suspendue-pour-perroquets-contenant-a-fruits-et-oeufs.webp"
+  },
+  {
+    "id": 41,
+    "nom": "Balançoire en Plastique pour Oiseaux 14 x 13.5 cm",
+    "prix": 4,
+    "stock": 29,
+    "categorie": "oiseau",
+    "sousCategorie": "cages-accessoires-oiseau",
+    "description": "Accessoire pour la cage : jouet, perchoir ou mangeoire pour le confort des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6305-home_default/balancoire-en-plastique-pour-oiseaux-14-x-135-cm.webp"
+  },
+  {
+    "id": 42,
+    "nom": "Spray Naturel Anti-Insectes pour Oiseaux 250ml",
+    "prix": 29,
+    "stock": 25,
+    "categorie": "oiseau",
+    "sousCategorie": "hygiene-sante-oiseau",
+    "description": "Spray d'entretien pour la santé et l'hygiène des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6413-home_default/spray-naturel-anti-insectes-pour-oiseaux-250ml.webp"
+  },
+  {
+    "id": 43,
+    "nom": "Deli Nature Start+ High Protein 500gr",
+    "prix": 63,
+    "stock": 26,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6965-home_default/deli-nature-start-high-protein-500gr.webp"
+  },
+  {
+    "id": 44,
+    "nom": "Deli Nature Pâtée d'Élevage Bianco Grasse 1 kg",
+    "prix": 21,
+    "stock": 8,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6973-home_default/deli-nature-patee-d-elevage-bianco-grasse-1-kg.webp"
+  },
+  {
+    "id": 45,
+    "nom": "Deli Nature Pâtée aux Œufs Rouge Grasse 1kg",
+    "prix": 21,
+    "stock": 18,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/7115-home_default/deli-nature-patee-aux-oeufs-rouge-grasse1kg.webp"
+  },
+  {
+    "id": 46,
+    "nom": "Deli Nature Pâtée aux Œufs Grandes Perruches & Perroquets Grasse 800gr",
+    "prix": 25,
+    "stock": 9,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/7128-home_default/-deli-nature-patee-aux-oeufs-grandes-perruches-perroquets-grasse-1kg.webp"
+  },
+  {
+    "id": 47,
+    "nom": "Protéine Power 500",
+    "prix": 52.8,
+    "stock": 28,
+    "categorie": "oiseau",
+    "sousCategorie": "alimentation-oiseau",
+    "description": "Mélange de graines ou pâtée pour l'alimentation quotidienne des oiseaux. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/7276-home_default/proteine-power-500.webp"
+  },
+  {
+    "id": 48,
+    "nom": "Tetra Pond Sticks 1L",
+    "prix": 28,
+    "stock": 11,
+    "categorie": "poisson",
+    "sousCategorie": "alimentation-poisson",
+    "description": "Nourriture pour poissons d'aquarium, adaptée à un usage quotidien ou occasionnel. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6866-home_default/tetra-pond-sticks-1l.webp"
+  },
+  {
+    "id": 49,
+    "nom": "TetraMin Flakes 100ml",
+    "prix": 11,
+    "stock": 6,
+    "categorie": "poisson",
+    "sousCategorie": "alimentation-poisson",
+    "description": "Nourriture pour poissons d'aquarium, adaptée à un usage quotidien ou occasionnel. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/4148-home_default/tetramin-flakes-100ml.webp"
+  },
+  {
+    "id": 50,
+    "nom": "Tetra PRO Energy Multi-Crisps",
+    "prix": 5,
+    "stock": 13,
+    "categorie": "poisson",
+    "sousCategorie": "alimentation-poisson",
+    "description": "Nourriture pour poissons d'aquarium, adaptée à un usage quotidien ou occasionnel. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/4154-home_default/tetrapro-energy-multi-crisps.webp"
+  },
+  {
+    "id": 51,
+    "nom": "Tetra Holiday 30gr",
+    "prix": 15,
+    "stock": 6,
+    "categorie": "poisson",
+    "sousCategorie": "alimentation-poisson",
+    "description": "Nourriture pour poissons d'aquarium, adaptée à un usage quotidien ou occasionnel. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/4156-home_default/tetra-holiday-30gr.webp"
+  },
+  {
+    "id": 52,
+    "nom": "Tetra Pond Koi Sticks 1L",
+    "prix": 40,
+    "stock": 30,
+    "categorie": "poisson",
+    "sousCategorie": "alimentation-poisson",
+    "description": "Nourriture pour poissons d'aquarium, adaptée à un usage quotidien ou occasionnel. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6870-home_default/tetra-pond-koi-sticks-1l.webp"
+  },
+  {
+    "id": 53,
+    "nom": "Tetra FreshDelica Daphnia 48g",
+    "prix": 25,
+    "stock": 6,
+    "categorie": "poisson",
+    "sousCategorie": "alimentation-poisson",
+    "description": "Nourriture pour poissons d'aquarium, adaptée à un usage quotidien ou occasionnel. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6872-home_default/tetra-freshdelica-daphnia-48g.webp"
+  },
+  {
+    "id": 54,
+    "nom": "Tetra FreshDelica Bloodworms 48g",
+    "prix": 25,
+    "stock": 27,
+    "categorie": "poisson",
+    "sousCategorie": "alimentation-poisson",
+    "description": "Nourriture pour poissons d'aquarium, adaptée à un usage quotidien ou occasionnel. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6874-home_default/tetra-freshdelica-bloodworms-48g.webp"
+  },
+  {
+    "id": 55,
+    "nom": "TetraPRO Algae Multi-Crisps 12g",
+    "prix": 5,
+    "stock": 11,
+    "categorie": "poisson",
+    "sousCategorie": "alimentation-poisson",
+    "description": "Nourriture pour poissons d'aquarium, adaptée à un usage quotidien ou occasionnel. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6876-home_default/tetrapro-algae-multi-crisps-12g.webp"
+  },
+  {
+    "id": 56,
+    "nom": "Tetra FunTips Tablets 20",
+    "prix": 12,
+    "stock": 23,
+    "categorie": "poisson",
+    "sousCategorie": "alimentation-poisson",
+    "description": "Nourriture pour poissons d'aquarium, adaptée à un usage quotidien ou occasionnel. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6880-home_default/tetra-funtips-tablets-20.webp"
+  },
+  {
+    "id": 57,
+    "nom": "TetraMin Junior 100ml",
+    "prix": 15,
+    "stock": 22,
+    "categorie": "poisson",
+    "sousCategorie": "alimentation-poisson",
+    "description": "Nourriture pour poissons d'aquarium, adaptée à un usage quotidien ou occasionnel. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6885-home_default/tetramin-junior-100ml.webp"
+  },
+  {
+    "id": 58,
+    "nom": "TetraMin Crisps 12g",
+    "prix": 5,
+    "stock": 23,
+    "categorie": "poisson",
+    "sousCategorie": "alimentation-poisson",
+    "description": "Nourriture pour poissons d'aquarium, adaptée à un usage quotidien ou occasionnel. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6899-home_default/tetramin-crisps-12g.webp"
+  },
+  {
+    "id": 59,
+    "nom": "TetraMin Crisps 100ml",
+    "prix": 15,
+    "stock": 19,
+    "categorie": "poisson",
+    "sousCategorie": "alimentation-poisson",
+    "description": "Nourriture pour poissons d'aquarium, adaptée à un usage quotidien ou occasionnel. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6901-home_default/tetramin-crisps-100ml.webp"
+  },
+  {
+    "id": 60,
+    "nom": "TetraMin Granules 15g",
+    "prix": 5,
+    "stock": 18,
+    "categorie": "poisson",
+    "sousCategorie": "alimentation-poisson",
+    "description": "Nourriture pour poissons d'aquarium, adaptée à un usage quotidien ou occasionnel. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6903-home_default/tetramin-granules-15g.webp"
+  },
+  {
+    "id": 61,
+    "nom": "Tetra Betta Larva Sticks 5g",
+    "prix": 10,
+    "stock": 10,
+    "categorie": "poisson",
+    "sousCategorie": "alimentation-poisson",
+    "description": "Nourriture pour poissons d'aquarium, adaptée à un usage quotidien ou occasionnel. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6905-home_default/tetra-betta-larva-sticks-5g.webp"
+  },
+  {
+    "id": 62,
+    "nom": "Tetra Betta Granules 5g",
+    "prix": 8,
+    "stock": 30,
+    "categorie": "poisson",
+    "sousCategorie": "alimentation-poisson",
+    "description": "Nourriture pour poissons d'aquarium, adaptée à un usage quotidien ou occasionnel. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6907-home_default/tetra-betta-granules-5g.webp"
+  },
+  {
+    "id": 63,
+    "nom": "Tetra Discus Granules 15g",
+    "prix": 5,
+    "stock": 13,
+    "categorie": "poisson",
+    "sousCategorie": "alimentation-poisson",
+    "description": "Nourriture pour poissons d'aquarium, adaptée à un usage quotidien ou occasionnel. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6909-home_default/tetra-discus-granules-15g.webp"
+  },
+  {
+    "id": 64,
+    "nom": "Tetra Goldfish Flakes 12 gr",
+    "prix": 5,
+    "stock": 24,
+    "categorie": "poisson",
+    "sousCategorie": "alimentation-poisson",
+    "description": "Nourriture pour poissons d'aquarium, adaptée à un usage quotidien ou occasionnel. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6913-home_default/tetra-goldfish-flakes-12-gr.webp"
+  },
+  {
+    "id": 65,
+    "nom": "TetraMin Flakes 250ml",
+    "prix": 24,
+    "stock": 17,
+    "categorie": "poisson",
+    "sousCategorie": "alimentation-poisson",
+    "description": "Nourriture pour poissons d'aquarium, adaptée à un usage quotidien ou occasionnel. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/4150-home_default/tetramin-flakes-250ml.webp"
+  },
+  {
+    "id": 66,
+    "nom": "Tetra Delica Brine Shrimps 100ml",
+    "prix": 25,
+    "stock": 17,
+    "categorie": "poisson",
+    "sousCategorie": "alimentation-poisson",
+    "description": "Nourriture pour poissons d'aquarium, adaptée à un usage quotidien ou occasionnel. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/4152-home_default/tetra-delica-brine-shrimps-100ml.webp"
+  },
+  {
+    "id": 67,
+    "nom": "Tetra Min Flakes 12 Gr",
+    "prix": 4,
+    "stock": 22,
+    "categorie": "poisson",
+    "sousCategorie": "alimentation-poisson",
+    "description": "Nourriture pour poissons d'aquarium, adaptée à un usage quotidien ou occasionnel. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/4712-home_default/tetra-min-flakes-12-gr.webp"
+  },
+  {
+    "id": 68,
+    "nom": "TetraPRO Energy Multi-Crisps 100ml",
+    "prix": 15,
+    "stock": 5,
+    "categorie": "poisson",
+    "sousCategorie": "alimentation-poisson",
+    "description": "Nourriture pour poissons d'aquarium, adaptée à un usage quotidien ou occasionnel. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6868-home_default/tetrapro-energy-multi-crisps-100ml.webp"
+  },
+  {
+    "id": 69,
+    "nom": "Tetra Goldfish Flakes 100ml",
+    "prix": 9,
+    "stock": 12,
+    "categorie": "poisson",
+    "sousCategorie": "alimentation-poisson",
+    "description": "Nourriture pour poissons d'aquarium, adaptée à un usage quotidien ou occasionnel. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6878-home_default/tetra-goldfish-flakes-100ml.webp"
+  },
+  {
+    "id": 70,
+    "nom": "Tetra Wafer Mix 15g",
+    "prix": 5,
+    "stock": 16,
+    "categorie": "poisson",
+    "sousCategorie": "alimentation-poisson",
+    "description": "Nourriture pour poissons d'aquarium, adaptée à un usage quotidien ou occasionnel. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6883-home_default/tetra-wafer-mix-15g.webp"
+  },
+  {
+    "id": 71,
+    "nom": "TetraMin Mini Granules 100ml",
+    "prix": 15,
+    "stock": 21,
+    "categorie": "poisson",
+    "sousCategorie": "alimentation-poisson",
+    "description": "Nourriture pour poissons d'aquarium, adaptée à un usage quotidien ou occasionnel. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6887-home_default/tetramin-mini-granules-100ml.webp"
+  },
+  {
+    "id": 72,
+    "nom": "Tetra Rubin Flakes 12g",
+    "prix": 5,
+    "stock": 14,
+    "categorie": "poisson",
+    "sousCategorie": "alimentation-poisson",
+    "description": "Nourriture pour poissons d'aquarium, adaptée à un usage quotidien ou occasionnel. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6911-home_default/tetra-rubin-flakes-12g.webp"
+  },
+  {
+    "id": 73,
+    "nom": "Jouet Balle Exercise Hamster / Souris",
+    "prix": 25,
+    "stock": 17,
+    "categorie": "rongeur",
+    "sousCategorie": "litieres-accessoires-rongeur",
+    "description": "Jouet pour stimuler et divertir hamsters, souris et autres rongeurs. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/5065-home_default/jouet-balle-execise-hamster-souris.webp"
+  },
+  {
+    "id": 74,
+    "nom": "Harnais Comfort Large pour Lapin",
+    "prix": 38,
+    "stock": 11,
+    "categorie": "rongeur",
+    "sousCategorie": "litieres-accessoires-rongeur",
+    "description": "Harnais pour promener son lapin en toute sécurité. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/5074-home_default/harnais-nylon-pour-lapin-2.webp"
+  },
+  {
+    "id": 75,
+    "nom": "Harnais Comfort X Large pour Lapin",
+    "prix": 42,
+    "stock": 16,
+    "categorie": "rongeur",
+    "sousCategorie": "litieres-accessoires-rongeur",
+    "description": "Harnais pour promener son lapin en toute sécurité. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/5075-home_default/harnais-comfort-x-large-pour-lapin.webp"
+  },
+  {
+    "id": 76,
+    "nom": "Imac Baggy Cage de Transport 36x25x29cm",
+    "prix": 37,
+    "stock": 16,
+    "categorie": "rongeur",
+    "sousCategorie": "litieres-accessoires-rongeur",
+    "description": "Cage spacieuse pour loger confortablement un lapin ou un rongeur. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/5671-home_default/carry-sport-porte-plastique-rouge-2.webp"
+  },
+  {
+    "id": 77,
+    "nom": "Lit Écologique Choochée 15L",
+    "prix": 29.9,
+    "stock": 9,
+    "categorie": "rongeur",
+    "sousCategorie": "litieres-accessoires-rongeur",
+    "description": "Litière absorbante pour la cage du rongeur. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/4859-home_default/lit-ecologique-chooche-15l.webp"
+  },
+  {
+    "id": 78,
+    "nom": "Jouet Balle Premium Transparent Hamster / Souris 12,5cm",
+    "prix": 35,
+    "stock": 24,
+    "categorie": "rongeur",
+    "sousCategorie": "litieres-accessoires-rongeur",
+    "description": "Jouet pour stimuler et divertir hamsters, souris et autres rongeurs. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/5068-home_default/jouet-balle-premium-transparent-hamster-souris-125cm.webp"
+  },
+  {
+    "id": 79,
+    "nom": "Harnais Nylon pour Lapin",
+    "prix": 25,
+    "stock": 12,
+    "categorie": "rongeur",
+    "sousCategorie": "litieres-accessoires-rongeur",
+    "description": "Harnais pour promener son lapin en toute sécurité. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/5072-home_default/harnais-nylon-pour-lapin.webp"
+  },
+  {
+    "id": 80,
+    "nom": "Record Mini Jouet Hamster Piccolo Diam 12,5cm",
+    "prix": 35,
+    "stock": 7,
+    "categorie": "rongeur",
+    "sousCategorie": "litieres-accessoires-rongeur",
+    "description": "Jouet pour stimuler et divertir hamsters, souris et autres rongeurs. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/5101-home_default/record-mini-jouet-hamster-piccolo-diam-125cm.webp"
+  },
+  {
+    "id": 81,
+    "nom": "Bioline Ear Care Soin pour les Oreilles 50ml",
+    "prix": 17,
+    "stock": 28,
+    "categorie": "rongeur",
+    "sousCategorie": "hygiene-sante-rongeur",
+    "description": "Soin nettoyant pour l'hygiène quotidienne du rongeur ou du lapin. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6547-home_default/bioline-ear-care-soin-pour-les-oreilles-50ml.webp"
+  },
+  {
+    "id": 82,
+    "nom": "Bioline Eye Care Soins pour les Yeux 50ml",
+    "prix": 17,
+    "stock": 12,
+    "categorie": "rongeur",
+    "sousCategorie": "hygiene-sante-rongeur",
+    "description": "Soin nettoyant pour l'hygiène quotidienne du rongeur ou du lapin. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6551-home_default/bioline-eye-care-soins-pour-les-yeux-50ml.webp"
+  },
+  {
+    "id": 83,
+    "nom": "Cage Lapin Baldo Mocha 120x59x46",
+    "prix": 280,
+    "stock": 17,
+    "categorie": "rongeur",
+    "sousCategorie": "litieres-accessoires-rongeur",
+    "description": "Cage spacieuse pour loger confortablement un lapin ou un rongeur. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6631-home_default/cage-lapin-baldo-mocha-120x59x46.webp"
+  },
+  {
+    "id": 84,
+    "nom": "Cage Lapin Baldo Mocha 140x68x43",
+    "prix": 480,
+    "stock": 17,
+    "categorie": "rongeur",
+    "sousCategorie": "litieres-accessoires-rongeur",
+    "description": "Cage spacieuse pour loger confortablement un lapin ou un rongeur. (Gamme Animal Zone.)",
+    "image": "https://animalzone.tn/6632-home_default/-cage-lapin-baldo-mocha-140x68x43-.webp"
+  }
+]

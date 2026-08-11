@@ -1,0 +1,142 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with warm gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF8F0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F5F0E8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="400" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Dog (bottom left) -->
+  <g transform="translate(80, 240)">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="35" fill="#8B6F47"/>
+    <!-- Left ear -->
+    <ellipse cx="-25" cy="-30" rx="12" ry="25" fill="#654321"/>
+    <!-- Right ear -->
+    <ellipse cx="25" cy="-30" rx="12" ry="25" fill="#654321"/>
+    <!-- Snout -->
+    <ellipse cx="0" cy="12" rx="20" ry="18" fill="#A0826D"/>
+    <!-- Nose -->
+    <circle cx="0" cy="12" r="6" fill="#2C2C2C"/>
+    <!-- Eyes -->
+    <circle cx="-12" cy="-8" r="5" fill="#2C2C2C"/>
+    <circle cx="12" cy="-8" r="5" fill="#2C2C2C"/>
+    <!-- Eye shine -->
+    <circle cx="-11" cy="-9" r="2" fill="#FFFFFF"/>
+    <circle cx="13" cy="-9" r="2" fill="#FFFFFF"/>
+    <!-- Tongue -->
+    <ellipse cx="0" cy="25" rx="8" ry="6" fill="#E8734A"/>
+  </g>
+  
+  <!-- Cat (top center) -->
+  <g transform="translate(200, 100)">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="32" fill="#A0A0A0"/>
+    <!-- Left ear -->
+    <polygon points="0,0 -18,-35 -8,-15" fill="#A0A0A0"/>
+    <polygon points="-15,-30 -10,-25 -5,-28" fill="#FFB6C1"/>
+    <!-- Right ear -->
+    <polygon points="0,0 18,-35 8,-15" fill="#A0A0A0"/>
+    <polygon points="15,-30 10,-25 5,-28" fill="#FFB6C1"/>
+    <!-- Face -->
+    <circle cx="0" cy="8" r="20" fill="#C0C0C0"/>
+    <!-- Nose -->
+    <polygon points="0,8 -4,14 4,14" fill="#FFB6C1"/>
+    <!-- Eyes -->
+    <ellipse cx="-10" cy="-3" rx="6" ry="9" fill="#00AA00"/>
+    <ellipse cx="10" cy="-3" rx="6" ry="9" fill="#00AA00"/>
+    <!-- Pupils -->
+    <ellipse cx="-10" cy="0" rx="3" ry="6" fill="#2C2C2C"/>
+    <ellipse cx="10" cy="0" rx="3" ry="6" fill="#2C2C2C"/>
+    <!-- Whiskers -->
+    <line x1="-18" y1="6" x2="-28" y2="4" stroke="#2C2C2C" stroke-width="1.5"/>
+    <line x1="18" y1="6" x2="28" y2="4" stroke="#2C2C2C" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Bird (top right) -->
+  <g transform="translate(300, 120)">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="18" ry="22" fill="#90EE90"/>
+    <!-- Head -->
+    <circle cx="0" cy="-20" r="14" fill="#7FD87F"/>
+    <!-- Beak -->
+    <polygon points="12,-20 25,-20 12,-17" fill="#FFD700"/>
+    <!-- Eye -->
+    <circle cx="6" cy="-22" r="3" fill="#2C2C2C"/>
+    <!-- Wing -->
+    <ellipse cx="-12" cy="0" rx="10" ry="16" fill="#6BC76B"/>
+    <!-- Tail feathers -->
+    <path d="M 0 18 Q 5 28 -2 35" stroke="#7FD87F" stroke-width="3" fill="none"/>
+    <path d="M 0 18 Q -5 28 2 35" stroke="#7FD87F" stroke-width="3" fill="none"/>
+  </g>
+  
+  <!-- Hamster (bottom center) -->
+  <g transform="translate(200, 280)">
+    <!-- Body -->
+    <circle cx="0" cy="0" r="28" fill="#D2691E"/>
+    <!-- Head -->
+    <circle cx="0" cy="-15" r="22" fill="#CD853F"/>
+    <!-- Ears -->
+    <circle cx="-14" cy="-28" r="10" fill="#D2691E"/>
+    <circle cx="14" cy="-28" r="10" fill="#D2691E"/>
+    <circle cx="-14" cy="-28" r="6" fill="#FFB6C1"/>
+    <circle cx="14" cy="-28" r="6" fill="#FFB6C1"/>
+    <!-- Nose -->
+    <circle cx="0" cy="-18" r="4" fill="#2C2C2C"/>
+    <!-- Eyes -->
+    <circle cx="-8" cy="-20" r="4" fill="#2C2C2C"/>
+    <circle cx="8" cy="-20" r="4" fill="#2C2C2C"/>
+    <!-- Eye shine -->
+    <circle cx="-7" cy="-21" r="1.5" fill="#FFFFFF"/>
+    <circle cx="9" cy="-21" r="1.5" fill="#FFFFFF"/>
+    <!-- Cheeks -->
+    <circle cx="-16" cy="-12" r="8" fill="#FFB6C1" opacity="0.6"/>
+    <circle cx="16" cy="-12" r="8" fill="#FFB6C1" opacity="0.6"/>
+  </g>
+  
+  <!-- Rabbit (bottom right) -->
+  <g transform="translate(320, 260)">
+    <!-- Body -->
+    <ellipse cx="0" cy="8" rx="20" ry="25" fill="#FFFFFF"/>
+    <!-- Head -->
+    <circle cx="0" cy="-12" r="20" fill="#FFFFFF"/>
+    <!-- Left ear -->
+    <ellipse cx="-12" cy="-40" rx="8" ry="32" fill="#FFFFFF" stroke="#FFB6C1" stroke-width="2"/>
+    <!-- Right ear -->
+    <ellipse cx="12" cy="-40" rx="8" ry="32" fill="#FFFFFF" stroke="#FFB6C1" stroke-width="2"/>
+    <!-- Nose -->
+    <circle cx="0" cy="-10" r="5" fill="#FFB6C1"/>
+    <!-- Mouth -->
+    <path d="M 0 -8 Q -3 -3 -5 -2" stroke="#2C2C2C" stroke-width="1.5" fill="none"/>
+    <path d="M 0 -8 Q 3 -3 5 -2" stroke="#2C2C2C" stroke-width="1.5" fill="none"/>
+    <!-- Eyes -->
+    <circle cx="-8" cy="-16" r="4" fill="#2C2C2C"/>
+    <circle cx="8" cy="-16" r="4" fill="#2C2C2C"/>
+    <!-- Eye shine -->
+    <circle cx="-7" cy="-17" r="1.5" fill="#FFFFFF"/>
+    <circle cx="9" cy="-17" r="1.5" fill="#FFFFFF"/>
+    <!-- Tail -->
+    <circle cx="-18" cy="28" r="12" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Decorative paw prints -->
+  <g opacity="0.3">
+    <!-- Paw print 1 -->
+    <circle cx="60" cy="80" r="4" fill="#F58B4C"/>
+    <circle cx="45" cy="70" r="3" fill="#F58B4C"/>
+    <circle cx="75" cy="70" r="3" fill="#F58B4C"/>
+    <circle cx="50" cy="55" r="3" fill="#F58B4C"/>
+    <circle cx="70" cy="55" r="3" fill="#F58B4C"/>
+    
+    <!-- Paw print 2 -->
+    <circle cx="340" cy="180" r="4" fill="#3B7A5E"/>
+    <circle cx="325" cy="170" r="3" fill="#3B7A5E"/>
+    <circle cx="355" cy="170" r="3" fill="#3B7A5E"/>
+    <circle cx="330" cy="155" r="3" fill="#3B7A5E"/>
+    <circle cx="350" cy="155" r="3" fill="#3B7A5E"/>
+  </g>
+</svg>
+</svg>

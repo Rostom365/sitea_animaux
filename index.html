@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Patte & Compagnie — Tout pour vos animaux</title>
+<meta name="description" content="Boutique en ligne pour animaux de compagnie : chiens, chats, oiseaux, rongeurs et poissons.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container bar">
+    <a href="index.html" class="logo">
+      <span id="logo-icon"></span>
+      Patte &amp; Compagnie
+    </a>
+    <nav>
+      <ul class="main-nav" id="main-nav">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="catalogue.html">Catalogue</a></li>
+        <li><a href="categories.html">Catégories</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <a href="compte.html" class="btn btn-outline btn-small" id="account-link">Mon compte</a>
+      <a href="panier.html" class="cart-btn" id="cart-btn">
+        <span id="cart-icon"></span>
+        Panier <span class="cart-count" id="cart-count">0</span>
+      </a>
+      <button class="burger" id="burger-btn" aria-label="Ouvrir le menu"></button>
+    </div>
+  </div>
+</header>
+
+<section class="hero-carousel" id="hero-carousel">
+  <div class="hero-track" id="hero-track">
+
+    <div class="hero-slide hero-slide-photo">
+      <div class="paw-field"></div>
+      <div class="container hero-slide-inner">
+        <div>
+          <div class="paw-trail">
+            <span id="paw1"></span><span id="paw2"></span><span id="paw3"></span>
+            <span>Boutique animalière</span>
+          </div>
+          <h1>Tout pour le bonheur de votre compagnon</h1>
+          <p class="lead">Alimentation, jeux, accessoires et soins pour chiens, chats, oiseaux, rongeurs et poissons — sélectionnés avec attention par notre équipe.</p>
+          <div class="hero-cta">
+            <a href="catalogue.html" class="btn btn-primary">Découvrir le catalogue</a>
+            <a href="categories.html" class="btn btn-outline">Voir les catégories</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img src="famille-animaux.jpg" alt="Chien, chat, hamster et oiseau, nos compagnons">
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-slide hero-slide-photo-cat" style="background-image:url('chien/4d09c818dfdb66872f91de47c23a1fa0.jpg');background-position:center 0%;">
+      <div class="hero-slide-scrim"></div>
+      <div class="container hero-slide-inner-photo">
+        <div class="hero-slide-text">
+          <span class="hero-slide-tag">Univers Chien</span>
+          <h2>Croquettes, friandises &amp; accessoires</h2>
+          <p class="lead">Tout ce qu'il faut pour votre fidèle compagnon, sélectionné avec soin.</p>
+          <a href="catalogue.html?cat=chien" class="btn btn-primary">Découvrir</a>
+        </div>
+        <div class="hero-slide-promos" data-promo-cat="chien"></div>
+      </div>
+    </div>
+
+    <div class="hero-slide hero-slide-photo-cat" style="background-image:url('chats/b63e8c3ca7c64b4581e692572a953ec5.jpg');background-position:center 20%;">
+      <div class="hero-slide-scrim"></div>
+      <div class="container hero-slide-inner-photo">
+        <div class="hero-slide-text">
+          <span class="hero-slide-tag">Univers Chat</span>
+          <h2>Alimentation, litières &amp; jouets</h2>
+          <p class="lead">Pensé pour le bien-être et le confort de votre chat au quotidien.</p>
+          <a href="catalogue.html?cat=chat" class="btn btn-primary">Découvrir</a>
+        </div>
+        <div class="hero-slide-promos" data-promo-cat="chat"></div>
+      </div>
+    </div>
+
+    <div class="hero-slide hero-slide-photo-cat" style="background-image:url('oiseuax/oisaux.jpg');background-position:center 28%;">
+      <div class="hero-slide-scrim"></div>
+      <div class="container hero-slide-inner-photo">
+        <div class="hero-slide-text">
+          <span class="hero-slide-tag">Univers Oiseau</span>
+          <h2>Cages, alimentation &amp; accessoires</h2>
+          <p class="lead">Le confort de vos oiseaux, du canari au perroquet.</p>
+          <a href="catalogue.html?cat=oiseau" class="btn btn-primary">Découvrir</a>
+        </div>
+        <div class="hero-slide-promos" data-promo-cat="oiseau"></div>
+      </div>
+    </div>
+
+    <div class="hero-slide hero-slide-photo-cat" style="background-image:url('souris/souris-1024x1024.jpg');">
+      <div class="hero-slide-scrim"></div>
+      <div class="container hero-slide-inner-photo">
+        <div class="hero-slide-text">
+          <span class="hero-slide-tag">Univers Rongeurs &amp; Co.</span>
+          <h2>Cages, litières &amp; friandises</h2>
+          <p class="lead">Pour hamsters, lapins, cochons d'Inde et compagnie.</p>
+          <a href="catalogue.html?cat=rongeur" class="btn btn-primary">Découvrir</a>
+        </div>
+        <div class="hero-slide-promos" data-promo-cat="rongeur"></div>
+      </div>
+    </div>
+
+    <div class="hero-slide hero-slide-photo-cat" style="background-image:url('poisson/poisson-clown-a-trois-bandes.jpg');">
+      <div class="hero-slide-scrim"></div>
+      <div class="container hero-slide-inner-photo">
+        <div class="hero-slide-text">
+          <span class="hero-slide-tag">Univers Aquariophilie</span>
+          <h2>Alimentation &amp; matériel</h2>
+          <p class="lead">Pour un aquarium sain et des poissons en pleine forme.</p>
+          <a href="catalogue.html?cat=poisson" class="btn btn-primary">Découvrir</a>
+        </div>
+        <div class="hero-slide-promos" data-promo-cat="poisson"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <button type="button" class="hero-nav hero-prev" id="hero-prev" aria-label="Image précédente">‹</button>
+  <button type="button" class="hero-nav hero-next" id="hero-next" aria-label="Image suivante">›</button>
+  <div class="hero-dots" id="hero-dots"></div>
+</section>
+
+<footer class="site-footer" id="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>Patte &amp; Compagnie</h4>
+        <p>Votre animalerie de quartier, en ligne. Produits sélectionnés pour le bien-être de vos compagnons à quatre pattes, à plumes ou à écailles.</p>
+      </div>
+      <div>
+        <h4>Boutique</h4>
+        <ul>
+          <li><a href="catalogue.html">Catalogue</a></li>
+          <li><a href="categories.html">Catégories</a></li>
+          <li><a href="admin.html">Espace vendeur</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="contact.html" data-contact-email>contact@patte-compagnie.tn</a></li>
+          <li data-contact-telephone>+216 00 000 000</li>
+          <li data-contact-adresse>Tunis, Tunisie</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Patte &amp; Compagnie — Site de démonstration</span>
+      <a href="admin.html">Accès vendeur →</a>
+    </div>
+  </div>
+</footer>
+
+<script src="icons.js"></script>
+<script src="seed-data.js"></script>
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
