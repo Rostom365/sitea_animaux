@@ -2,9 +2,10 @@
 
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import { getProducts, addProduct, deleteProduct, Product } from "@/services/productService";
+import { getProducts, addProduct, updateProduct, deleteProduct, Product } from "@/services/productService";
 import { getClients, addClient, deleteClient, getClientOrderCount, getClientTotalSpent, Client } from "@/services/clientService";
 import { getOrders, addOrder, updateOrderStatus, deleteOrder, getTotalRevenue, getPendingOrdersCount, getDeliveredOrdersCount, Order } from "@/services/orderService";
+import { getPendingChanges, queueProductChange, clearPendingField, getPendingCount } from "@/lib/offlineQueue";
 
 const SUBCATEGORIES: Record<string, string[]> = {
   chien: ["nourriture", "hygiene-sante", "litieres", "accessoires", "friandises"],
@@ -57,6 +58,11 @@ export default function AdminPage() {
   const [totalRevenue, setTotalRevenue] = useState(0);
   const [subCategoriesForAnimal, setSubCategoriesForAnimal] = useState<string[]>([]);
 
+  // Offline sync states
+  const [pendingCount, setPendingCount] = useState(0);
+  const [isOnline, setIsOnline] = useState(true);
+  const [syncing, setSyncing] = useState(false);
+
   // Load all data when logged in
   useEffect(() => {
     if (isLoggedIn) {
@@ -67,6 +73,73 @@ export default function AdminPage() {
     }
   }, [isLoggedIn]);
 
+  // Offline detection + auto-sync when connection returns
+  useEffect(() => {
+    setIsOnline(navigator.onLine);
+    setPendingCount(getPendingCount());
+
+    const handleOnline = () => {
+      setIsOnline(true);
+      trySync();
+    };
+    const handleOffline = () => setIsOnline(false);
+
+    window.addEventListener("online", handleOnline);
+    window.addEventListener("offline", handleOffline);
+
+    if (navigator.onLine && getPendingCount() > 0) trySync();
+
+    return () => {
+      window.removeEventListener("online", handleOnline);
+      window.removeEventListener("offline", handleOffline);
+    };
+  }, []);
+
+  async function trySync() {
+    const pending = getPendingChanges();
+    if (pending.length === 0) return;
+    setSyncing(true);
+    for (const change of pending) {
+      const { id, ...fields } = change;
+      try {
+        await updateProduct(id, fields);
+        if (fields.prix !== undefined) clearPendingField(id, "prix");
+        if (fields.stock !== undefined) clearPendingField(id, "stock");
+      } catch {
+        break; // still offline (or a real error) — retry later
+      }
+    }
+    setSyncing(false);
+    setPendingCount(getPendingCount());
+    loadProducts();
+  }
+
+  async function handlePriceEdit(id: string, value: string) {
+    const prix = parseFloat(value);
+    if (isNaN(prix) || prix < 0) return;
+    setProducts((prev) => prev.map((p) => (p.id === id ? { ...p, prix } : p)));
+    try {
+      await updateProduct(id, { prix });
+      clearPendingField(id, "prix");
+    } catch {
+      queueProductChange(id, { prix });
+    }
+    setPendingCount(getPendingCount());
+  }
+
+  async function handleStockEdit(id: string, value: string) {
+    const stock = parseInt(value, 10);
+    if (isNaN(stock) || stock < 0) return;
+    setProducts((prev) => prev.map((p) => (p.id === id ? { ...p, stock } : p)));
+    try {
+      await updateProduct(id, { stock });
+      clearPendingField(id, "stock");
+    } catch {
+      queueProductChange(id, { stock });
+    }
+    setPendingCount(getPendingCount());
+  }
+
   // Update subcategories when category changes
   useEffect(() => {
     const subs = SUBCATEGORIES[formData.categorie] || [];
@@ -76,8 +149,18 @@ export default function AdminPage() {
 
   // Load functions
   async function loadProducts() {
-    const data = await getProducts();
-    setProducts(data);
+    try {
+      const data = await getProducts();
+      const pending = getPendingChanges();
+      const merged = data.map((p) => {
+        const pend = pending.find((c) => c.id === p.id);
+        return pend ? { ...p, ...pend } : p;
+      });
+      setProducts(merged);
+    } catch {
+      // offline: keep whatever is already shown, edits still work locally
+    }
+    setPendingCount(getPendingCount());
   }
 
   async function loadClients() {
@@ -246,6 +329,19 @@ export default function AdminPage() {
 
           <main className="admin-main">
             <div className="container">
+              {!isOnline && (
+                <div style={{background: "#f8d7da", border: "1px solid #f5c6cb", color: "#721c24", padding: "12px 16px", borderRadius: 8, marginBottom: 16}}>
+                  Hors ligne — les modifications de prix et de stock restent enregistrées sur cet appareil et seront envoyées automatiquement dès que la connexion revient.
+                </div>
+              )}
+              {pendingCount > 0 && (
+                <div style={{background: "#fff3cd", border: "1px solid #ffeeba", color: "#664d03", padding: "12px 16px", borderRadius: 8, marginBottom: 16, display: "flex", alignItems: "center", justifyContent: "space-between", gap: 12, flexWrap: "wrap"}}>
+                  <span>{pendingCount} modification{pendingCount > 1 ? "s" : ""} en attente de synchronisation{!isOnline ? " (hors ligne)" : ""}.</span>
+                  <button className="btn btn-small btn-primary" onClick={trySync} disabled={!isOnline || syncing}>
+                    {syncing ? "Synchronisation…" : "Synchroniser maintenant"}
+                  </button>
+                </div>
+              )}
               {/* TABS */}
               <div style={{display: "flex", gap: "10px", marginBottom: "20px", borderBottom: "1px solid #ddd", paddingBottom: "10px"}}>
                 <button
@@ -425,8 +521,34 @@ export default function AdminPage() {
                                   <td><strong>{p.nom}</strong></td>
                                   <td>{p.categorie}</td>
                                   <td>{p.sousCategorie}</td>
-                                  <td>{p.prix} TND</td>
-                                  <td>{p.stock}</td>
+                                  <td>
+                                    <input
+                                      type="number"
+                                      min="0"
+                                      step="0.01"
+                                      value={p.prix}
+                                      onChange={(e) => {
+                                        const v = e.target.value;
+                                        setProducts((prev) => prev.map((pr) => (pr.id === p.id ? { ...pr, prix: v === "" ? 0 : parseFloat(v) } : pr)));
+                                      }}
+                                      onBlur={(e) => handlePriceEdit(p.id!, e.target.value)}
+                                      style={{width: 80, padding: "4px 6px"}}
+                                    />
+                                  </td>
+                                  <td>
+                                    <input
+                                      type="number"
+                                      min="0"
+                                      step="1"
+                                      value={p.stock}
+                                      onChange={(e) => {
+                                        const v = e.target.value;
+                                        setProducts((prev) => prev.map((pr) => (pr.id === p.id ? { ...pr, stock: v === "" ? 0 : parseInt(v, 10) } : pr)));
+                                      }}
+                                      onBlur={(e) => handleStockEdit(p.id!, e.target.value)}
+                                      style={{width: 70, padding: "4px 6px"}}
+                                    />
+                                  </td>
                                   <td style={{textAlign: "center"}}>{p.promo ? "⭐" : ""}</td>
                                   <td>
                                     <div className="row-actions">
