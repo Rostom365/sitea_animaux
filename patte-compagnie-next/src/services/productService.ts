@@ -16,6 +16,12 @@ export async function getProducts(): Promise<Product[]> {
   return res.json();
 }
 
+export async function getProduct(id: string): Promise<Product> {
+  const res = await fetch(`/api/products/${id}`);
+  if (!res.ok) throw new Error("Produit introuvable");
+  return res.json();
+}
+
 export async function addProduct(product: Omit<Product, 'id'>): Promise<Product> {
   const res = await fetch("/api/products", {
     method: "POST",

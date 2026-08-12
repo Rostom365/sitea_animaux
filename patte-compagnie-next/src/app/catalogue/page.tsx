@@ -117,14 +117,14 @@ function CatalogueContent() {
             filtered.map((p) => (
               <div className="product-card" key={p.id}>
                 {p.promo && <span className="promo-badge" title="Article en promotion">★</span>}
-                <Link href={`/produit/${p.id}`} className="product-img product-link-img">
+                <Link href={`/produit/${p.id}`} target="_blank" rel="noopener noreferrer" className="product-img product-link-img">
                   {p.image ? <img src={p.image} alt={p.nom} /> : null}
                 </Link>
                 <div className="product-body">
                   <span className="product-cat">
                     {categoryLabel(p.categorie)} · {subcategoryLabel(p.categorie, p.sousCategorie)}
                   </span>
-                  <Link href={`/produit/${p.id}`} className="product-link-name">
+                  <Link href={`/produit/${p.id}`} target="_blank" rel="noopener noreferrer" className="product-link-name">
                     <h3 className="product-name">{p.nom}</h3>
                   </Link>
                   <p className="product-desc">{p.description}</p>
