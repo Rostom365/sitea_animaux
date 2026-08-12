@@ -20,6 +20,7 @@ function CatalogueContent() {
   const [search, setSearch] = useState("");
   const [cat, setCat] = useState(searchParams.get("cat") || "");
   const [sub, setSub] = useState(searchParams.get("sub") || "");
+  const [sort, setSort] = useState("");
   const promoOnly = searchParams.get("promo") === "1";
 
   useEffect(() => {
@@ -32,14 +33,18 @@ function CatalogueContent() {
 
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase();
-    return products.filter((p) => {
+    const list = products.filter((p) => {
       const matchQ = !q || p.nom.toLowerCase().includes(q) || (p.description || "").toLowerCase().includes(q);
       const matchCat = !cat || p.categorie === cat;
       const matchSub = !sub || p.sousCategorie === sub;
       const matchPromo = !promoOnly || p.promo;
       return matchQ && matchCat && matchSub && matchPromo;
     });
-  }, [products, search, cat, sub, promoOnly]);
+    if (sort === "price-asc") list.sort((a, b) => Number(a.prix) - Number(b.prix));
+    else if (sort === "price-desc") list.sort((a, b) => Number(b.prix) - Number(a.prix));
+    else if (sort === "name-asc") list.sort((a, b) => a.nom.localeCompare(b.nom));
+    return list;
+  }, [products, search, cat, sub, promoOnly, sort]);
 
   function handleAddToCart(p: Product) {
     addToCart(p, 1);
@@ -84,6 +89,12 @@ function CatalogueContent() {
               {subOptions.map((s) => (
                 <option key={s.id} value={s.id}>{s.label}</option>
               ))}
+            </select>
+            <select value={sort} onChange={(e) => setSort(e.target.value)}>
+              <option value="">Trier par</option>
+              <option value="price-asc">Prix croissant</option>
+              <option value="price-desc">Prix décroissant</option>
+              <option value="name-asc">Nom A→Z</option>
             </select>
           </div>
         </div>
