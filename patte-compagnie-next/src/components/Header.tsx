@@ -36,7 +36,7 @@ export default function Header() {
               <ellipse cx="12" cy="5" rx="3" ry="4"/>
               <path d="M6 12c0-1.5-1-2.5-2-2.5s-2 1-2 2.5c0 2 1 3 2 3s2-1 2-3zM18 12c0-1.5-1-2.5-2-2.5s-2 1-2 2.5c0 2 1 3 2 3s2-1 2-3zM10 16c-1 0-1.5.8-1.5 2s.5 2 1.5 2h4c1 0 1.5-.8 1.5-2s-.5-2-1.5-2h-4z"/>
             </svg>
-            <span>Patte &<br/>Compagnie</span>
+            <span>Zoo<br/>Market</span>
           </Link>
 
           <nav className="main-nav">
