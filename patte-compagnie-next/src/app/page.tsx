@@ -163,7 +163,7 @@ export default function Home() {
             <div className="product-grid">
               {products.map((p) => (
                 <div className="product-card" key={p.id}>
-                  {p.promo && <span className="promo-badge" title="Article en promotion">★</span>}
+                  {p.promo && <span className="ribbon">PROMO</span>}
                   <Link href={`/produit/${p.id}`} target="_blank" rel="noopener noreferrer" className="product-img product-link-img">
                     {p.image ? <img src={p.image} alt={p.nom} /> : null}
                   </Link>

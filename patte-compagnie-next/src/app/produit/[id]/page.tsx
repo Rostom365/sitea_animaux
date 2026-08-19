@@ -75,7 +75,7 @@ export default function ProduitPage({ params }: { params: Promise<{ id: string }
         <div className="product-detail">
           <div className="product-detail-img">
             {product.promo && (
-              <span className="promo-badge promo-badge-lg" title="Article en promotion">★</span>
+              <span className="ribbon ribbon-lg">PROMO</span>
             )}
             {product.image ? <img src={product.image} alt={product.nom} /> : null}
           </div>
@@ -112,7 +112,7 @@ export default function ProduitPage({ params }: { params: Promise<{ id: string }
             <div className="product-grid">
               {similar.map((p) => (
                 <div className="product-card" key={p.id}>
-                  {p.promo && <span className="promo-badge" title="Article en promotion">★</span>}
+                  {p.promo && <span className="ribbon">PROMO</span>}
                   <Link href={`/produit/${p.id}`} target="_blank" rel="noopener noreferrer" className="product-img product-link-img">
                     {p.image ? <img src={p.image} alt={p.nom} /> : null}
                   </Link>
