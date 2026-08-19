@@ -38,7 +38,7 @@ export default function Home() {
       <section className="tv-hero">
         <div className="container">
           <div className="tv-hero-inner">
-            <div>
+            <div className="tv-hero-text">
               <div className="paw-trail">
                 <span></span><span></span><span></span>
                 <span>Boutique animalière</span>

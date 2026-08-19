@@ -204,27 +204,30 @@ button{font-family:inherit;cursor:pointer;}
   padding:8px 0 56px;
 }
 .tv-hero-inner{
-  display:grid;
-  grid-template-columns:.4fr 1.8fr;
-  gap:48px;
-  align-items:start;
+  position:relative;
+}
+.tv-hero-text{
+  position:relative;
+  z-index:60;
+  max-width:700px;
 }
 .tv-hero h1{
   font-size:clamp(2.1rem, 3.6vw, 3rem);
-  max-width:13ch;
+  max-width:20ch;
   color:var(--ink);
 }
 .tv-hero p.lead{
   font-size:1.1rem;
-  max-width:46ch;
+  max-width:60ch;
   color:#5b6157;
   margin-bottom:1.5em;
 }
 .tv-hero-art{
-  position:relative;
+  position:absolute;
+  top:0;
+  right:0;
+  width:1080px;
   aspect-ratio:1/1;
-  max-width:1160px;
-  margin-inline:auto;
   transform:translateY(-406px);
   z-index:50;
 }
@@ -396,8 +399,8 @@ button{font-family:inherit;cursor:pointer;}
 .cta-banner p{color:rgba(255,255,255,.85);max-width:52ch;margin:0 auto 1.3em;}
 
 @media (max-width:980px){
-  .tv-hero-inner{grid-template-columns:1fr;}
-  .tv-hero-art{order:-1;max-width:320px;}
+  .tv-hero-text{max-width:none;}
+  .tv-hero-art{position:static;width:100%;max-width:320px;margin:0 auto 24px;transform:none;}
   .feature-grid{grid-template-columns:repeat(2, 1fr);}
   .stats-row{grid-template-columns:repeat(2, 1fr);}
   .category-cards-grid{grid-template-columns:repeat(3, 1fr);}
