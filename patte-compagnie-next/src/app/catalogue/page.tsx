@@ -4,8 +4,9 @@ import { Suspense, useEffect, useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { getProducts, Product } from "@/services/productService";
-import { CATEGORIES, SUBCATEGORIES, categoryLabel, subcategoryLabel, formatPrice } from "@/lib/categories";
+import { CATEGORIES, SUBCATEGORIES, categoryLabel, subcategoryLabel } from "@/lib/categories";
 import { addToCart, CART_UPDATED_EVENT } from "@/lib/cart";
+import PriceTag from "@/components/PriceTag";
 
 function stockBadge(stock: number) {
   if (stock <= 0) return <span className="stock-badge stock-out">Rupture</span>;
@@ -152,7 +153,7 @@ function CatalogueContent() {
                       <h3 className="product-name">{p.nom}</h3>
                     </Link>
                     <div className="product-foot">
-                      <span className="product-price">{formatPrice(p.prix)}</span>
+                      <PriceTag prix={p.prix} ancienPrix={p.ancienPrix} promo={p.promo} />
                       {stockBadge(Number(p.stock))}
                     </div>
                     <button

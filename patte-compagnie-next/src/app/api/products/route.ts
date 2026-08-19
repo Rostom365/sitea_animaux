@@ -6,6 +6,7 @@ function rowToProduct(row: Record<string, unknown>) {
     id: String(row.id),
     nom: row.nom,
     prix: row.prix,
+    ancienPrix: row.ancienPrix,
     stock: row.stock,
     categorie: row.categorie,
     sousCategorie: row.sousCategorie,
@@ -26,12 +27,13 @@ export async function POST(request: Request) {
   const body = await request.json();
   const result = await db.execute({
     sql: `
-      INSERT INTO products (nom, prix, stock, categorie, sousCategorie, description, image, promo)
-      VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+      INSERT INTO products (nom, prix, ancienPrix, stock, categorie, sousCategorie, description, image, promo)
+      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
     `,
     args: [
       body.nom,
       body.prix,
+      body.ancienPrix || null,
       body.stock,
       body.categorie,
       body.sousCategorie,

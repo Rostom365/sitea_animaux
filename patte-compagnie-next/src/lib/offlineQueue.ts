@@ -2,6 +2,7 @@ export interface PendingProductChange {
   id: string;
   prix?: number;
   stock?: number;
+  ancienPrix?: number;
 }
 
 const QUEUE_KEY = "patte_offline_queue";
@@ -21,7 +22,7 @@ function saveQueue(queue: PendingProductChange[]) {
   localStorage.setItem(QUEUE_KEY, JSON.stringify(queue));
 }
 
-export function queueProductChange(id: string, changes: Partial<Pick<PendingProductChange, "prix" | "stock">>) {
+export function queueProductChange(id: string, changes: Partial<Pick<PendingProductChange, "prix" | "stock" | "ancienPrix">>) {
   const queue = getPendingChanges();
   const existing = queue.find((c) => c.id === id);
   if (existing) {
@@ -32,12 +33,12 @@ export function queueProductChange(id: string, changes: Partial<Pick<PendingProd
   saveQueue(queue);
 }
 
-export function clearPendingField(id: string, field: "prix" | "stock") {
+export function clearPendingField(id: string, field: "prix" | "stock" | "ancienPrix") {
   const queue = getPendingChanges();
   for (const c of queue) {
     if (c.id === id) delete c[field];
   }
-  saveQueue(queue.filter((c) => c.prix !== undefined || c.stock !== undefined));
+  saveQueue(queue.filter((c) => c.prix !== undefined || c.stock !== undefined || c.ancienPrix !== undefined));
 }
 
 export function removePendingChange(id: string) {

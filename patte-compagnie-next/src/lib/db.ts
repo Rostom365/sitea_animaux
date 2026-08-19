@@ -91,6 +91,14 @@ async function migrateClientsColumns() {
   }
 }
 
+async function migrateProductsColumns() {
+  const res = await db.execute("PRAGMA table_info(products)");
+  const existing = new Set(res.rows.map((r) => r.name as string));
+  if (!existing.has("ancienPrix")) {
+    await db.execute("ALTER TABLE products ADD COLUMN ancienPrix REAL");
+  }
+}
+
 async function init() {
   await db.executeMultiple(`
     CREATE TABLE IF NOT EXISTS products (
@@ -102,7 +110,8 @@ async function init() {
       sousCategorie TEXT NOT NULL,
       description TEXT DEFAULT '',
       image TEXT DEFAULT '',
-      promo INTEGER NOT NULL DEFAULT 0
+      promo INTEGER NOT NULL DEFAULT 0,
+      ancienPrix REAL
     );
 
     CREATE TABLE IF NOT EXISTS clients (
@@ -158,6 +167,7 @@ async function init() {
   await migrateOrdersForeignKey();
   await migrateOrderItemsForeignKey();
   await migrateClientsColumns();
+  await migrateProductsColumns();
 }
 
 // Cached on globalThis so Next.js's module-reload-on-change in dev doesn't

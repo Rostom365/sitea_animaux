@@ -13,6 +13,7 @@ export async function GET(request: Request, { params }: { params: Promise<{ id: 
     id: String(row.id),
     nom: row.nom,
     prix: row.prix,
+    ancienPrix: row.ancienPrix,
     stock: row.stock,
     categorie: row.categorie,
     sousCategorie: row.sousCategorie,
@@ -27,7 +28,7 @@ export async function PATCH(request: Request, { params }: { params: Promise<{ id
   const { id } = await params;
   const body = await request.json();
 
-  const fields = ["nom", "prix", "stock", "categorie", "sousCategorie", "description", "image", "promo"];
+  const fields = ["nom", "prix", "ancienPrix", "stock", "categorie", "sousCategorie", "description", "image", "promo"];
   const updates: string[] = [];
   const values: unknown[] = [];
 

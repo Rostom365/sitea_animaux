@@ -553,6 +553,8 @@ button{font-family:inherit;cursor:pointer;}
 .product-desc{font-size:.86rem;color:#5b6157;flex:1;}
 .product-foot{display:flex;align-items:center;justify-content:space-between;margin-top:4px;}
 .product-price{font-family:var(--font-body);font-weight:700;font-size:1.05rem;color:var(--ink);}
+.product-price-wrap{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;}
+.product-price-old{font-size:.85rem;color:#9CA3AF;text-decoration:line-through;}
 .stock-badge{font-size:.72rem;font-weight:600;padding:.25em .6em;border-radius:999px;}
 .stock-ok{background:#E4F0E6;color:#2F4B3C;}
 .stock-low{background:#FBEBD9;color:#B3671F;}

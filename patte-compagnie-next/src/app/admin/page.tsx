@@ -29,6 +29,7 @@ export default function AdminPage() {
   const [formData, setFormData] = useState({
     nom: "",
     prix: "",
+    ancienPrix: "",
     stock: "",
     categorie: "chien",
     sousCategorie: "",
@@ -140,6 +141,19 @@ export default function AdminPage() {
     setPendingCount(getPendingCount());
   }
 
+  async function handleAncienPrixEdit(id: string, value: string) {
+    const ancienPrix = value === "" ? null : parseFloat(value);
+    if (ancienPrix !== null && isNaN(ancienPrix)) return;
+    setProducts((prev) => prev.map((p) => (p.id === id ? { ...p, ancienPrix } : p)));
+    try {
+      await updateProduct(id, { ancienPrix });
+      clearPendingField(id, "ancienPrix");
+    } catch {
+      queueProductChange(id, { ancienPrix: ancienPrix ?? undefined });
+    }
+    setPendingCount(getPendingCount());
+  }
+
   // Update subcategories when category changes
   useEffect(() => {
     const subs = SUBCATEGORIES[formData.categorie] || [];
@@ -217,6 +231,7 @@ export default function AdminPage() {
     const newProduct = {
       nom: formData.nom,
       prix: parseFloat(formData.prix),
+      ancienPrix: formData.ancienPrix ? parseFloat(formData.ancienPrix) : undefined,
       stock: parseInt(formData.stock),
       categorie: formData.categorie,
       sousCategorie: formData.sousCategorie,
@@ -228,7 +243,7 @@ export default function AdminPage() {
     await addProduct(newProduct);
     alert("Produit ajouté avec succès !");
     setFormData({
-      nom: "", prix: "", stock: "", categorie: "chien", sousCategorie: "", description: "", promo: false, image: ""
+      nom: "", prix: "", ancienPrix: "", stock: "", categorie: "chien", sousCategorie: "", description: "", promo: false, image: ""
     });
     loadProducts();
   };
@@ -460,6 +475,14 @@ export default function AdminPage() {
                           <span className="toggle-switch"></span> Article en promotion
                         </label>
 
+                        {formData.promo && (
+                          <div className="field">
+                            <label htmlFor="ancienPrix">Ancien prix (TND, avant promotion)</label>
+                            <input type="number" id="ancienPrix" min="0" step="0.01" value={formData.ancienPrix} onChange={handleProductChange} placeholder="Ex. 25.00" />
+                            <p className="hint">Affiché barré à côté du nouveau prix. Laisser vide pour n&apos;afficher que le ruban.</p>
+                          </div>
+                        )}
+
                         <div className="field">
                           <label htmlFor="image">Photo du produit (facultatif)</label>
                           <input
@@ -502,6 +525,7 @@ export default function AdminPage() {
                               <th>Catégorie</th>
                               <th>Sous-catégorie</th>
                               <th>Prix</th>
+                              <th>Ancien prix</th>
                               <th>Stock</th>
                               <th>Promo</th>
                               <th>Actions</th>
@@ -510,7 +534,7 @@ export default function AdminPage() {
                           <tbody id="table-body">
                             {products.length === 0 ? (
                               <tr>
-                                <td colSpan={8} style={{textAlign: "center", color: "#8b9184", padding: "30px"}}>
+                                <td colSpan={9} style={{textAlign: "center", color: "#8b9184", padding: "30px"}}>
                                   Aucun produit. Utilisez le formulaire à gauche pour en ajouter un.
                                 </td>
                               </tr>
@@ -532,6 +556,21 @@ export default function AdminPage() {
                                         setProducts((prev) => prev.map((pr) => (pr.id === p.id ? { ...pr, prix: v === "" ? 0 : parseFloat(v) } : pr)));
                                       }}
                                       onBlur={(e) => handlePriceEdit(p.id!, e.target.value)}
+                                      style={{width: 80, padding: "4px 6px"}}
+                                    />
+                                  </td>
+                                  <td>
+                                    <input
+                                      type="number"
+                                      min="0"
+                                      step="0.01"
+                                      value={p.ancienPrix ?? ""}
+                                      placeholder="—"
+                                      onChange={(e) => {
+                                        const v = e.target.value;
+                                        setProducts((prev) => prev.map((pr) => (pr.id === p.id ? { ...pr, ancienPrix: v === "" ? null : parseFloat(v) } : pr)));
+                                      }}
+                                      onBlur={(e) => handleAncienPrixEdit(p.id!, e.target.value)}
                                       style={{width: 80, padding: "4px 6px"}}
                                     />
                                   </td>

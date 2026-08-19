@@ -4,7 +4,8 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { getProducts, Product } from "@/services/productService";
-import { CATEGORIES, formatPrice } from "@/lib/categories";
+import { CATEGORIES } from "@/lib/categories";
+import PriceTag from "@/components/PriceTag";
 
 const categoryCards = [
   { id: "chien", label: "Chien", image: "chien/4d09c818dfdb66872f91de47c23a1fa0.jpg" },
@@ -172,7 +173,7 @@ export default function Home() {
                       <h3 className="product-name">{p.nom}</h3>
                     </Link>
                     <div className="product-foot">
-                      <span className="product-price">{formatPrice(p.prix)}</span>
+                      <PriceTag prix={p.prix} ancienPrix={p.ancienPrix} promo={p.promo} />
                     </div>
                   </div>
                 </div>

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { getProduct, getProducts, Product } from "@/services/productService";
 import { categoryLabel, subcategoryLabel, formatPrice } from "@/lib/categories";
 import { addToCart, CART_UPDATED_EVENT } from "@/lib/cart";
+import PriceTag from "@/components/PriceTag";
 
 function stockBadge(stock: number) {
   if (stock <= 0) return <span className="stock-badge stock-out">Rupture</span>;
@@ -84,7 +85,16 @@ export default function ProduitPage({ params }: { params: Promise<{ id: string }
               {categoryLabel(product.categorie)} · {subcategoryLabel(product.categorie, product.sousCategorie)}
             </span>
             <h1>{product.nom}</h1>
-            <div className="product-detail-price">{formatPrice(product.prix)}</div>
+            <div className="product-detail-price">
+              {product.promo && product.ancienPrix ? (
+                <>
+                  <span className="product-price-old" style={{ fontSize: "1rem", marginRight: 10 }}>{formatPrice(product.ancienPrix)}</span>
+                  {formatPrice(product.prix)}
+                </>
+              ) : (
+                formatPrice(product.prix)
+              )}
+            </div>
             {stockBadge(stock)}
             <p className="product-detail-desc">{product.description || "Aucune description pour ce produit."}</p>
             <div className="product-detail-actions">
@@ -124,7 +134,7 @@ export default function ProduitPage({ params }: { params: Promise<{ id: string }
                       <h3 className="product-name">{p.nom}</h3>
                     </Link>
                     <div className="product-foot">
-                      <span className="product-price">{formatPrice(p.prix)}</span>
+                      <PriceTag prix={p.prix} ancienPrix={p.ancienPrix} promo={p.promo} />
                       {stockBadge(Number(p.stock))}
                     </div>
                   </div>
