@@ -72,7 +72,7 @@ export default function Home() {
 
             <div className="tv-hero-art">
               <div className="tv-hero-blob"></div>
-              <img src="famille-animaux.jpg" alt="Chien, chat, hamster et oiseau, nos compagnons" />
+              <img src="/famille-animaux-transparent.png" alt="Chien, chat, lapin, tortue, hamster et perroquet, nos compagnons" />
             </div>
           </div>
         </div>
