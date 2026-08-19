@@ -16,6 +16,9 @@ export default function RootLayout({
     <html lang="fr">
       <body>
         <Header />
+        {/* the header logo overflows past the header bar by design; this
+            keeps it from covering the top of whatever page comes next */}
+        <div style={{ height: 150 }} aria-hidden="true" />
         {children}
       </body>
     </html>
