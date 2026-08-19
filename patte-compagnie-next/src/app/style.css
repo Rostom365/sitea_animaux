@@ -146,6 +146,13 @@ button{font-family:inherit;cursor:pointer;}
   text-decoration:none;
 }
 .logo svg{width:34px;height:34px;}
+.logo-img{
+  height:52px;
+  width:52px;
+  border-radius:50%;
+  object-fit:cover;
+  display:block;
+}
 .main-nav{display:flex;gap:28px;list-style:none;margin:0;padding:0;}
 .main-nav a{
   text-decoration:none;

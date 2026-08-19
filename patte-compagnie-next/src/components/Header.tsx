@@ -32,11 +32,7 @@ export default function Header() {
       <div className="container">
         <div className="bar">
           <Link href="/" className="logo">
-            <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <ellipse cx="12" cy="5" rx="3" ry="4"/>
-              <path d="M6 12c0-1.5-1-2.5-2-2.5s-2 1-2 2.5c0 2 1 3 2 3s2-1 2-3zM18 12c0-1.5-1-2.5-2-2.5s-2 1-2 2.5c0 2 1 3 2 3s2-1 2-3zM10 16c-1 0-1.5.8-1.5 2s.5 2 1.5 2h4c1 0 1.5-.8 1.5-2s-.5-2-1.5-2h-4z"/>
-            </svg>
-            <span>Zoo<br/>Market</span>
+            <img src="/logo/zoo-market-logo.png" alt="Zoo Market" className="logo-img" />
           </Link>
 
           <nav className="main-nav">
