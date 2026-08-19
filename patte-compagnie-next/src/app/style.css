@@ -205,7 +205,7 @@ button{font-family:inherit;cursor:pointer;}
 }
 .tv-hero-inner{
   display:grid;
-  grid-template-columns:.6fr 1.6fr;
+  grid-template-columns:.4fr 1.8fr;
   gap:48px;
   align-items:start;
 }
@@ -223,7 +223,7 @@ button{font-family:inherit;cursor:pointer;}
 .tv-hero-art{
   position:relative;
   aspect-ratio:1/1;
-  max-width:970px;
+  max-width:1160px;
   margin-inline:auto;
 }
 .tv-hero-blob{
