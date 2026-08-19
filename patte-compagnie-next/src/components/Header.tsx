@@ -43,6 +43,7 @@ export default function Header() {
             <li><Link href="/">Accueil</Link></li>
             <li><Link href="/catalogue">Catalogue</Link></li>
             <li><Link href="/categories">Catégories</Link></li>
+            <li><Link href="/catalogue?promo=1" style={{ color: "#E63946" }}>Promotions</Link></li>
             <li><Link href="/contact">Contact</Link></li>
           </nav>
 
