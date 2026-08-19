@@ -146,13 +146,14 @@ button{font-family:inherit;cursor:pointer;}
   text-decoration:none;
 }
 .logo svg{width:34px;height:34px;}
+.logo{align-self:flex-start;}
 .logo-img{
-  height:100px;
-  width:100px;
+  height:160px;
+  width:160px;
   border-radius:50%;
   object-fit:cover;
   display:block;
-  margin:-24px 0;
+  margin:0 0 -100px;
   box-shadow:0 4px 14px rgba(0,0,0,.18);
   position:relative;
   z-index:1;
