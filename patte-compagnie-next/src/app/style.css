@@ -147,11 +147,15 @@ button{font-family:inherit;cursor:pointer;}
 }
 .logo svg{width:34px;height:34px;}
 .logo-img{
-  height:52px;
-  width:52px;
+  height:100px;
+  width:100px;
   border-radius:50%;
   object-fit:cover;
   display:block;
+  margin:-24px 0;
+  box-shadow:0 4px 14px rgba(0,0,0,.18);
+  position:relative;
+  z-index:1;
 }
 .main-nav{display:flex;gap:28px;list-style:none;margin:0;padding:0;}
 .main-nav a{
