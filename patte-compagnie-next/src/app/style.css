@@ -199,7 +199,7 @@ button{font-family:inherit;cursor:pointer;}
 /* ---------- landing hero (style TunisieVet) ---------- */
 .tv-hero{
   position:relative;
-  overflow:hidden;
+  overflow:visible;
   background:linear-gradient(170deg, #F6FBF3 0%, var(--cream) 60%);
   padding:8px 0 56px;
 }
@@ -225,6 +225,8 @@ button{font-family:inherit;cursor:pointer;}
   aspect-ratio:1/1;
   max-width:1160px;
   margin-inline:auto;
+  transform:translateY(-406px);
+  z-index:50;
 }
 .tv-hero-blob{
   position:absolute;
