@@ -184,112 +184,112 @@ button{font-family:inherit;cursor:pointer;}
 .burger{display:none;background:none;border:none;padding:8px;}
 .burger svg{width:26px;height:26px;}
 
-/* ---------- carrousel d'accueil ---------- */
-.hero-carousel{
+/* ---------- landing hero (style TunisieVet) ---------- */
+.tv-hero{
   position:relative;
   overflow:hidden;
-  height:600px;
+  background:linear-gradient(170deg, #F6FBF3 0%, var(--cream) 60%);
+  padding:64px 0 56px;
 }
-.hero-track{
-  display:flex;
-  height:100%;
-  transition:transform .5s ease;
-}
-.hero-slide{
-  flex:0 0 100%;
-  width:100%;
-  height:100%;
-  display:flex;
-  align-items:center;
-  position:relative;
-  overflow:hidden;
-}
-.hero-slide-inner{
-  width:100%;
+.tv-hero-inner{
   display:grid;
-  grid-template-columns:1.1fr .9fr;
+  grid-template-columns:1.05fr .95fr;
   gap:48px;
   align-items:center;
 }
-.hero-slide-photo{background:var(--cream);}
-.hero-slide-photo h1{
-  font-size:clamp(2.2rem, 4vw, 3.4rem);
-  max-width:11ch;
+.tv-hero h1{
+  font-size:clamp(2.1rem, 3.6vw, 3rem);
+  max-width:13ch;
+  color:var(--ink);
 }
-.hero-slide-photo p.lead{
-  font-size:1.15rem;
+.tv-hero p.lead{
+  font-size:1.1rem;
   max-width:46ch;
-  color:#3c453a;
-  margin-bottom:1.6em;
+  color:#5b6157;
+  margin-bottom:1.5em;
 }
-.hero-cta{display:flex;gap:14px;flex-wrap:wrap;}
-.hero-art{
+.tv-hero-art{
   position:relative;
   aspect-ratio:1/1;
-  border-radius:32px;
-  overflow:hidden;
-  background:
-    radial-gradient(circle at 30% 30%, rgba(232,184,109,.28), transparent 60%),
-    radial-gradient(circle at 70% 70%, rgba(59,122,94,.22), transparent 55%),
-    var(--gold);
-  display:flex;
-  align-items:center;
-  justify-content:center;
+  max-width:440px;
+  margin-inline:auto;
 }
-.hero-art img{width:100%;height:100%;object-fit:cover;border-radius:32px;}
-
-/* bandeau motif de pattes en fond du hero */
-.paw-field{
+.tv-hero-blob{
   position:absolute;
-  inset:0;
-  z-index:0;
-  opacity:.5;
-  background-image:radial-gradient(var(--gold) 1.6px, transparent 1.6px);
-  background-size:26px 26px;
-  mask-image:linear-gradient(to bottom, black, transparent 85%);
+  inset:8%;
+  border-radius:50%;
+  background:var(--green-bright);
+  opacity:.18;
 }
-.hero-slide-photo .hero-slide-inner{position:relative; z-index:1;}
-
-/* slides "univers par animal" */
-.hero-slide-tag{
-  display:inline-block;
-  font-family:var(--font-display);
-  font-weight:700;
-  letter-spacing:.06em;
-  text-transform:uppercase;
-  font-size:.8rem;
-  color:var(--terracotta);
-  margin-bottom:.6em;
-}
-
-/* slides "univers par animal" avec vraie photo en fond */
-.hero-slide-photo-cat{
-  background-size:cover;
-  background-position:center;
-}
-.hero-slide-scrim{
-  position:absolute;
-  inset:0;
-  background:linear-gradient(90deg, rgba(20,20,15,.72) 0%, rgba(20,20,15,.45) 45%, rgba(20,20,15,.05) 75%);
-  z-index:1;
-}
-.hero-slide-inner-photo{
+.tv-hero-art img{
   position:relative;
-  z-index:2;
-  max-width:1040px;
-  display:flex;
-  align-items:center;
-  justify-content:flex-start;
-  gap:40px;
+  z-index:1;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  border-radius:28px;
 }
-.hero-slide-text{max-width:480px;}
-.hero-slide-inner-photo h2{font-size:clamp(1.8rem, 3vw, 2.6rem); margin-bottom:.3em; color:#fff;}
-.hero-slide-inner-photo p.lead{font-size:1.05rem; color:rgba(255,255,255,.9); margin-bottom:1.3em;}
-.hero-slide-inner-photo .hero-slide-tag{color:rgba(255,255,255,.85);}
 
-/* ---------- badge PROMO (étoile éclatée), à gauche de chaque univers ---------- */
-.hero-slide-promos{flex-shrink:0; order:-1;}
-.hero-slide-promos:empty{display:none;}
+/* bandeau de recherche rapide, superposé au bas du hero */
+.tv-search{
+  position:relative;
+  z-index:1;
+  margin-top:40px;
+  background:var(--white);
+  border-radius:var(--radius-sm);
+  box-shadow:var(--shadow-lift);
+  padding:14px;
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+}
+.tv-search select, .tv-search input{
+  flex:1;
+  min-width:160px;
+  padding:.8em 1em;
+  border-radius:8px;
+  border:1.5px solid var(--line);
+  font-family:inherit;
+  font-size:.95rem;
+  background:var(--cream);
+}
+.tv-search button{border-radius:8px;}
+
+/* ---------- bandeau de fonctionnalités ---------- */
+.feature-strip{padding:48px 0 8px;}
+.feature-grid{
+  display:grid;
+  grid-template-columns:repeat(4, 1fr);
+  gap:20px;
+}
+.feature-item{
+  display:flex;
+  align-items:flex-start;
+  gap:14px;
+  padding:18px;
+  background:var(--white);
+  border-radius:var(--radius-sm);
+  border:1px solid var(--line);
+}
+.feature-item svg{width:26px;height:26px;flex-shrink:0;color:var(--green-bright);}
+.feature-item h4{margin:0 0 .2em;font-size:1rem;color:var(--ink);}
+.feature-item p{margin:0;font-size:.86rem;color:#5b6157;}
+
+/* ---------- statistiques ---------- */
+.stats-row{
+  padding:44px 0;
+  display:grid;
+  grid-template-columns:repeat(4, 1fr);
+  gap:24px;
+  text-align:center;
+}
+.stat-item .num{
+  font-family:var(--font-display);
+  font-size:2rem;
+  font-weight:700;
+  color:var(--green);
+}
+.stat-item .label{font-size:.86rem;color:#5b6157;margin-top:.2em;}
 
 /* ===========================================================
    Logo étoile PROMO — réutilisé sur le carrousel d'accueil et
@@ -335,68 +335,64 @@ button{font-family:inherit;cursor:pointer;}
   .promo-starburst-badge{width:96px;height:96px;}
 }
 
-/* navigation */
-.hero-nav{
-  position:absolute;
-  top:50%;
-  transform:translateY(-50%);
-  width:44px;
-  height:44px;
-  border-radius:50%;
-  background:rgba(255,255,255,.85);
-  border:none;
-  color:var(--ink);
-  font-size:1.6rem;
-  line-height:1;
-  cursor:pointer;
-  z-index:2;
+/* ---------- grille catégories (accueil) ---------- */
+.category-cards{padding:48px 0;}
+.category-cards-grid{
+  display:grid;
+  grid-template-columns:repeat(5, 1fr);
+  gap:18px;
+}
+.category-card{
+  position:relative;
+  aspect-ratio:3/4;
+  border-radius:var(--radius-sm);
+  overflow:hidden;
+  background-size:cover;
+  background-position:center;
   display:flex;
-  align-items:center;
-  justify-content:center;
-  box-shadow:var(--shadow-soft);
-  transition:background .15s ease;
+  align-items:flex-end;
+  text-decoration:none;
+  transition:transform .15s ease, box-shadow .15s ease;
 }
-.hero-nav:hover{background:#fff;}
-.hero-prev{left:20px;}
-.hero-next{right:20px;}
-.hero-dots{
+.category-card:hover{transform:translateY(-4px); box-shadow:var(--shadow-lift);}
+.category-card-scrim{
   position:absolute;
-  bottom:22px;
-  left:50%;
-  transform:translateX(-50%);
-  display:flex;
-  gap:8px;
-  z-index:2;
+  inset:0;
+  background:linear-gradient(180deg, rgba(20,20,15,0) 40%, rgba(20,20,15,.75) 100%);
 }
-.hero-dot{
-  width:9px;
-  height:9px;
-  border-radius:50%;
-  background:rgba(255,255,255,.6);
-  border:1.5px solid rgba(44,44,44,.25);
-  padding:0;
-  cursor:pointer;
+.category-card-label{
+  position:relative;
+  z-index:1;
+  color:#fff;
+  font-family:var(--font-display);
+  font-weight:700;
+  font-size:1rem;
+  padding:16px;
 }
-.hero-dot.active{background:var(--orange); border-color:var(--orange);}
+
+/* ---------- bannière CTA ---------- */
+.cta-banner{
+  margin:24px 0 60px;
+  background:var(--green);
+  border-radius:var(--radius);
+  padding:48px;
+  text-align:center;
+  color:#fff;
+}
+.cta-banner h2{color:#fff;margin-bottom:.3em;}
+.cta-banner p{color:rgba(255,255,255,.85);max-width:52ch;margin:0 auto 1.3em;}
 
 @media (max-width:980px){
-  .hero-carousel{height:auto;}
-  .hero-slide{padding:48px 0;}
-  .hero-slide-inner{grid-template-columns:1fr;}
-  .hero-art{max-width:360px;margin-inline:auto;}
-  .hero-slide-inner-photo{margin-inline:auto; text-align:center; flex-direction:column; gap:22px;}
-  .hero-slide-text{margin-inline:auto;}
-  .hero-slide-inner-photo p.lead{margin-inline:auto;}
-  .hero-slide-promos{align-items:center;}
-  .hero-slide-scrim{background:linear-gradient(180deg, rgba(20,20,15,.2) 0%, rgba(20,20,15,.78) 100%);}
-}
-@media (max-width:520px){
-  .hero-promo-card{min-width:0; width:100%; max-width:280px;}
+  .tv-hero-inner{grid-template-columns:1fr;}
+  .tv-hero-art{order:-1;max-width:320px;}
+  .feature-grid{grid-template-columns:repeat(2, 1fr);}
+  .stats-row{grid-template-columns:repeat(2, 1fr);}
+  .category-cards-grid{grid-template-columns:repeat(3, 1fr);}
 }
 @media (max-width:600px){
-  .hero-nav{width:36px;height:36px;font-size:1.3rem;}
-  .hero-prev{left:10px;}
-  .hero-next{right:10px;}
+  .category-cards-grid{grid-template-columns:repeat(2, 1fr);}
+  .tv-search{flex-direction:column;}
+  .cta-banner{padding:32px 20px;}
 }
 
 /* ---------- catégories ---------- */
